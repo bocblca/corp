@@ -1,0 +1,12 @@
+F:\wxwork\workauto\Mysqldb\bin\Release\net7.0\linux-x64\Mysqldb.deps.json
+F:\wxwork\workauto\Mysqldb\bin\Release\net7.0\linux-x64\Mysqldb.dll
+F:\wxwork\workauto\Mysqldb\bin\Release\net7.0\linux-x64\Mysqldb.pdb
+F:\wxwork\workauto\Mysqldb\obj\Release\net7.0\linux-x64\Mysqldb.csproj.AssemblyReference.cache
+F:\wxwork\workauto\Mysqldb\obj\Release\net7.0\linux-x64\Mysqldb.GeneratedMSBuildEditorConfig.editorconfig
+F:\wxwork\workauto\Mysqldb\obj\Release\net7.0\linux-x64\Mysqldb.AssemblyInfoInputs.cache
+F:\wxwork\workauto\Mysqldb\obj\Release\net7.0\linux-x64\Mysqldb.AssemblyInfo.cs
+F:\wxwork\workauto\Mysqldb\obj\Release\net7.0\linux-x64\Mysqldb.csproj.CoreCompileInputs.cache
+F:\wxwork\workauto\Mysqldb\obj\Release\net7.0\linux-x64\Mysqldb.dll
+F:\wxwork\workauto\Mysqldb\obj\Release\net7.0\linux-x64\refint\Mysqldb.dll
+F:\wxwork\workauto\Mysqldb\obj\Release\net7.0\linux-x64\Mysqldb.pdb
+F:\wxwork\workauto\Mysqldb\obj\Release\net7.0\linux-x64\ref\Mysqldb.dll

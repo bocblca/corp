@@ -1,0 +1,27 @@
+[[[ErrorJsonResultException]]]
+[2022/07/01 14:06:19.5194]
+[线程：79]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://api.weixin.qq.com/sns/jscode2session?appid=wx8fd9cfdcfb1340bf&secret=00333ff4a5fa449bdc950a6116b11102&js_code=081lRM000FJx6O1sun200Xo9ZB1lRM0h&grant_type=authorization_code
+	errcode：调用接口的IP地址不在白名单中
+	errmsg：invalid ip 123.188.254.206 ipv6 ::ffff:123.188.254.206, not in whitelist, rid: 62be8eda-56a6ae1c-7d678a55
+
+[[[ErrorJsonResultException]]]
+[2022/07/01 14:07:14.1387]
+[线程：79]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://api.weixin.qq.com/sns/jscode2session?appid=wx8fd9cfdcfb1340bf&secret=00333ff4a5fa449bdc950a6116b11102&js_code=081lRM000FJx6O1sun200Xo9ZB1lRM0h&grant_type=authorization_code
+	errcode：调用接口的IP地址不在白名单中
+	errmsg：invalid ip 123.188.254.206 ipv6 ::ffff:123.188.254.206, not in whitelist, rid: 62be8f11-4b58b5db-4c443a40
+
+[[[ErrorJsonResultException]]]
+[2022/07/01 14:07:20.4313]
+[线程：90]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://api.weixin.qq.com/sns/jscode2session?appid=wx8fd9cfdcfb1340bf&secret=00333ff4a5fa449bdc950a6116b11102&js_code=051hVM000gCx6O1fZe000FRNup1hVM0k&grant_type=authorization_code
+	errcode：调用接口的IP地址不在白名单中
+	errmsg：invalid ip 123.188.254.206 ipv6 ::ffff:123.188.254.206, not in whitelist, rid: 62be8f17-16c6b844-3d71e0b6
+

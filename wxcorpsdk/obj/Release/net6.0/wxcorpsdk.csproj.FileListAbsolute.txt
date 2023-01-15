@@ -1,0 +1,16 @@
+F:\wxwork\workauto\wxcorpsdk\bin\Release\net6.0\libWeWorkFinanceSdk_C.so
+F:\wxwork\workauto\wxcorpsdk\bin\Release\net6.0\wxcorpsdk.exe
+F:\wxwork\workauto\wxcorpsdk\bin\Release\net6.0\wxcorpsdk.deps.json
+F:\wxwork\workauto\wxcorpsdk\bin\Release\net6.0\wxcorpsdk.runtimeconfig.json
+F:\wxwork\workauto\wxcorpsdk\bin\Release\net6.0\wxcorpsdk.dll
+F:\wxwork\workauto\wxcorpsdk\bin\Release\net6.0\wxcorpsdk.pdb
+F:\wxwork\workauto\wxcorpsdk\obj\Release\net6.0\wxcorpsdk.csproj.AssemblyReference.cache
+F:\wxwork\workauto\wxcorpsdk\obj\Release\net6.0\wxcorpsdk.GeneratedMSBuildEditorConfig.editorconfig
+F:\wxwork\workauto\wxcorpsdk\obj\Release\net6.0\wxcorpsdk.AssemblyInfoInputs.cache
+F:\wxwork\workauto\wxcorpsdk\obj\Release\net6.0\wxcorpsdk.AssemblyInfo.cs
+F:\wxwork\workauto\wxcorpsdk\obj\Release\net6.0\wxcorpsdk.csproj.CoreCompileInputs.cache
+F:\wxwork\workauto\wxcorpsdk\obj\Release\net6.0\wxcorpsdk.dll
+F:\wxwork\workauto\wxcorpsdk\obj\Release\net6.0\refint\wxcorpsdk.dll
+F:\wxwork\workauto\wxcorpsdk\obj\Release\net6.0\wxcorpsdk.pdb
+F:\wxwork\workauto\wxcorpsdk\obj\Release\net6.0\wxcorpsdk.genruntimeconfig.cache
+F:\wxwork\workauto\wxcorpsdk\obj\Release\net6.0\ref\wxcorpsdk.dll

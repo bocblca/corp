@@ -1,0 +1,36 @@
+[[[ErrorJsonResultException]]]
+[2022/08/30 13:20:44.8251]
+[线程：27]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://qyapi.weixin.qq.com/cgi-bin/user/simplelist?access_token=chPTQDgx8Ox04NJAZW-sW9PU8sIfwsSeTDD4Pv-gdL4iai1wupDcNCEIdapAaqhpZQF3q2Pg0C3ruYXGdgXHk9J4bw79cl2hO-TDK_-Pms4h6HmZ7oWLpI6kI6tN1sXh3D7M3V4TOPuW2Ep956A48c8eGbGLEd8SU6KPs70TbputPzFW-p6y-f_7uCEfGGXWeEdFz6xF5M8zlqQkiNL8Gw&department_id=108&fetch_child=1
+	errcode：60003
+	errmsg：department not found, hint: [1661836845339604284353382], from ip: 123.188.254.206, more info at https://open.work.weixin.qq.com/devtool/query?e=60003
+
+[[[ErrorJsonResultException]]]
+[2022/08/30 13:22:30.4940]
+[线程：19]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://qyapi.weixin.qq.com/cgi-bin/user/simplelist?access_token=chPTQDgx8Ox04NJAZW-sW9PU8sIfwsSeTDD4Pv-gdL4iai1wupDcNCEIdapAaqhpZQF3q2Pg0C3ruYXGdgXHk9J4bw79cl2hO-TDK_-Pms4h6HmZ7oWLpI6kI6tN1sXh3D7M3V4TOPuW2Ep956A48c8eGbGLEd8SU6KPs70TbputPzFW-p6y-f_7uCEfGGXWeEdFz6xF5M8zlqQkiNL8Gw&department_id=108&fetch_child=1
+	errcode：60003
+	errmsg：department not found, hint: [1661836951248533665915716], from ip: 123.188.254.206, more info at https://open.work.weixin.qq.com/devtool/query?e=60003
+
+[[[ErrorJsonResultException]]]
+[2022/08/30 13:40:22.3896]
+[线程：36]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://qyapi.weixin.qq.com/cgi-bin/user/simplelist?access_token=XhZznj1pOEriFiDLo6s-Ol1Xz_aw0Q4R_IMsfmKVvsGAMj0_y1QAkL6ZrNYmf_r__rI1XP789cQ0yIn_T5RT8_w6Ur2xhJ0eqoccsjauTJ2lM6gSSturtCZMjieWiYRGyQF6gQGuArOI9EJzibV5gpydBs3iAE7M5qYl6RG6SRB900uLvwAhum3lzzr9A6QcxG5HOFQJWpoSUMVfmFZaQw&department_id=108&fetch_child=0
+	errcode：60003
+	errmsg：department not found, hint: [1661838023365202117086736], from ip: 123.188.254.206, more info at https://open.work.weixin.qq.com/devtool/query?e=60003
+
+[[[ErrorJsonResultException]]]
+[2022/08/30 13:49:21.7130]
+[线程：37]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://qyapi.weixin.qq.com/cgi-bin/user/simplelist?access_token=XhZznj1pOEriFiDLo6s-Ol1Xz_aw0Q4R_IMsfmKVvsGAMj0_y1QAkL6ZrNYmf_r__rI1XP789cQ0yIn_T5RT8_w6Ur2xhJ0eqoccsjauTJ2lM6gSSturtCZMjieWiYRGyQF6gQGuArOI9EJzibV5gpydBs3iAE7M5qYl6RG6SRB900uLvwAhum3lzzr9A6QcxG5HOFQJWpoSUMVfmFZaQw&department_id=999&fetch_child=1
+	errcode：60003
+	errmsg：department not found, hint: [1661838562431491447701178], from ip: 123.188.254.206, more info at https://open.work.weixin.qq.com/devtool/query?e=60003
+

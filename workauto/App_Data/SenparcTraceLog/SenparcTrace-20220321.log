@@ -1,0 +1,268 @@
+[[[自动注册扩展缓存完成]]]
+[2022/03/21 15:53:08.5605]
+[线程：1]
+注册总用时：0.0024ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2022/03/21 15:53:08.5606]
+[线程：1]
+微信扩展缓存注册总用时：0.0005ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[自动注册扩展缓存完成]]]
+[2022/03/21 15:59:06.8881]
+[线程：1]
+注册总用时：0.002ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2022/03/21 15:59:06.8882]
+[线程：1]
+微信扩展缓存注册总用时：0.0006ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[自动注册扩展缓存完成]]]
+[2022/03/21 15:59:19.0222]
+[线程：1]
+注册总用时：0.0028ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2022/03/21 15:59:19.0223]
+[线程：1]
+微信扩展缓存注册总用时：0.0008ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[接口调用]]]
+[2022/03/21 16:00:14.5105]
+[线程：65]
+	URL：https://api.weixin.qq.com/sns/jscode2session?appid=wx0b5685d2415d4b1b&secret=352567ffc34c628f98be03e968d5b617&js_code=021hYU100Df2yN1t4n100yCI1k4hYU1x&grant_type=authorization_code
+	Result：
+{"errcode":40163,"errmsg":"code been used, rid: 62383090-33027393-3d37fcff"}
+
+[[[ErrorJsonResultException]]]
+[2022/03/21 16:00:14.5193]
+[线程：65]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://api.weixin.qq.com/sns/jscode2session?appid=wx0b5685d2415d4b1b&secret=352567ffc34c628f98be03e968d5b617&js_code=021hYU100Df2yN1t4n100yCI1k4hYU1x&grant_type=authorization_code
+	errcode：40163
+	errmsg：code been used, rid: 62383090-33027393-3d37fcff
+
+[[[接口调用]]]
+[2022/03/21 16:04:40.3172]
+[线程：86]
+	URL：https://api.weixin.qq.com/sns/jscode2session?appid=wx0b5685d2415d4b1b&secret=352567ffc34c628f98be03e968d5b617&js_code=0216Fall2W7hR84y3Xml2bkuu016Fal5&grant_type=authorization_code
+	Result：
+{"session_key":"4HollgUSBAK8iqLuIb4A5w==","openid":"oRY4K5e8CvmogjR9lP3Lpi0_UHhg","unionid":"oH90S6cxCSyz58aYBZzOdtWnW2XI"}
+
+[[[自动注册扩展缓存完成]]]
+[2022/03/21 16:15:49.4511]
+[线程：1]
+注册总用时：0.003ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2022/03/21 16:15:49.4512]
+[线程：1]
+微信扩展缓存注册总用时：0.0007ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[自动注册扩展缓存完成]]]
+[2022/03/21 16:20:34.1680]
+[线程：1]
+注册总用时：0.0052ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2022/03/21 16:20:34.1681]
+[线程：1]
+微信扩展缓存注册总用时：0.0012ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[接口调用]]]
+[2022/03/21 16:24:25.9904]
+[线程：86]
+	URL：https://api.weixin.qq.com/sns/jscode2session?appid=wx0b5685d2415d4b1b&secret=352567ffc34c628f98be03e968d5b617&js_code=011GVwHa1EEGOC0qa7Ha1Cp19s2GVwHQ&grant_type=authorization_code
+	Result：
+{"session_key":"d+3khyR+gRBkhmN10b9QUg==","openid":"oRY4K5e8CvmogjR9lP3Lpi0_UHhg","unionid":"oH90S6cxCSyz58aYBZzOdtWnW2XI"}
+
+[[[自动注册扩展缓存完成]]]
+[2022/03/21 16:30:24.8780]
+[线程：1]
+注册总用时：0.0027ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2022/03/21 16:30:24.8781]
+[线程：1]
+微信扩展缓存注册总用时：0.0007ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[自动注册扩展缓存完成]]]
+[2022/03/21 17:33:22.8981]
+[线程：1]
+注册总用时：0.0025ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2022/03/21 17:33:22.8981]
+[线程：1]
+微信扩展缓存注册总用时：0.0006ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[自动注册扩展缓存完成]]]
+[2022/03/21 17:35:01.1568]
+[线程：1]
+注册总用时：0.0028ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2022/03/21 17:35:01.1569]
+[线程：1]
+微信扩展缓存注册总用时：0.0007ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[自动注册扩展缓存完成]]]
+[2022/03/21 17:42:44.4493]
+[线程：1]
+注册总用时：0.002ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2022/03/21 17:42:44.4494]
+[线程：1]
+微信扩展缓存注册总用时：0.0006ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[接口调用]]]
+[2022/03/21 17:43:39.4195]
+[线程：69]
+	URL：https://api.weixin.qq.com/sns/jscode2session?appid=wx0b5685d2415d4b1b&secret=352567ffc34c628f98be03e968d5b617&js_code=041ZveGa1NSGRC07NoFa1l3qyj3ZveGt&grant_type=authorization_code
+	Result：
+{"session_key":"tF08q5ygzFAcdgzUg9mAmw==","openid":"oRY4K5e8CvmogjR9lP3Lpi0_UHhg","unionid":"oH90S6cxCSyz58aYBZzOdtWnW2XI"}
+
+[[[自动注册扩展缓存完成]]]
+[2022/03/21 17:47:10.1348]
+[线程：1]
+注册总用时：0.0023ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2022/03/21 17:47:10.1349]
+[线程：1]
+微信扩展缓存注册总用时：0.0005ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[接口调用]]]
+[2022/03/21 17:48:27.5973]
+[线程：68]
+	URL：https://api.weixin.qq.com/sns/jscode2session?appid=wx0b5685d2415d4b1b&secret=352567ffc34c628f98be03e968d5b617&js_code=091q7yll2mWCR84LxHml2UYlTT3q7ylk&grant_type=authorization_code
+	Result：
+{"session_key":"ZCH4J96aWJUicxiKSGsNWA==","openid":"oRY4K5e8CvmogjR9lP3Lpi0_UHhg","unionid":"oH90S6cxCSyz58aYBZzOdtWnW2XI"}
+
+[[[接口调用]]]
+[2022/03/21 17:49:42.5151]
+[线程：73]
+	URL：https://api.weixin.qq.com/sns/jscode2session?appid=wx0b5685d2415d4b1b&secret=352567ffc34c628f98be03e968d5b617&js_code=091q7yll2mWCR84LxHml2UYlTT3q7ylk&grant_type=authorization_code
+	Result：
+{"errcode":40163,"errmsg":"code been used, rid: 62384a38-1cf07e85-0b623081"}
+
+[[[ErrorJsonResultException]]]
+[2022/03/21 17:49:42.5186]
+[线程：73]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://api.weixin.qq.com/sns/jscode2session?appid=wx0b5685d2415d4b1b&secret=352567ffc34c628f98be03e968d5b617&js_code=091q7yll2mWCR84LxHml2UYlTT3q7ylk&grant_type=authorization_code
+	errcode：40163
+	errmsg：code been used, rid: 62384a38-1cf07e85-0b623081
+
+[[[自动注册扩展缓存完成]]]
+[2022/03/21 17:50:52.8885]
+[线程：1]
+注册总用时：0.0024ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2022/03/21 17:50:52.8886]
+[线程：1]
+微信扩展缓存注册总用时：0.0008ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[接口调用]]]
+[2022/03/21 17:52:01.3378]
+[线程：69]
+	URL：https://api.weixin.qq.com/sns/jscode2session?appid=wx0b5685d2415d4b1b&secret=352567ffc34c628f98be03e968d5b617&js_code=001nf0ll2f96R84RChol2r3LUa4nf0ls&grant_type=authorization_code
+	Result：
+{"session_key":"r0wAOa8ZtctgNJFmvBmqsQ==","openid":"oRY4K5e8CvmogjR9lP3Lpi0_UHhg","unionid":"oH90S6cxCSyz58aYBZzOdtWnW2XI"}
+
+[[[自动注册扩展缓存完成]]]
+[2022/03/21 17:54:11.4961]
+[线程：1]
+注册总用时：0.0028ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2022/03/21 17:54:11.4962]
+[线程：1]
+微信扩展缓存注册总用时：0.0012ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[接口调用]]]
+[2022/03/21 17:55:15.2413]
+[线程：68]
+	URL：https://api.weixin.qq.com/sns/jscode2session?appid=wx0b5685d2415d4b1b&secret=352567ffc34c628f98be03e968d5b617&js_code=061qiwGa1oEZRC0KprJa1KuNE84qiwGX&grant_type=authorization_code
+	Result：
+{"session_key":"YKqJYhwdjDHUsfzx60a48g==","openid":"oRY4K5e8CvmogjR9lP3Lpi0_UHhg","unionid":"oH90S6cxCSyz58aYBZzOdtWnW2XI"}
+
+[[[自动注册扩展缓存完成]]]
+[2022/03/21 17:56:51.0065]
+[线程：1]
+注册总用时：0.0038ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2022/03/21 17:56:51.0066]
+[线程：1]
+微信扩展缓存注册总用时：0.0010ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[接口调用]]]
+[2022/03/21 17:58:09.6534]
+[线程：69]
+	URL：https://api.weixin.qq.com/sns/jscode2session?appid=wx0b5685d2415d4b1b&secret=352567ffc34c628f98be03e968d5b617&js_code=0813Y600005cwN1nDz30055uc833Y60K&grant_type=authorization_code
+	Result：
+{"session_key":"guhGqTNarYOZrr8hLIv0aQ==","openid":"oRY4K5e8CvmogjR9lP3Lpi0_UHhg","unionid":"oH90S6cxCSyz58aYBZzOdtWnW2XI"}
+
+[[[ErrorJsonResultException]]]
+[2022/03/21 19:17:12.0169]
+[线程：70]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://api.weixin.qq.com/sns/jscode2session?appid=wx0b5685d2415d4b1b&secret=352567ffc34c628f98be03e968d5b617&js_code=0510n5ll2EejR84Bbhll28h0di00n5lE&grant_type=authorization_code
+	errcode：40163
+	errmsg：code been used, rid: 62385eba-40edf272-038b02fd
+
+[[[ErrorJsonResultException]]]
+[2022/03/21 19:45:57.5901]
+[线程：67]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://api.weixin.qq.com/sns/jscode2session?appid=wx0b5685d2415d4b1b&secret=352567ffc34c628f98be03e968d5b617&js_code=011QfFll2UbNR84BaZll2k3TnA0QfFlr&grant_type=authorization_code
+	errcode：40163
+	errmsg：code been used, rid: 62386577-0bae4006-1fd52e7f
+

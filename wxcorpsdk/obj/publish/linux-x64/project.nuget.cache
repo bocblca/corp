@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "fDEf6pnjFdEHIiyE7HkqLpOZW4e0c/XhE1cqut6rCQt2XBa0AYZCjenSIQpmtxWJbSivzEduarDZcLLF+/YIKw==",
+  "success": true,
+  "projectFilePath": "F:\\wxwork\\workauto\\wxcorpsdk\\wxcorpsdk.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\6.0.7\\microsoft.netcore.app.host.linux-x64.6.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}

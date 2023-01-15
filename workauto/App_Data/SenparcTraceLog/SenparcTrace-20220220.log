@@ -1,0 +1,100 @@
+[[[自动注册扩展缓存完成]]]
+[2022/02/20 12:10:43.5625]
+[线程：1]
+注册总用时：0.0029ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2022/02/20 12:10:43.5626]
+[线程：1]
+微信扩展缓存注册总用时：0.0009ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[接口调用]]]
+[2022/02/20 12:15:36.4486]
+[线程：3]
+	URL：https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=54_VY7j7P34zEqeVz-QDsk1IRJDUcpAxqOIdobEqzFzCSi1pnM5QLdtKvcMs30x3EVtyhBOfrDLLIuH2bYU9v5kQOUbuu16AoRz9sUrwjZ6JDBbLoe0LuMPsnh78pIG_y8G6bIFe6T3nYDALIExISFcADAYIV
+	Post Data：
+{"touser":"oJDE0uBxqOisetfVwxtl5jfGr1Zs","template_id":"MhiEX0hd2t1LuSPhiCaXmnI8g03k767Ee5ATLDkbVao","topcolor":"#FF0000","url":"https://rcbcybank.com","miniprogram":{"appid":"wx8fd9cfdcfb1340bf","pagepath":"pages/index/index"},"data":{"first":{"value":"Kpi红黄牌通知","color":"#173177"},"keyword1":{"value":"2022-01","color":"#173177"},"keyword2":{"value":"各支行营业部","color":"#173177"},"keyword3":{"value":"月度绩效","color":"#173177"},"keyword4":{"value":"各业务条线Kpi指标","color":"#ff0000"},"remark":{"value":"前五名:绥中82.55凌源79.64金汇77.87兴盛73.18城北69.49\r\n后五名:兴城20.86滨海20.79连湾19.60建昌16.52双树14.83","color":"#173177"},"TemplateId":"MhiEX0hd2t1LuSPhiCaXmnI8g03k767Ee5ATLDkbVao","Url":"https://rcbcybank.com","TemplateName":"绩效考核通知"}}
+
+[[[ErrorJsonResultException]]]
+[2022/02/20 12:15:36.6387]
+[线程：72]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=54_VY7j7P34zEqeVz-QDsk1IRJDUcpAxqOIdobEqzFzCSi1pnM5QLdtKvcMs30x3EVtyhBOfrDLLIuH2bYU9v5kQOUbuu16AoRz9sUrwjZ6JDBbLoe0LuMPsnh78pIG_y8G6bIFe6T3nYDALIExISFcADAYIV
+	errcode：不合法的OpenID
+	errmsg：invalid openid rid: 6211c073-72b8360f-79311311
+
+[[[自动注册扩展缓存完成]]]
+[2022/02/20 13:40:15.4136]
+[线程：1]
+注册总用时：0.0029ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2022/02/20 13:40:15.4136]
+[线程：1]
+微信扩展缓存注册总用时：0.0007ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[接口调用]]]
+[2022/02/20 13:40:51.6503]
+[线程：69]
+	URL：https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=54_PbAIufVI5bgEVM6VUiE0JqM_fQIvtBhyzfSbr4eCkfK3Lbx_Y-5DHqXisnHjSHcGRmT5tL7anyQUu5Pl4Yql-FhNd1EReoxGev0N-oxRN4-tqHSuQ3tPcUEPeNogGp2sBo31cN0KafjMNTu6LYNjAEASFU
+	Post Data：
+{"touser":"okL2b5764u92_Dz6pFaM_z2BiOY8","template_id":"MhiEX0hd2t1LuSPhiCaXmnI8g03k767Ee5ATLDkbVao","topcolor":"#FF0000","url":"https://rcbcybank.com","miniprogram":{"appid":"wx8fd9cfdcfb1340bf","pagepath":"pages/index/index"},"data":{"first":{"value":"Kpi红黄牌通知","color":"#173177"},"keyword1":{"value":"2022-01","color":"#173177"},"keyword2":{"value":"各支行营业部","color":"#173177"},"keyword3":{"value":"月度绩效","color":"#173177"},"keyword4":{"value":"各业务条线Kpi指标","color":"#ff0000"},"remark":{"value":"前五名:绥中82.55凌源79.64金汇77.87兴盛73.18城北69.49\r\n后五名:兴城20.86滨海20.79连湾19.60建昌16.52双树14.83","color":"#173177"},"TemplateId":"MhiEX0hd2t1LuSPhiCaXmnI8g03k767Ee5ATLDkbVao","Url":"https://rcbcybank.com","TemplateName":"绩效考核通知"}}
+
+[[[ErrorJsonResultException]]]
+[2022/02/20 13:40:51.9051]
+[线程：73]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=54_PbAIufVI5bgEVM6VUiE0JqM_fQIvtBhyzfSbr4eCkfK3Lbx_Y-5DHqXisnHjSHcGRmT5tL7anyQUu5Pl4Yql-FhNd1EReoxGev0N-oxRN4-tqHSuQ3tPcUEPeNogGp2sBo31cN0KafjMNTu6LYNjAEASFU
+	errcode：参数path填写错误
+	errmsg：invalid weapp pagepath rid: 6211d46e-3eba8c15-2449bbc4
+
+[[[自动注册扩展缓存完成]]]
+[2022/02/20 13:43:39.8610]
+[线程：1]
+注册总用时：0.0032ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2022/02/20 13:43:39.8611]
+[线程：1]
+微信扩展缓存注册总用时：0.0011ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[自动注册扩展缓存完成]]]
+[2022/02/20 13:44:15.9855]
+[线程：1]
+注册总用时：0.0021ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2022/02/20 13:44:15.9856]
+[线程：1]
+微信扩展缓存注册总用时：0.0005ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[接口调用]]]
+[2022/02/20 13:45:11.6676]
+[线程：76]
+	URL：https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=54_u9h8GP5Vf4AuDHNzX5-b_fA_ZmFUL7hYrjMdyMDjvZ18Ts-pcVaejn-9dJLI7zbHrzd97g5ELFp3mY_8gyxEpKIWqM5-d1GShOtobHlwRdvPET44_5VB8_bhS4cvmxtfFyRrMmEIUBAXKxY-KQCeAFAVBN
+	Post Data：
+{"touser":"okL2b5764u92_Dz6pFaM_z2BiOY8","template_id":"MhiEX0hd2t1LuSPhiCaXmnI8g03k767Ee5ATLDkbVao","topcolor":"#FF0000","url":"https://rcbcybank.com","miniprogram":{"appid":"wx8fd9cfdcfb1340bf","pagepath":"pages/index/index"},"data":{"first":{"value":"Kpi红黄牌通知","color":"#173177"},"keyword1":{"value":"2022-01","color":"#173177"},"keyword2":{"value":"各支行营业部","color":"#173177"},"keyword3":{"value":"月度绩效","color":"#173177"},"keyword4":{"value":"各业务条线Kpi指标","color":"#ff0000"},"remark":{"value":"前五名:绥中82.55凌源79.64金汇77.87兴盛73.18城北69.49\r\n后五名:兴城20.86滨海20.79连湾19.60建昌16.52双树14.83","color":"#173177"},"TemplateId":"MhiEX0hd2t1LuSPhiCaXmnI8g03k767Ee5ATLDkbVao","Url":"https://rcbcybank.com","TemplateName":"绩效考核通知"}}
+
+[[[ErrorJsonResultException]]]
+[2022/02/20 13:45:11.8924]
+[线程：71]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=54_u9h8GP5Vf4AuDHNzX5-b_fA_ZmFUL7hYrjMdyMDjvZ18Ts-pcVaejn-9dJLI7zbHrzd97g5ELFp3mY_8gyxEpKIWqM5-d1GShOtobHlwRdvPET44_5VB8_bhS4cvmxtfFyRrMmEIUBAXKxY-KQCeAFAVBN
+	errcode：参数path填写错误
+	errmsg：invalid weapp pagepath rid: 6211d572-195ba267-608c19c8
+

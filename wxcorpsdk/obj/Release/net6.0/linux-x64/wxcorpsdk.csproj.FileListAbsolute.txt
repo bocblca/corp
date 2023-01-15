@@ -1,0 +1,16 @@
+F:\wxwork\workauto\wxcorpsdk\bin\Release\net6.0\linux-x64\libWeWorkFinanceSdk_C.so
+F:\wxwork\workauto\wxcorpsdk\bin\Release\net6.0\linux-x64\wxcorpsdk
+F:\wxwork\workauto\wxcorpsdk\bin\Release\net6.0\linux-x64\wxcorpsdk.deps.json
+F:\wxwork\workauto\wxcorpsdk\bin\Release\net6.0\linux-x64\wxcorpsdk.runtimeconfig.json
+F:\wxwork\workauto\wxcorpsdk\bin\Release\net6.0\linux-x64\wxcorpsdk.dll
+F:\wxwork\workauto\wxcorpsdk\bin\Release\net6.0\linux-x64\wxcorpsdk.pdb
+F:\wxwork\workauto\wxcorpsdk\obj\Release\net6.0\linux-x64\wxcorpsdk.csproj.AssemblyReference.cache
+F:\wxwork\workauto\wxcorpsdk\obj\Release\net6.0\linux-x64\wxcorpsdk.GeneratedMSBuildEditorConfig.editorconfig
+F:\wxwork\workauto\wxcorpsdk\obj\Release\net6.0\linux-x64\wxcorpsdk.AssemblyInfoInputs.cache
+F:\wxwork\workauto\wxcorpsdk\obj\Release\net6.0\linux-x64\wxcorpsdk.AssemblyInfo.cs
+F:\wxwork\workauto\wxcorpsdk\obj\Release\net6.0\linux-x64\wxcorpsdk.csproj.CoreCompileInputs.cache
+F:\wxwork\workauto\wxcorpsdk\obj\Release\net6.0\linux-x64\wxcorpsdk.dll
+F:\wxwork\workauto\wxcorpsdk\obj\Release\net6.0\linux-x64\refint\wxcorpsdk.dll
+F:\wxwork\workauto\wxcorpsdk\obj\Release\net6.0\linux-x64\wxcorpsdk.pdb
+F:\wxwork\workauto\wxcorpsdk\obj\Release\net6.0\linux-x64\wxcorpsdk.genruntimeconfig.cache
+F:\wxwork\workauto\wxcorpsdk\obj\Release\net6.0\linux-x64\ref\wxcorpsdk.dll

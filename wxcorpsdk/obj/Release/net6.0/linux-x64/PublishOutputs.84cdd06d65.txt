@@ -1,0 +1,6 @@
+G:\testsdk\wxcorpsdk
+G:\testsdk\libWeWorkFinanceSdk_C.so
+G:\testsdk\wxcorpsdk.dll
+G:\testsdk\wxcorpsdk.deps.json
+G:\testsdk\wxcorpsdk.runtimeconfig.json
+G:\testsdk\wxcorpsdk.pdb

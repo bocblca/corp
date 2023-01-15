@@ -1,0 +1,36 @@
+[[[ErrorJsonResultException]]]
+[2022/05/12 15:31:41.3712]
+[线程：70]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=56_odGAkakfI_g8lR2Y7ZyqJ-mpvyboqUSGzbLFtKisoOos90k1fJGRe49qQyY-qiK2LMG4jpWgB7bDLRfqxu41vx_XM85W2KEppeBMjsTQBJ4bY8fLXHmeV_9g7uxv-anpOymhmvhdG1dZTrUOZIZfAEAOXO
+	errcode：template_id不正确
+	errmsg：invalid template_id rid: 627cb7dd-6220ce73-1a30487d
+
+[[[ErrorJsonResultException]]]
+[2022/05/12 15:34:46.5719]
+[线程：84]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=56_odGAkakfI_g8lR2Y7ZyqJ-mpvyboqUSGzbLFtKisoOos90k1fJGRe49qQyY-qiK2LMG4jpWgB7bDLRfqxu41vx_XM85W2KEppeBMjsTQBJ4bY8fLXHmeV_9g7uxv-anpOymhmvhdG1dZTrUOZIZfAEAOXO
+	errcode：不合法的OpenID
+	errmsg：invalid openid rid: 627cb897-7168c527-3816def5
+
+[[[ErrorJsonResultException]]]
+[2022/05/12 15:34:51.7925]
+[线程：84]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=56_odGAkakfI_g8lR2Y7ZyqJ-mpvyboqUSGzbLFtKisoOos90k1fJGRe49qQyY-qiK2LMG4jpWgB7bDLRfqxu41vx_XM85W2KEppeBMjsTQBJ4bY8fLXHmeV_9g7uxv-anpOymhmvhdG1dZTrUOZIZfAEAOXO
+	errcode：不合法的OpenID
+	errmsg：invalid openid rid: 627cb89c-65671fd8-5f216af4
+
+[[[ErrorJsonResultException]]]
+[2022/05/12 15:35:09.6943]
+[线程：65]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=56_odGAkakfI_g8lR2Y7ZyqJ-mpvyboqUSGzbLFtKisoOos90k1fJGRe49qQyY-qiK2LMG4jpWgB7bDLRfqxu41vx_XM85W2KEppeBMjsTQBJ4bY8fLXHmeV_9g7uxv-anpOymhmvhdG1dZTrUOZIZfAEAOXO
+	errcode：template_id不正确
+	errmsg：invalid template_id rid: 627cb8ae-24c7df03-19e679c7
+

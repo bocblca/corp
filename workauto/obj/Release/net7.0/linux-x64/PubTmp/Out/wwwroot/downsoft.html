@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>下载手机银行</title>
+</head>
+<body  onload="getphone()">
+    <form >
+       
+      <h1><a href="" id="downs" style="font-size:large;">下载手机银行客户端</a></h1> 
+    
+    </form>
+<script>
+ 
+
+
+
+    function mleft() {
+
+        alert("0000");
+    }
+
+    function getphone()
+    {
+        {
+             
+
+
+
+            var u = navigator.userAgent;
+
+            //var isAndroid = u.indexOf("Android") > -1 || u.indexOf("Adr") > -1; //android终端
+            var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+            if (isiOS) {
+             
+                var murl = "https://apps.apple.com/cn/app/id1483045771";
+                var UI = document.getElementById("downs");
+                
+
+                UI.href = murl;
+                location.assign(murl);
+            
+            }
+            else {
+                
+                var murl = "http://app.download.nongxinyin.com:666/download/2200/Android_ln_2200V3.apk";
+                var UI = document.getElementById("downs");
+                UI.href = murl;
+                location.assign(murl);
+            };
+        }
+
+    }
+
+</script>
+</body>
+</html>

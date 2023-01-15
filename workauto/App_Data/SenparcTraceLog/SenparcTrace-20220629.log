@@ -1,0 +1,9 @@
+[[[ErrorJsonResultException]]]
+[2022/06/29 12:19:15.9148]
+[线程：71]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：
+	errcode：调用接口的IP地址不在白名单中
+	errmsg：invalid ip 123.188.254.206 ipv6 ::ffff:123.188.254.206, not in whitelist rid: 62bbd2c4-13efff3c-1442a0e4
+

@@ -1,0 +1,9 @@
+[[[ErrorJsonResultException]]]
+[2022/08/15 08:39:57.7981]
+[线程：27]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://qyapi.weixin.qq.com/cgi-bin/user/simplelist?access_token=7AxHTvYmpTEoKvhtwmYNcGr2_cvXgRBMHk9u57ywkOIuonVu2MmdIHc0nx2_UmON3l2mwQZlDn2OOC4HlIizvKnYUgbEcSQxnWE4H-k09I6Xmxe5sDoND5VsQLLCrLZo9TDMOnXaSVHOmc6Sz7w71hZLXkGVl9fhmyLFIJyMAe6f_la5cEJhDfUwPjP_2-sXNvlBXHHmNZFO-hoCNqbJFg&department_id=85&fetch_child=1
+	errcode：60003
+	errmsg：department not found, hint: [1660523998431490588097068], from ip: 123.188.254.206, more info at https://open.work.weixin.qq.com/devtool/query?e=60003
+

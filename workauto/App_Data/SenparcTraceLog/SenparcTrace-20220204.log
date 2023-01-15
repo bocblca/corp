@@ -1,0 +1,66 @@
+[[[自动注册扩展缓存完成]]]
+[2022/02/04 13:32:56.5866]
+[线程：1]
+注册总用时：0.0047ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2022/02/04 13:32:56.5867]
+[线程：1]
+微信扩展缓存注册总用时：0.0011ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[接口调用]]]
+[2022/02/04 13:33:11.5336]
+[线程：55]
+	URL：https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=53_LfXxdfJS0S2fz742113fohdxdqTiszvGOSnXFAyxAttcHaYROT1xCIlqhUOloO_QCes9yqbh9GYD3YwXNbsQBrLdPc5X9CxC_kQalAQ2rGJI5BVRSe0PNR0HgUJ32X6u8iPSJtLs6Kzwg0L3USDcAIAECN
+	Post Data：
+{"touser":"oTuBi09bM6KJqH_r-KVAZqaDy8tQ","template_id":"KQ2P8bdkgNcban-uOp8xQdYINpZl7fvbU2ZG6DFcxkg","topcolor":"#FF0000","url":"https://rcbcybank.com","miniprogram":null,"data":{"first":{"value":"Kpi红黄牌通知","color":"#173177"},"keyword1":{"value":"2022年2月","color":"#173177"},"keyword2":{"value":"朝阳分行营业部","color":"#173177"},"keyword3":{"value":"月度绩效","color":"#173177"},"keyword4":{"value":"绩效考核得分86","color":"#ff0000"},"remark":{"value":"请关注","color":"#173177"},"TemplateId":"KQ2P8bdkgNcban-uOp8xQdYINpZl7fvbU2ZG6DFcxkg","Url":"https://rcbcybank.com","TemplateName":"预约成功"}}
+
+[[[自动注册扩展缓存完成]]]
+[2022/02/04 13:35:48.5258]
+[线程：1]
+注册总用时：0.0031ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2022/02/04 13:35:48.5259]
+[线程：1]
+微信扩展缓存注册总用时：0.0009ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[接口调用]]]
+[2022/02/04 13:36:29.5319]
+[线程：56]
+	URL：https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=53_n1FE0S6zJyaN4N1HFTlDyIR-f7MC6FsF5eYH78yyFY6Xa4sj-dCieK0jeOXcpGwGv1LcAwQKy7y2BzsUh7sNRYm5jUP4MvUbVbPebMq1_Kaw7BZVHFZH2RWQZcFCPKb3F0EldEVN2kEp8vJFFKVbAAATYJ
+	Post Data：
+{"touser":"oTuBi09bM6KJqH_r-KVAZqaDy8tQ","template_id":"KQ2P8bdkgNcban-uOp8xQdYINpZl7fvbU2ZG6DFcxkg","topcolor":"#FF0000","url":"https://rcbcybank.com","miniprogram":null,"data":{"first":{"value":"Kpi红黄牌通知","color":"#173177"},"keyword1":{"value":"2022年2月","color":"#173177"},"keyword2":{"value":"朝阳分行营业部","color":"#173177"},"keyword3":{"value":"月度绩效","color":"#173177"},"keyword4":{"value":"绩效考核得分86","color":"#ff0000"},"remark":{"value":"请关注","color":"#173177"},"TemplateId":"KQ2P8bdkgNcban-uOp8xQdYINpZl7fvbU2ZG6DFcxkg","Url":"https://rcbcybank.com","TemplateName":"预约成功"}}
+
+[[[自动注册扩展缓存完成]]]
+[2022/02/04 13:36:56.2915]
+[线程：1]
+注册总用时：0.003ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2022/02/04 13:36:56.2916]
+[线程：1]
+微信扩展缓存注册总用时：0.0006ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[自动注册扩展缓存完成]]]
+[2022/02/04 13:41:48.1446]
+[线程：1]
+注册总用时：0.0021ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2022/02/04 13:41:48.1447]
+[线程：1]
+微信扩展缓存注册总用时：0.0005ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+

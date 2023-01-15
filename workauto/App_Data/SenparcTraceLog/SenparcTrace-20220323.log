@@ -1,0 +1,45 @@
+[[[ErrorJsonResultException]]]
+[2022/03/23 20:54:28.7765]
+[线程：68]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://api.weixin.qq.com/sns/jscode2session?appid=wx0b5685d2415d4b1b&secret=352567ffc34c628f98be03e968d5b617&js_code=081dDR000kQcwN10av200ceYDC0dDR0K&grant_type=authorization_code
+	errcode：不合法的oauth_code
+	errmsg：invalid code, rid: 623b1884-0879067f-0b2af672
+
+[[[ErrorJsonResultException]]]
+[2022/03/23 22:16:30.5362]
+[线程：69]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://api.weixin.qq.com/sns/jscode2session?appid=wx0b5685d2415d4b1b&secret=352567ffc34c628f98be03e968d5b617&js_code=091iZKFa1NAARC09cdGa1zCBRx2iZKFw&grant_type=authorization_code
+	errcode：40163
+	errmsg：code been used, rid: 623b2bbe-0b7bc95a-523e1e14
+
+[[[ErrorJsonResultException]]]
+[2022/03/23 22:17:30.8404]
+[线程：82]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://api.weixin.qq.com/sns/jscode2session?appid=wx0b5685d2415d4b1b&secret=352567ffc34c628f98be03e968d5b617&js_code=001yUr0001WQwN1XqT200fnPnl2yUr05&grant_type=authorization_code
+	errcode：40163
+	errmsg：code been used, rid: 623b2bfb-18adc2d7-7aef4062
+
+[[[ErrorJsonResultException]]]
+[2022/03/23 22:19:41.2079]
+[线程：96]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://api.weixin.qq.com/sns/jscode2session?appid=wx0b5685d2415d4b1b&secret=352567ffc34c628f98be03e968d5b617&js_code=091lkLFa1SCxRC0gbaGa1WAyWV0lkLFO&grant_type=authorization_code
+	errcode：40163
+	errmsg：code been used, rid: 623b2c7d-3503199b-01df11e1
+
+[[[ErrorJsonResultException]]]
+[2022/03/23 22:23:13.3721]
+[线程：93]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://api.weixin.qq.com/sns/jscode2session?appid=wx0b5685d2415d4b1b&secret=352567ffc34c628f98be03e968d5b617&js_code=081rWCll2ecVQ84CLTol2kwEtp1rWCl9&grant_type=authorization_code
+	errcode：40163
+	errmsg：code been used, rid: 623b2d51-0652b6e9-7d292c9a
+

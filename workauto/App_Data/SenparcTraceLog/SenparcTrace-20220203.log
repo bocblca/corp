@@ -1,0 +1,189 @@
+[[[自动注册扩展缓存完成]]]
+[2022/02/03 14:52:03.2858]
+[线程：1]
+注册总用时：0.0038ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2022/02/03 14:52:03.2859]
+[线程：1]
+微信扩展缓存注册总用时：0.0009ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[自动注册扩展缓存完成]]]
+[2022/02/03 15:11:34.8508]
+[线程：1]
+注册总用时：0.0251ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2022/02/03 15:11:34.8510]
+[线程：1]
+微信扩展缓存注册总用时：0.0014ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[自动注册扩展缓存完成]]]
+[2022/02/03 15:37:34.8412]
+[线程：1]
+注册总用时：0.0043ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2022/02/03 15:37:34.8413]
+[线程：1]
+微信扩展缓存注册总用时：0.0006ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[自动注册扩展缓存完成]]]
+[2022/02/03 18:15:00.6748]
+[线程：1]
+注册总用时：0.0031ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2022/02/03 18:15:00.6749]
+[线程：1]
+微信扩展缓存注册总用时：0.0007ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[接口调用]]]
+[2022/02/03 18:15:17.3311]
+[线程：54]
+	URL：https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=53_5Cg9byhOTk9y5iWh6uo0IAnJdTD34sUGfWTK1cQj5O6ciCLgO4zUkYegNd-HZcOCZv3AG-qsYzxVBtX8vYoTi9hav-p3HlZYoLkpuKIIntEE42ppBmZDHnFbLPcsZ0KDSZcK8kXHRyGrpwXjWXUiAGAZAX
+	Post Data：
+{"touser":"oTuBi09bM6KJqH_r-KVAZqaDy8tQ","template_id":"TYROSV2t-8ESwJ5jA4LzmVA9Wm6TGbH3jJIN3OkhZ68","topcolor":"#FF0000","url":null,"miniprogram":{"appid":"wx4746a90d8118d4b4","pagepath":"pages/index/index"},"data":{"first":{"value":"Kpi红黄牌通知","color":"#173177"},"keyword1":{"value":"2022年2月","color":"#173177"},"keyword2":{"value":"朝阳分行营业部","color":"#173177"},"keyword3":{"value":"月度绩效","color":"#173177"},"keyword4":{"value":"绩效考核得分86","color":"#ff0000"},"remark":{"value":"请关注","color":"#173177"},"TemplateId":"TYROSV2t-8ESwJ5jA4LzmVA9Wm6TGbH3jJIN3OkhZ68","Url":null,"TemplateName":"预约成功"}}
+
+[[[ErrorJsonResultException]]]
+[2022/02/03 18:15:17.5789]
+[线程：48]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=53_5Cg9byhOTk9y5iWh6uo0IAnJdTD34sUGfWTK1cQj5O6ciCLgO4zUkYegNd-HZcOCZv3AG-qsYzxVBtX8vYoTi9hav-p3HlZYoLkpuKIIntEE42ppBmZDHnFbLPcsZ0KDSZcK8kXHRyGrpwXjWXUiAGAZAX
+	errcode：参数path填写错误
+	errmsg：invalid weapp pagepath rid: 61fbab38-7a2a2e22-14d76ed9
+
+[[[自动注册扩展缓存完成]]]
+[2022/02/03 18:16:31.8783]
+[线程：1]
+注册总用时：0.0037ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2022/02/03 18:16:31.8783]
+[线程：1]
+微信扩展缓存注册总用时：0.0008ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[接口调用]]]
+[2022/02/03 18:16:45.6421]
+[线程：58]
+	URL：https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=53_4hUON04WhhVuwXv3yKR8aj50UZkpx18ZBoXTXcsSIk5FQKBUkMMNAdn2-uAgi83ba1xSV9FhFAjksmhbBtuMqacpuqh6xNpZ_RkeAP2SylwERy7zWIbnRgObOsOPncBgZfgJVxIXYoQQkjAIWEViAFALTK
+	Post Data：
+{"touser":"oTuBi09bM6KJqH_r-KVAZqaDy8tQ","template_id":"TYROSV2t-8ESwJ5jA4LzmVA9Wm6TGbH3jJIN3OkhZ68","topcolor":"#FF0000","url":null,"miniprogram":{"appid":"wx4746a90d8118d4b4","pagepath":"pages/index"},"data":{"first":{"value":"Kpi红黄牌通知","color":"#173177"},"keyword1":{"value":"2022年2月","color":"#173177"},"keyword2":{"value":"朝阳分行营业部","color":"#173177"},"keyword3":{"value":"月度绩效","color":"#173177"},"keyword4":{"value":"绩效考核得分86","color":"#ff0000"},"remark":{"value":"请关注","color":"#173177"},"TemplateId":"TYROSV2t-8ESwJ5jA4LzmVA9Wm6TGbH3jJIN3OkhZ68","Url":null,"TemplateName":"预约成功"}}
+
+[[[ErrorJsonResultException]]]
+[2022/02/03 18:16:45.8869]
+[线程：48]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=53_4hUON04WhhVuwXv3yKR8aj50UZkpx18ZBoXTXcsSIk5FQKBUkMMNAdn2-uAgi83ba1xSV9FhFAjksmhbBtuMqacpuqh6xNpZ_RkeAP2SylwERy7zWIbnRgObOsOPncBgZfgJVxIXYoQQkjAIWEViAFALTK
+	errcode：参数path填写错误
+	errmsg：invalid weapp pagepath rid: 61fbab90-62eee91c-3db2ea82
+
+[[[自动注册扩展缓存完成]]]
+[2022/02/03 18:18:14.6521]
+[线程：1]
+注册总用时：0.003ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2022/02/03 18:18:14.6522]
+[线程：1]
+微信扩展缓存注册总用时：0.0010ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[接口调用]]]
+[2022/02/03 18:18:25.2482]
+[线程：8]
+	URL：https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=53_YLZ411BsD80_usbQ84ioiqqCMOIYgUKUs400VQ6SW7qDxCByNQgrN09TiGWzDewpOykAdyJhGWzraajFeqncRizHtGyoNulexMX4IdxHSlFR3oPB0aO58HZLPuufY6_kIttIvqzwdgOWa5R5PFTjAIADTH
+	Post Data：
+{"touser":"invalid weapp pagepath rid","template_id":"TYROSV2t-8ESwJ5jA4LzmVA9Wm6TGbH3jJIN3OkhZ68","topcolor":"#FF0000","url":null,"miniprogram":null,"data":{"first":{"value":"Kpi红黄牌通知","color":"#173177"},"keyword1":{"value":"2022年2月","color":"#173177"},"keyword2":{"value":"朝阳分行营业部","color":"#173177"},"keyword3":{"value":"月度绩效","color":"#173177"},"keyword4":{"value":"绩效考核得分86","color":"#ff0000"},"remark":{"value":"请关注","color":"#173177"},"TemplateId":"TYROSV2t-8ESwJ5jA4LzmVA9Wm6TGbH3jJIN3OkhZ68","Url":null,"TemplateName":"预约成功"}}
+
+[[[ErrorJsonResultException]]]
+[2022/02/03 18:18:25.4194]
+[线程：45]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=53_YLZ411BsD80_usbQ84ioiqqCMOIYgUKUs400VQ6SW7qDxCByNQgrN09TiGWzDewpOykAdyJhGWzraajFeqncRizHtGyoNulexMX4IdxHSlFR3oPB0aO58HZLPuufY6_kIttIvqzwdgOWa5R5PFTjAIADTH
+	errcode：不合法的OpenID
+	errmsg：invalid openid rid: 61fbabf3-31ee1193-77da813c
+
+[[[接口调用]]]
+[2022/02/03 18:18:54.6680]
+[线程：50]
+	URL：https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=53_YLZ411BsD80_usbQ84ioiqqCMOIYgUKUs400VQ6SW7qDxCByNQgrN09TiGWzDewpOykAdyJhGWzraajFeqncRizHtGyoNulexMX4IdxHSlFR3oPB0aO58HZLPuufY6_kIttIvqzwdgOWa5R5PFTjAIADTH
+	Post Data：
+{"touser":"oTuBi09bM6KJqH_r-KVAZqaDy8tQ","template_id":"TYROSV2t-8ESwJ5jA4LzmVA9Wm6TGbH3jJIN3OkhZ68","topcolor":"#FF0000","url":null,"miniprogram":null,"data":{"first":{"value":"Kpi红黄牌通知","color":"#173177"},"keyword1":{"value":"2022年2月","color":"#173177"},"keyword2":{"value":"朝阳分行营业部","color":"#173177"},"keyword3":{"value":"月度绩效","color":"#173177"},"keyword4":{"value":"绩效考核得分86","color":"#ff0000"},"remark":{"value":"请关注","color":"#173177"},"TemplateId":"TYROSV2t-8ESwJ5jA4LzmVA9Wm6TGbH3jJIN3OkhZ68","Url":null,"TemplateName":"预约成功"}}
+
+[[[自动注册扩展缓存完成]]]
+[2022/02/03 18:20:54.7878]
+[线程：1]
+注册总用时：0.0021ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2022/02/03 18:20:54.7879]
+[线程：1]
+微信扩展缓存注册总用时：0.0004ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[接口调用]]]
+[2022/02/03 18:21:05.6245]
+[线程：56]
+	URL：https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=53_TbioPFGB449GIEZhuz-iaEi0RqYcplgngxiaMGoPecmQqmDc3HTTGE9CpKce_hsIc11ingtK0jlHud47ipAhm_po6NFqD5SXzd3BW7XtPPKVAEWF7x51J55eU4_aZWfpQzRtYjBZsSICvPc3SSUdAAAGGI
+	Post Data：
+{"touser":"KQ2P8bdkgNcban-uOp8xQdYINpZl7fvbU2ZG6DFcxkg","template_id":"KQ2P8bdkgNcban-uOp8xQdYINpZl7fvbU2ZG6DFcxkg","topcolor":"#FF0000","url":null,"miniprogram":null,"data":{"first":{"value":"Kpi红黄牌通知","color":"#173177"},"keyword1":{"value":"2022年2月","color":"#173177"},"keyword2":{"value":"朝阳分行营业部","color":"#173177"},"keyword3":{"value":"月度绩效","color":"#173177"},"keyword4":{"value":"绩效考核得分86","color":"#ff0000"},"remark":{"value":"请关注","color":"#173177"},"TemplateId":"KQ2P8bdkgNcban-uOp8xQdYINpZl7fvbU2ZG6DFcxkg","Url":null,"TemplateName":"预约成功"}}
+
+[[[ErrorJsonResultException]]]
+[2022/02/03 18:21:05.7800]
+[线程：46]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=53_TbioPFGB449GIEZhuz-iaEi0RqYcplgngxiaMGoPecmQqmDc3HTTGE9CpKce_hsIc11ingtK0jlHud47ipAhm_po6NFqD5SXzd3BW7XtPPKVAEWF7x51J55eU4_aZWfpQzRtYjBZsSICvPc3SSUdAAAGGI
+	errcode：不合法的OpenID
+	errmsg：invalid openid rid: 61fbac94-6f920601-45eff86e
+
+[[[接口调用]]]
+[2022/02/03 18:21:28.7290]
+[线程：51]
+	URL：https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=53_TbioPFGB449GIEZhuz-iaEi0RqYcplgngxiaMGoPecmQqmDc3HTTGE9CpKce_hsIc11ingtK0jlHud47ipAhm_po6NFqD5SXzd3BW7XtPPKVAEWF7x51J55eU4_aZWfpQzRtYjBZsSICvPc3SSUdAAAGGI
+	Post Data：
+{"touser":"oTuBi09bM6KJqH_r-KVAZqaDy8tQ","template_id":"KQ2P8bdkgNcban-uOp8xQdYINpZl7fvbU2ZG6DFcxkg","topcolor":"#FF0000","url":null,"miniprogram":null,"data":{"first":{"value":"Kpi红黄牌通知","color":"#173177"},"keyword1":{"value":"2022年2月","color":"#173177"},"keyword2":{"value":"朝阳分行营业部","color":"#173177"},"keyword3":{"value":"月度绩效","color":"#173177"},"keyword4":{"value":"绩效考核得分86","color":"#ff0000"},"remark":{"value":"请关注","color":"#173177"},"TemplateId":"KQ2P8bdkgNcban-uOp8xQdYINpZl7fvbU2ZG6DFcxkg","Url":null,"TemplateName":"预约成功"}}
+
+[[[自动注册扩展缓存完成]]]
+[2022/02/03 18:27:13.4120]
+[线程：1]
+注册总用时：0.0022ms
+自动扫描程序集：0个
+扩展缓存：
+
+[[[微信扩展缓存注册完成]]]
+[2022/02/03 18:27:13.4121]
+[线程：1]
+微信扩展缓存注册总用时：0.0005ms
+扩展缓存：Senparc.Weixin.Cache.LocalContainerCacheStrategy
+
+[[[接口调用]]]
+[2022/02/03 18:27:24.1922]
+[线程：54]
+	URL：https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=53_k5-nwYnjERIQtibWdX0XJCyiXeLw9ZmyEeJm-rrmPyxT5F8BownnHUtXMKheFsnnUD8_r4u5Ux2X7SIuNUrMdXRlKFWEwcqmx3-VwK7-ry4Q3oZywnzuxIVFfz2GaT0HjFv215o3YPorvL_2PQKfAJAKLF
+	Post Data：
+{"touser":"oTuBi09bM6KJqH_r-KVAZqaDy8tQ","template_id":"KQ2P8bdkgNcban-uOp8xQdYINpZl7fvbU2ZG6DFcxkg","topcolor":"#FF0000","url":"https://rcbcybank.com","miniprogram":null,"data":{"first":{"value":"Kpi红黄牌通知","color":"#173177"},"keyword1":{"value":"2022年2月","color":"#173177"},"keyword2":{"value":"朝阳分行营业部","color":"#173177"},"keyword3":{"value":"月度绩效","color":"#173177"},"keyword4":{"value":"绩效考核得分86","color":"#ff0000"},"remark":{"value":"请关注","color":"#173177"},"TemplateId":"KQ2P8bdkgNcban-uOp8xQdYINpZl7fvbU2ZG6DFcxkg","Url":"https://rcbcybank.com","TemplateName":"预约成功"}}
+
