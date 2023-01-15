@@ -42,9 +42,8 @@ jobs:
         registry: ${{ env.REGISTRY }}
         username: ${{ secrets.GITLABUSER }}
         password: ${{ secrets.GITLABPASSWORD }} 
-      
- 
     
+        
     - name: Build and push
      
       uses: docker/build-push-action@v3
@@ -54,8 +53,10 @@ jobs:
           file: ./workauto/Dockerfile
           push: true
           
+          registry: ${{ env.REGISTRY }}
+          
           platforms: linux/amd64
          
-          tags: registry.gitlab.com/rcbblc/workauto:${{ env.IMAGE_NAME }},registry.gitlab.com/rcbblc/workauto:latest
+          tags: rcbblc/workauto:${{ env.IMAGE_NAME }},rcbblc/workauto:latest
          
   
