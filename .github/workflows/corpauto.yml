@@ -47,7 +47,6 @@ jobs:
           
           platforms: linux/amd64
          
-          tags: rcbblc/corp:${{ env.IMAGE_NAME }},rcbblc/corp:latest
+          tags: rcbblc/workauto:${{ env.IMAGE_NAME }},rcbblc/workauto:latest
          
-          cache-from: type=registry,ref=rcbblc/corp:${{ env.IMAGE_NAME }}
-          cache-to: type=inline
+  
