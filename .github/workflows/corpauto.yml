@@ -41,7 +41,7 @@ jobs:
       uses: docker/build-push-action@v3
      # if: startsWith(github.ref, 'refs/tags/')
       with:
-          context: ./workauto
+          context: .
           #file: ./corp/workauto/workauto/Dockerfile
           push: true
           
