@@ -19,6 +19,12 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+      # This is used to complete the identity challenge
+      # with sigstore/fulcio when running outside of PRs.
+      id-token: write
     steps:
     
     - uses: actions/checkout@v3
@@ -36,6 +42,9 @@ jobs:
         registry: ${{ env.REGISTRY }}
         username: ${{ secrets.GITLABUSER }}
         password: ${{ secrets.GITLABPASSWORD }} 
+      
+ 
+    
     - name: Build and push
      
       uses: docker/build-push-action@v3
@@ -47,6 +56,6 @@ jobs:
           
           platforms: linux/amd64
          
-          tags: rcbblc/workauto:${{ env.IMAGE_NAME }},rcbblc/workauto:latest
+          tags: registry.gitlab.com/rcbblc/workauto:${{ env.IMAGE_NAME }},registry.gitlab.com/rcbblc/workauto:latest
          
   
