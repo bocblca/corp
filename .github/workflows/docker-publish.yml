@@ -60,7 +60,7 @@ jobs:
           context: .
           file: ./workauto/Dockerfile
           push: true
-          tags: ${{REGISTRY}}/rcbblc/workauto:${{ env.IMAGE_NAME }}
+          tags: ${{ env.REGISTRY }}/rcbblc/workauto:${{ env.IMAGE_NAME }}
          
           cache-from: type=gha
           cache-to: type=gha,mode=max
