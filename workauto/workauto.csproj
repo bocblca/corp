@@ -12,7 +12,7 @@
     <ContainerBaseImage>mcr.microsoft.com/dotnet/aspnet:7.0.0</ContainerBaseImage>
       
     <ContainerImageName>workauto</ContainerImageName>
-    <ContainerImageTag>1.11</ContainerImageTag>
+    <ContainerImageTag>1.12</ContainerImageTag>
     <AssemblyName>workauto</AssemblyName>
   </PropertyGroup>
 
