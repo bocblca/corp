@@ -1,16 +1,10 @@
-name: Docker
-
-# This workflow uses actions that are not certified by GitHub.
-# They are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
+name: Docker2
 
 on:
   push:
     tags-ignore:
       - main
   
-
 env:
  IMAGE_NAME: ${{ github.ref_name }}
  REGISTRY: registry.gitlab.com
