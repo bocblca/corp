@@ -42,7 +42,7 @@ jobs:
      # if: startsWith(github.ref, 'refs/tags/')
       with:
           context: .
-          #file: ./corp/workauto/workauto/Dockerfile
+          file: ./workauto/Dockerfile
           push: true
           
           platforms: linux/amd64
