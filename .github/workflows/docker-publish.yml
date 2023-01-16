@@ -2,8 +2,10 @@ name: Docker2
 
 on:
   push:
-    tags-ignore:
-      - main
+    #tags-ignore:
+      #- main
+    tags:
+      - 'v*.*.*'
   
 env:
  IMAGE_NAME: ${{ github.ref_name }}
