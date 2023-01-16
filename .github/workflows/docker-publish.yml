@@ -28,7 +28,7 @@ jobs:
 
       - name: set_tagv
         run: echo "TAGV=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
-          }
+          
       #- name: setenv
         #run: echo "TAG_VISION=$(echo $GITHUB_REF | cut -d'/' -f3)" >> $GITHUB_ENV
       
