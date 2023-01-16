@@ -26,7 +26,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-   
+      - name: testecho
+        run: |
+          echo "TAGV=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
+          echo $TAGV
+          echo ${{env.TAGV}}
       - name: setenv
         run: echo "TAG_VISION=$(echo $GITHUB_REF | cut -d'/' -f3)" >> $GITHUB_ENV
       - name: testenv
