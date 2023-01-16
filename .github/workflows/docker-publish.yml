@@ -5,7 +5,7 @@ on:
     #tags-ignore:
       #- main
     tags:
-      - 'v*.*.*'
+      - 'v*.*'
   
 env:
  IMAGE_NAME: ${{ github.ref_name }}
