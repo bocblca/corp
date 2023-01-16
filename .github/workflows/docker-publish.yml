@@ -8,7 +8,7 @@ on:
       - 'v*.*'
   
 env:
- IMAGE_NAME: ${{ github.ref_name }}
+ #IMAGE_NAME: ${{ github.ref_name }}
  REGISTRY: 'registry.gitlab.com'
 
 
@@ -26,17 +26,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: testecho
-        run: |
-          echo "TAGV=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
-          echo $TAGV
-          echo ${{env.TAGV}}
-      - name: setenv
-        run: echo "TAG_VISION=$(echo $GITHUB_REF | cut -d'/' -f3)" >> $GITHUB_ENV
-      - name: testenv
-        run: |
-          echo $TAG_VISION
-          echo ${{env.TAG_VISION}}
+      - name: set_tagv
+        run: echo "TAGV=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
+          }
+      #- name: setenv
+        #run: echo "TAG_VISION=$(echo $GITHUB_REF | cut -d'/' -f3)" >> $GITHUB_ENV
+      
       
       - name: Setup Docker buildx
         uses: docker/setup-buildx-action@v2 
@@ -63,7 +58,7 @@ jobs:
           context: .
           file: ./workauto/Dockerfile
           push: true
-          tags: ${{ env.REGISTRY }}/rcbblc/workauto:${{env.TAG_VISION}}, ${{ env.REGISTRY }}/rcbblc/workauto:latest
+          tags: ${{ env.REGISTRY }}/rcbblc/workauto:${{env.TAGV}}, ${{ env.REGISTRY }}/rcbblc/workauto:latest
          
           cache-from: type=gha
           cache-to: type=gha,mode=max
