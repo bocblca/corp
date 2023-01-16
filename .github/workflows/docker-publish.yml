@@ -28,7 +28,7 @@ jobs:
 
    
       - name: setenv
-        run: echo "TAG_VISION=$echo $GITHUB_REF | cut -d'/' -f3" >> $GITHUB_ENV
+        run: echo "TAG_VISION=$(echo $GITHUB_REF | cut -d'/' -f3)" >> $GITHUB_ENV
       - name: testenv
         run: |
           echo $TAG_VISION
