@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\.github",
+    "\\.github\\workflows"
   ],
-  "SelectedNode": "\\G:\\k8scorpsuccess",
+  "SelectedNode": "\\.github\\workflows\\docker-publish.yml",
   "PreviewInSolutionExplorer": false
 }
