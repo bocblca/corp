@@ -4,6 +4,6 @@
     "\\.github",
     "\\.github\\workflows"
   ],
-  "SelectedNode": "\\.github\\workflows\\docker-publish.yml",
+  "SelectedNode": "\\.gitattributes",
   "PreviewInSolutionExplorer": false
 }
