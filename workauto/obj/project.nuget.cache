@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ewYjKh7AMehidhYS2GD9FOCJw9ee698uT4v53BHPzBBWUP9rfQtQafRGU9MpirvQsDRtH9n0olWJ+EXEn6blWQ==",
+  "dgSpecHash": "57d0qpcUDVGG11+Phtdp+ug+V50OwHyEHYHbCx3uZXjt708Ug95T8GSPSCvMgcGi7J3gsy+UfhAYS/amVYMXcA==",
   "success": true,
   "projectFilePath": "G:\\k8scorpsuccess\\workauto\\workauto.csproj",
   "expectedPackageFiles": [
@@ -150,7 +150,7 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\polly.extensions.http\\3.0.0\\polly.extensions.http.3.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\6.0.2\\pomelo.entityframeworkcore.mysql.6.0.2.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\portable.bouncycastle\\1.8.9\\portable.bouncycastle.1.8.9.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\rabbitmq.client\\6.2.2\\rabbitmq.client.6.2.2.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\rcbauto\\2.6.0\\rcbauto.2.6.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",

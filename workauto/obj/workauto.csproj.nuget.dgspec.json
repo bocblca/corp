@@ -221,10 +221,6 @@
               "target": "Package",
               "version": "[6.0.2, )"
             },
-            "RabbitMQ.Client": {
-              "target": "Package",
-              "version": "[6.4.0, )"
-            },
             "Senparc.CO2NET": {
               "target": "Package",
               "version": "[2.1.7.1, )"
