@@ -185,14 +185,8 @@ G:\k8scorpsuccess\workauto\bin\Release\net7.0\workauto.deps.json
 G:\k8scorpsuccess\workauto\bin\Release\net7.0\workauto.runtimeconfig.json
 G:\k8scorpsuccess\workauto\bin\Release\net7.0\workauto.dll
 G:\k8scorpsuccess\workauto\bin\Release\net7.0\workauto.pdb
-G:\k8scorpsuccess\workauto\bin\Release\net7.0\AsmResolver.dll
-G:\k8scorpsuccess\workauto\bin\Release\net7.0\AsmResolver.DotNet.dll
-G:\k8scorpsuccess\workauto\bin\Release\net7.0\AsmResolver.PE.dll
-G:\k8scorpsuccess\workauto\bin\Release\net7.0\AsmResolver.PE.File.dll
 G:\k8scorpsuccess\workauto\bin\Release\net7.0\Autowired.Core.dll
 G:\k8scorpsuccess\workauto\bin\Release\net7.0\Docker.DotNet.dll
-G:\k8scorpsuccess\workauto\bin\Release\net7.0\Dynamic.Json.dll
-G:\k8scorpsuccess\workauto\bin\Release\net7.0\FluentValidation.dll
 G:\k8scorpsuccess\workauto\bin\Release\net7.0\Flurl.dll
 G:\k8scorpsuccess\workauto\bin\Release\net7.0\Flurl.Http.dll
 G:\k8scorpsuccess\workauto\bin\Release\net7.0\Google.Protobuf.dll
@@ -251,7 +245,6 @@ G:\k8scorpsuccess\workauto\bin\Release\net7.0\Polly.dll
 G:\k8scorpsuccess\workauto\bin\Release\net7.0\Polly.Extensions.Http.dll
 G:\k8scorpsuccess\workauto\bin\Release\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
 G:\k8scorpsuccess\workauto\bin\Release\net7.0\BouncyCastle.Crypto.dll
-G:\k8scorpsuccess\workauto\bin\Release\net7.0\RabbitMQ.Client.dll
 G:\k8scorpsuccess\workauto\bin\Release\net7.0\rcbauto.dll
 G:\k8scorpsuccess\workauto\bin\Release\net7.0\Senparc.CO2NET.dll
 G:\k8scorpsuccess\workauto\bin\Release\net7.0\Senparc.CO2NET.APM.dll
@@ -297,10 +290,8 @@ G:\k8scorpsuccess\workauto\bin\Release\net7.0\System.Security.Permissions.dll
 G:\k8scorpsuccess\workauto\bin\Release\net7.0\System.Windows.Extensions.dll
 G:\k8scorpsuccess\workauto\bin\Release\net7.0\System.Xml.XPath.XmlDocument.dll
 G:\k8scorpsuccess\workauto\bin\Release\net7.0\TencentCloud.dll
-G:\k8scorpsuccess\workauto\bin\Release\net7.0\Zack.Commons.dll
 G:\k8scorpsuccess\workauto\bin\Release\net7.0\Zack.EFCore.Batch.MySQL.Pomelo_NET6.dll
 G:\k8scorpsuccess\workauto\bin\Release\net7.0\Zack.EFCore.Batch_NET6.dll
-G:\k8scorpsuccess\workauto\bin\Release\net7.0\Zack.EventBus.dll
 G:\k8scorpsuccess\workauto\bin\Release\net7.0\ca\Hangfire.Core.resources.dll
 G:\k8scorpsuccess\workauto\bin\Release\net7.0\de\Hangfire.Core.resources.dll
 G:\k8scorpsuccess\workauto\bin\Release\net7.0\es\Hangfire.Core.resources.dll
