@@ -12,7 +12,6 @@ using Senparc.Weixin.Work.Containers;
 using Senparc.Weixin.Work.Helpers;
 using SixLabors.ImageSharp;
 
-
 namespace workauto
 {
     [Route("[controller]/[action]")]
@@ -20,6 +19,7 @@ namespace workauto
     public class WorkApiController : ControllerBase
     {
        
+      
         public static readonly string Token = Config.SenparcWeixinSetting.WorkSetting.WeixinCorpToken;//与企业微信账号后台的Token设置保持一致，区分大小写。
         public static readonly string EncodingAESKey = Config.SenparcWeixinSetting.WorkSetting.WeixinCorpEncodingAESKey;//与微信企业账号后台的EncodingAESKey设置保持一致，区分大小写。
         public static readonly string CorpId = Config.SenparcWeixinSetting.WorkSetting.WeixinCorpId;//与微信企业账号后台的CorpId设置保持一致，区分大小写。
@@ -27,7 +27,7 @@ namespace workauto
         public readonly ISenparcWeixinSettingForWork workSetting = Senparc.Weixin.Config.SenparcWeixinSetting.Items["workscan"];
         private readonly Wxusers _mdata;
         private readonly ILogger _logger;
-     
+    
         public Dictionary<string, string> Corpdic = new Dictionary<string, string>() {
             { "electronic","电子设备" },
             {"office","办公用品" },

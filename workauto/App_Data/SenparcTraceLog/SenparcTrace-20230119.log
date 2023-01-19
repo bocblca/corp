@@ -1,0 +1,36 @@
+[[[ErrorJsonResultException]]]
+[2023/01/19 18:12:14.6837]
+[线程：19]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=1S6jQiN_72ZoJ25woj5oPCO72pXcZkMFWNFpPTElM-S9dW1aeag-sIsiiXr2LJbb8365aPhX8OHypbHlZno4iINzWqr0XWP90JbruLb4T2C-TLJ0Rgt_yX48nSB4qprAkui9H2GuGVqpNUj2DRGe1lOVvRU3QGAi8PDLMI2xOxorcamGNnue67VOvcn4Hs8O0gz0S9FRjDnU_iPn4-yaIw&id=642005
+	errcode：60123
+	errmsg：invalid party id, hint: [1674123134339603343283529], from ip: 123.188.254.206, more info at https://open.work.weixin.qq.com/devtool/query?e=60123
+
+[[[ErrorJsonResultException]]]
+[2023/01/19 18:12:22.9666]
+[线程：18]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=1S6jQiN_72ZoJ25woj5oPCO72pXcZkMFWNFpPTElM-S9dW1aeag-sIsiiXr2LJbb8365aPhX8OHypbHlZno4iINzWqr0XWP90JbruLb4T2C-TLJ0Rgt_yX48nSB4qprAkui9H2GuGVqpNUj2DRGe1lOVvRU3QGAi8PDLMI2xOxorcamGNnue67VOvcn4Hs8O0gz0S9FRjDnU_iPn4-yaIw&id=6420
+	errcode：60123
+	errmsg：invalid party id, hint: [1674123142640292070574264], from ip: 123.188.254.206, more info at https://open.work.weixin.qq.com/devtool/query?e=60123
+
+[[[ErrorJsonResultException]]]
+[2023/01/19 18:12:24.8738]
+[线程：12]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=1S6jQiN_72ZoJ25woj5oPCO72pXcZkMFWNFpPTElM-S9dW1aeag-sIsiiXr2LJbb8365aPhX8OHypbHlZno4iINzWqr0XWP90JbruLb4T2C-TLJ0Rgt_yX48nSB4qprAkui9H2GuGVqpNUj2DRGe1lOVvRU3QGAi8PDLMI2xOxorcamGNnue67VOvcn4Hs8O0gz0S9FRjDnU_iPn4-yaIw&id=6420
+	errcode：60123
+	errmsg：invalid party id, hint: [1674123144612133901916096], from ip: 123.188.254.206, more info at https://open.work.weixin.qq.com/devtool/query?e=60123
+
+[[[ErrorJsonResultException]]]
+[2023/01/19 18:13:23.9347]
+[线程：13]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=1S6jQiN_72ZoJ25woj5oPCO72pXcZkMFWNFpPTElM-S9dW1aeag-sIsiiXr2LJbb8365aPhX8OHypbHlZno4iINzWqr0XWP90JbruLb4T2C-TLJ0Rgt_yX48nSB4qprAkui9H2GuGVqpNUj2DRGe1lOVvRU3QGAi8PDLMI2xOxorcamGNnue67VOvcn4Hs8O0gz0S9FRjDnU_iPn4-yaIw&id=6420
+	errcode：60123
+	errmsg：invalid party id, hint: [1674123203640294235338316], from ip: 123.188.254.206, more info at https://open.work.weixin.qq.com/devtool/query?e=60123
+
