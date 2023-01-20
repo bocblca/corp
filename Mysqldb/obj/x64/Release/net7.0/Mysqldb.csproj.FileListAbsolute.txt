@@ -1,0 +1,12 @@
+G:\k8scorpsuccess\Mysqldb\bin\x64\Release\net7.0\Mysqldb.deps.json
+G:\k8scorpsuccess\Mysqldb\bin\x64\Release\net7.0\Mysqldb.dll
+G:\k8scorpsuccess\Mysqldb\bin\x64\Release\net7.0\Mysqldb.pdb
+G:\k8scorpsuccess\Mysqldb\obj\x64\Release\net7.0\Mysqldb.csproj.AssemblyReference.cache
+G:\k8scorpsuccess\Mysqldb\obj\x64\Release\net7.0\Mysqldb.GeneratedMSBuildEditorConfig.editorconfig
+G:\k8scorpsuccess\Mysqldb\obj\x64\Release\net7.0\Mysqldb.AssemblyInfoInputs.cache
+G:\k8scorpsuccess\Mysqldb\obj\x64\Release\net7.0\Mysqldb.AssemblyInfo.cs
+G:\k8scorpsuccess\Mysqldb\obj\x64\Release\net7.0\Mysqldb.csproj.CoreCompileInputs.cache
+G:\k8scorpsuccess\Mysqldb\obj\x64\Release\net7.0\Mysqldb.dll
+G:\k8scorpsuccess\Mysqldb\obj\x64\Release\net7.0\refint\Mysqldb.dll
+G:\k8scorpsuccess\Mysqldb\obj\x64\Release\net7.0\Mysqldb.pdb
+G:\k8scorpsuccess\Mysqldb\obj\x64\Release\net7.0\ref\Mysqldb.dll

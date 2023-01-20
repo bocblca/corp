@@ -1,0 +1,1189 @@
+{
+  "Files": [
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\1660013609407.jpg",
+      "PackagePath": "staticwebassets\\1660013609407.jpg"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\1660013663155.jpg",
+      "PackagePath": "staticwebassets\\1660013663155.jpg"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\WW_verify_rJe2TVF0OUtVD01r.txt",
+      "PackagePath": "staticwebassets\\WW_verify_rJe2TVF0OUtVD01r.txt"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\aboutnet.html",
+      "PackagePath": "staticwebassets\\aboutnet.html"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\aboutphone.html",
+      "PackagePath": "staticwebassets\\aboutphone.html"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\areas.json",
+      "PackagePath": "staticwebassets\\areas.json"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assetimg\\1660014765486.jpg",
+      "PackagePath": "staticwebassets\\assetimg\\1660014765486.jpg"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assetimg\\1660386999865.jpg",
+      "PackagePath": "staticwebassets\\assetimg\\1660386999865.jpg"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assetimg\\1660388938110.jpg",
+      "PackagePath": "staticwebassets\\assetimg\\1660388938110.jpg"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assetimg\\1660389111750.jpg",
+      "PackagePath": "staticwebassets\\assetimg\\1660389111750.jpg"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assetimg\\1663578010235.jpg",
+      "PackagePath": "staticwebassets\\assetimg\\1663578010235.jpg"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assetimg\\1663578095799.jpg",
+      "PackagePath": "staticwebassets\\assetimg\\1663578095799.jpg"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\About.19628270.js",
+      "PackagePath": "staticwebassets\\assets\\About.19628270.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\About.422a4637.js",
+      "PackagePath": "staticwebassets\\assets\\About.422a4637.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\About.a9ee314f.js",
+      "PackagePath": "staticwebassets\\assets\\About.a9ee314f.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\About.ccb295d4.js",
+      "PackagePath": "staticwebassets\\assets\\About.ccb295d4.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\Home.12d56427.js",
+      "PackagePath": "staticwebassets\\assets\\Home.12d56427.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\Home.21091ac7.css",
+      "PackagePath": "staticwebassets\\assets\\Home.21091ac7.css"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\Home.29642285.css",
+      "PackagePath": "staticwebassets\\assets\\Home.29642285.css"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\Home.8081898b.js",
+      "PackagePath": "staticwebassets\\assets\\Home.8081898b.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\Home.8535e306.js",
+      "PackagePath": "staticwebassets\\assets\\Home.8535e306.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\Home.c21ff10c.js",
+      "PackagePath": "staticwebassets\\assets\\Home.c21ff10c.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\Login.329c47aa.js",
+      "PackagePath": "staticwebassets\\assets\\Login.329c47aa.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\NavBar.468d516d.js",
+      "PackagePath": "staticwebassets\\assets\\NavBar.468d516d.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\NavBar.6290faf8.css",
+      "PackagePath": "staticwebassets\\assets\\NavBar.6290faf8.css"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\NavBar.84903a19.js",
+      "PackagePath": "staticwebassets\\assets\\NavBar.84903a19.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\NavBar.d62ef334.js",
+      "PackagePath": "staticwebassets\\assets\\NavBar.d62ef334.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\Person.580e0430.js",
+      "PackagePath": "staticwebassets\\assets\\Person.580e0430.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\Person.8037347b.js",
+      "PackagePath": "staticwebassets\\assets\\Person.8037347b.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\Person.f5506688.js",
+      "PackagePath": "staticwebassets\\assets\\Person.f5506688.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\index.0156ff4a.js",
+      "PackagePath": "staticwebassets\\assets\\index.0156ff4a.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\index.0a895ba0.js",
+      "PackagePath": "staticwebassets\\assets\\index.0a895ba0.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\index.0f5f27f4.js",
+      "PackagePath": "staticwebassets\\assets\\index.0f5f27f4.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\index.2fb9b616.js",
+      "PackagePath": "staticwebassets\\assets\\index.2fb9b616.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\index.56f71b78.js",
+      "PackagePath": "staticwebassets\\assets\\index.56f71b78.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\index.58bbf3f8.js",
+      "PackagePath": "staticwebassets\\assets\\index.58bbf3f8.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\index.797fda51.css",
+      "PackagePath": "staticwebassets\\assets\\index.797fda51.css"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\index.8ee00b70.js",
+      "PackagePath": "staticwebassets\\assets\\index.8ee00b70.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\index.99c52511.js",
+      "PackagePath": "staticwebassets\\assets\\index.99c52511.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\index.a0b285d8.js",
+      "PackagePath": "staticwebassets\\assets\\index.a0b285d8.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\index.afddfe94.js",
+      "PackagePath": "staticwebassets\\assets\\index.afddfe94.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\index.c078b3ad.js",
+      "PackagePath": "staticwebassets\\assets\\index.c078b3ad.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\index.c9104e1a.js",
+      "PackagePath": "staticwebassets\\assets\\index.c9104e1a.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\index.d1e05c23.js",
+      "PackagePath": "staticwebassets\\assets\\index.d1e05c23.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\kpi.0226f3f4.js",
+      "PackagePath": "staticwebassets\\assets\\kpi.0226f3f4.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\kpi.0db3f87b.css",
+      "PackagePath": "staticwebassets\\assets\\kpi.0db3f87b.css"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\kpi.1a5c5cad.css",
+      "PackagePath": "staticwebassets\\assets\\kpi.1a5c5cad.css"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\kpi.27f48bbe.css",
+      "PackagePath": "staticwebassets\\assets\\kpi.27f48bbe.css"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\kpi.3e51b21e.js",
+      "PackagePath": "staticwebassets\\assets\\kpi.3e51b21e.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\kpi.42438b30.js",
+      "PackagePath": "staticwebassets\\assets\\kpi.42438b30.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\kpi.450cc9c6.js",
+      "PackagePath": "staticwebassets\\assets\\kpi.450cc9c6.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\kpi.4d78dcba.js",
+      "PackagePath": "staticwebassets\\assets\\kpi.4d78dcba.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\kpi.600f0441.js",
+      "PackagePath": "staticwebassets\\assets\\kpi.600f0441.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\kpi.63fb1df9.css",
+      "PackagePath": "staticwebassets\\assets\\kpi.63fb1df9.css"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\kpi.755e3557.js",
+      "PackagePath": "staticwebassets\\assets\\kpi.755e3557.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\kpi.7a8bc2c4.css",
+      "PackagePath": "staticwebassets\\assets\\kpi.7a8bc2c4.css"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\kpi.7dcb2461.js",
+      "PackagePath": "staticwebassets\\assets\\kpi.7dcb2461.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\kpi.9f498d93.js",
+      "PackagePath": "staticwebassets\\assets\\kpi.9f498d93.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\kpi.aa07ea5c.css",
+      "PackagePath": "staticwebassets\\assets\\kpi.aa07ea5c.css"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\kpi.b9c5bf72.css",
+      "PackagePath": "staticwebassets\\assets\\kpi.b9c5bf72.css"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\kpi.d336d0b3.js",
+      "PackagePath": "staticwebassets\\assets\\kpi.d336d0b3.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\kpi.db1c6007.css",
+      "PackagePath": "staticwebassets\\assets\\kpi.db1c6007.css"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\kpi.e166958a.css",
+      "PackagePath": "staticwebassets\\assets\\kpi.e166958a.css"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\kpi.e5070f4c.css",
+      "PackagePath": "staticwebassets\\assets\\kpi.e5070f4c.css"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\kpi.f3737d1a.js",
+      "PackagePath": "staticwebassets\\assets\\kpi.f3737d1a.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\vendor.16951e0e.css",
+      "PackagePath": "staticwebassets\\assets\\vendor.16951e0e.css"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\vendor.17e44914.css",
+      "PackagePath": "staticwebassets\\assets\\vendor.17e44914.css"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\vendor.1f3d39ec.js",
+      "PackagePath": "staticwebassets\\assets\\vendor.1f3d39ec.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\vendor.888a4747.js",
+      "PackagePath": "staticwebassets\\assets\\vendor.888a4747.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\vendor.9b8aa252.js",
+      "PackagePath": "staticwebassets\\assets\\vendor.9b8aa252.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\vendor.a7633dbe.js",
+      "PackagePath": "staticwebassets\\assets\\vendor.a7633dbe.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\vendor.a8539960.js",
+      "PackagePath": "staticwebassets\\assets\\vendor.a8539960.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\vendor.f660479c.js",
+      "PackagePath": "staticwebassets\\assets\\vendor.f660479c.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\downsoft.html",
+      "PackagePath": "staticwebassets\\downsoft.html"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\hld.png",
+      "PackagePath": "staticwebassets\\hld.png"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\images\\img636151.jpg",
+      "PackagePath": "staticwebassets\\images\\img636151.jpg"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\images\\img636515.jpg",
+      "PackagePath": "staticwebassets\\images\\img636515.jpg"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\images\\pic636515.jpg",
+      "PackagePath": "staticwebassets\\images\\pic636515.jpg"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\img636515.jpg",
+      "PackagePath": "staticwebassets\\img636515.jpg"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\Getpost.js",
+      "PackagePath": "staticwebassets\\js\\Getpost.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\bkselect.js",
+      "PackagePath": "staticwebassets\\js\\bkselect.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\bootstrap-table.min.css",
+      "PackagePath": "staticwebassets\\js\\bootstrap-table.min.css"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\bootstrap-table.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap-table.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\js\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\js\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_ar.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_ar.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_ar.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_ar.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_az.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_az.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_az.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_az.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_bg.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_bg.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_bg.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_bg.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_bn_BD.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_bn_BD.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_bn_BD.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_bn_BD.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_ca.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_ca.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_ca.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_ca.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_cs.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_cs.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_cs.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_cs.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_da.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_da.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_da.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_da.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_de.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_de.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_de.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_de.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_el.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_el.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_el.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_el.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_es.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_es.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_es.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_es.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_es_AR.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_es_AR.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_es_AR.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_es_AR.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_es_PE.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_es_PE.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_es_PE.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_es_PE.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_et.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_et.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_et.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_et.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_eu.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_eu.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_eu.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_eu.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_fa.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_fa.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_fa.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_fa.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_fi.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_fi.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_fi.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_fi.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_fr.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_fr.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_fr.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_fr.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_ge.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_ge.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_ge.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_ge.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_gl.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_gl.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_gl.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_gl.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_he.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_he.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_he.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_he.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_hr.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_hr.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_hr.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_hr.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_hu.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_hu.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_hu.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_hu.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_hy_AM.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_hy_AM.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_hy_AM.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_hy_AM.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_id.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_id.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_id.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_id.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_is.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_is.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_is.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_is.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_it.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_it.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_it.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_it.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_ja.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_ja.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_ja.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_ja.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_ka.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_ka.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_ka.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_ka.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_kk.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_kk.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_kk.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_kk.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_ko.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_ko.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_ko.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_ko.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_lt.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_lt.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_lt.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_lt.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_lv.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_lv.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_lv.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_lv.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_mk.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_mk.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_mk.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_mk.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_my.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_my.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_my.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_my.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_nl.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_nl.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_nl.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_nl.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_no.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_no.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_no.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_no.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_pl.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_pl.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_pl.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_pl.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_pt_BR.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_pt_BR.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_pt_BR.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_pt_BR.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_pt_PT.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_pt_PT.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_pt_PT.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_pt_PT.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_ro.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_ro.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_ro.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_ro.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_ru.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_ru.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_ru.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_ru.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_sd.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_sd.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_sd.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_sd.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_si.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_si.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_si.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_si.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_sk.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_sk.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_sk.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_sk.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_sl.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_sl.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_sl.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_sl.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_sr.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_sr.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_sr.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_sr.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_sr_lat.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_sr_lat.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_sr_lat.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_sr_lat.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_sv.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_sv.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_sv.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_sv.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_th.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_th.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_th.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_th.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_tj.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_tj.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_tj.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_tj.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_tr.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_tr.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_tr.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_tr.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_uk.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_uk.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_uk.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_uk.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_ur.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_ur.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_ur.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_ur.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_vi.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_vi.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_vi.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_vi.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_zh.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_zh.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_zh.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_zh.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_zh_TW.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_zh_TW.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_zh_TW.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\messages_zh_TW.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\methods_de.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\methods_de.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\methods_de.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\methods_de.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\methods_es_CL.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\methods_es_CL.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\methods_es_CL.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\methods_es_CL.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\methods_fi.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\methods_fi.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\methods_fi.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\methods_fi.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\methods_it.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\methods_it.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\methods_it.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\methods_it.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\methods_nl.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\methods_nl.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\methods_nl.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\methods_nl.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\methods_pt.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\methods_pt.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\methods_pt.min.js",
+      "PackagePath": "staticwebassets\\js\\dist\\localization\\methods_pt.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\jquery-3.6.0.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.6.0.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\jquery-3.6.0.min.map",
+      "PackagePath": "staticwebassets\\js\\jquery-3.6.0.min.map"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\jquery.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\jquery.min.map",
+      "PackagePath": "staticwebassets\\js\\jquery.min.map"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\jquery.unobtrusive-ajax.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.unobtrusive-ajax.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.validate.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\json-to-table.min.js",
+      "PackagePath": "staticwebassets\\js\\json-to-table.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\lib\\jquery-1.11.1.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jquery-1.11.1.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\lib\\jquery-1.7.2.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jquery-1.7.2.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\lib\\jquery-1.8.3.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jquery-1.8.3.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\lib\\jquery-1.9.1.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jquery-1.9.1.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\lib\\jquery-3.1.1.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jquery-3.1.1.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\lib\\jquery.form.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jquery.form.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\lib\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jquery.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\lib\\jquery.mockjax-1.5.3.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jquery.mockjax-1.5.3.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\lib\\jquery.mockjax-2.2.1.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jquery.mockjax-2.2.1.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\lib\\jquery.mockjax.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jquery.mockjax.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\lib\\jquery.simulate.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jquery.simulate.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\lib\\require.js",
+      "PackagePath": "staticwebassets\\js\\lib\\require.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\messages_zh.min.js",
+      "PackagePath": "staticwebassets\\js\\messages_zh.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\validate.min.js",
+      "PackagePath": "staticwebassets\\js\\validate.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\kpi.xlsx",
+      "PackagePath": "staticwebassets\\kpi.xlsx"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\aliyun-net-sdk-core.dll",
+      "PackagePath": "staticwebassets\\lib\\aliyun-net-sdk-core.dll"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\aliyun-net-sdk-dysmsapi.dll",
+      "PackagePath": "staticwebassets\\lib\\aliyun-net-sdk-dysmsapi.dll"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap.esm.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap.js.map"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap.css"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\map\\areas.json",
+      "PackagePath": "staticwebassets\\map\\areas.json"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\map\\cities.json",
+      "PackagePath": "staticwebassets\\map\\cities.json"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\map\\provinces.json",
+      "PackagePath": "staticwebassets\\map\\provinces.json"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\pic636604.jpg",
+      "PackagePath": "staticwebassets\\pic636604.jpg"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\provinces.json",
+      "PackagePath": "staticwebassets\\provinces.json"
+    },
+    {
+      "Id": "G:\\k8scorpsuccess\\workauto\\wwwroot\\temp.jpg",
+      "PackagePath": "staticwebassets\\temp.jpg"
+    },
+    {
+      "Id": "obj\\x64\\Release\\net7.0\\staticwebassets\\msbuild.build.workauto.props",
+      "PackagePath": "build\\workauto.props"
+    },
+    {
+      "Id": "obj\\x64\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.workauto.props",
+      "PackagePath": "buildMultiTargeting\\workauto.props"
+    },
+    {
+      "Id": "obj\\x64\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.workauto.props",
+      "PackagePath": "buildTransitive\\workauto.props"
+    },
+    {
+      "Id": "obj\\x64\\Release\\net7.0\\staticwebassets\\msbuild.workauto.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

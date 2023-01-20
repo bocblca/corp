@@ -17,16 +17,9 @@ using Senparc.Weixin.Entities;
 using Senparc.Weixin.RegisterServices;
 using Senparc.Weixin.Work;
 using Senparc.Weixin.Work.MessageHandlers.Middleware;
-using Serilog;
-using Serilog.Events;
-using Serilog.Sinks.Email;
-using Serilog.Sinks.SystemConsole.Themes;
-using System.Net;
-using System.Reflection;
 using System.Text;
 using workapi.JWT;
 using workapi.Models;
-using workauto.corpsdk;
 
 
 var builder = WebApplication.CreateBuilder(args);

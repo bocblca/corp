@@ -1,0 +1,9 @@
+[[[ErrorJsonResultException]]]
+[2023/01/20 18:48:45.3002]
+[线程：14]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=tCY0yinITebvQzimwpthfK2TQ2Nae0aTGTb6yhiYno5e6fVpESJFEfRa3LiA_RNJBCoeZyNpTNorkzfZBhHMHRDqtQ_rZ8i33yXBzOZ__ekzp42Smt0qRpE5m4AOsGRcD0jTa2i7j4ijne0enSWy27dipnan6tq--uoJdEpPr5PyaWFBwbrkdTGC0B9-GiEiJlpd2jALA06UbEGxPkdB4Q&id=6420
+	errcode：60123
+	errmsg：invalid party id, hint: [1674211725235733077840803], from ip: 123.188.254.206, more info at https://open.work.weixin.qq.com/devtool/query?e=60123
+
