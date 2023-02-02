@@ -11,6 +11,7 @@ using Senparc.Weixin.Work.AdvancedAPIs.MailList;
 using Senparc.Weixin.Work.Containers;
 using Senparc.Weixin.Work.Helpers;
 using SixLabors.ImageSharp;
+using Zack.EventBus;
 
 namespace workauto
 {
@@ -27,7 +28,7 @@ namespace workauto
         public readonly ISenparcWeixinSettingForWork workSetting = Senparc.Weixin.Config.SenparcWeixinSetting.Items["workscan"];
         private readonly Wxusers _mdata;
         private readonly ILogger _logger;
-    
+        private readonly IEventBus eventBus;
         public Dictionary<string, string> Corpdic = new Dictionary<string, string>() {
             { "electronic","电子设备" },
             {"office","办公用品" },
@@ -39,16 +40,24 @@ namespace workauto
             {"Salvage","清理变现"}
         };
 
-        public WorkApiController(Wxusers mdata, ILogger<WorkApiController> logger)
+        public WorkApiController(Wxusers mdata, ILogger<WorkApiController> logger, IEventBus eventBus)
         {
             _mdata = mdata;
             _logger = logger;
-          
+            this.eventBus = eventBus;
         }
 
-     
 
-  
+        [HttpGet]
+
+        public IActionResult Sendmsg()
+        {
+            eventBus.Publish("OrderCreated", 8888);
+            return Ok("success");
+
+        }
+
+
 
         [HttpPost]
         public async Task<ActionResult> EditAssetAllAsync([FromForm] Masset masset)

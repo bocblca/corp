@@ -17,10 +17,16 @@ using Senparc.Weixin.Entities;
 using Senparc.Weixin.RegisterServices;
 using Senparc.Weixin.Work;
 using Senparc.Weixin.Work.MessageHandlers.Middleware;
+using Serilog;
+using Serilog.Events;
+using Serilog.Sinks.Email;
+using Serilog.Sinks.SystemConsole.Themes;
+using System.Net;
+using System.Reflection;
 using System.Text;
 using workapi.JWT;
 using workapi.Models;
-
+using Zack.EventBus;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -33,40 +39,40 @@ if (asms != null)
     //runmethod属性不需要提供接口，需要提供类名
     builder.Services.Runmethod(asms, "AutoInitcs");
 }
-//builder.Services.Configure<IntegrationEventRabbitMQOptions>(o =>
-//{
-//    o.HostName = "192.168.100.223";
-//    o.ExchangeName = "demo1";
-//    o.UserName = "blc";
-//    o.Password = "blc741004";
+builder.Services.Configure<IntegrationEventRabbitMQOptions>(o =>
+{
+    o.HostName = "192.168.100.223";
+    o.ExchangeName = "demo1";
+    o.UserName = "blc";
+    o.Password = "blc741004";
 
-//});
+});
 
-//builder.Services.AddEventBus("queue1", Assembly.GetExecutingAssembly());
+builder.Services.AddEventBus("queue1", Assembly.GetExecutingAssembly());
 builder.Services.AddEndpointsApiExplorer();
 //日志提供程序,warning以上级别log会发送邮件并记录在MYSQL数据库
-//builder.Services.AddLogging(logBuilder =>
-//{
-//    Log.Logger = new LoggerConfiguration()
-//      .MinimumLevel.Warning()
-//      .MinimumLevel.Override("Microsoft", LogEventLevel.Warning)
-//      .Enrich.FromLogContext()
-//      .WriteTo.Console(theme: SystemConsoleTheme.Colored)
-//      .WriteTo.PostgreSQL(builder.Configuration.GetConnectionString("postpresql"), "corplogs")
-//      //.WriteTo.MySQL(builder.Configuration.GetConnectionString("mysql"))
-//      .WriteTo.Email(new EmailConnectionInfo()
-//      {
-//          EmailSubject = "K8S workapi系统警告级别!",//邮件标题
-//          FromEmail = "blcrcb@qq.com",//发件人邮箱
-//          MailServer = "smtp.qq.com",//smtp服务器地址
-//          NetworkCredentials = new NetworkCredential("blcrcb@qq.com", "xkgvdblzrgnybjgh"),//两个参数分别是发件人邮箱与客户端授权码
-//          Port = 587,//端口号
-//          ToEmail = "18518116581@163.com"//收件人
-//      })
-//      .CreateLogger();
+builder.Services.AddLogging(logBuilder =>
+{
+    Log.Logger = new LoggerConfiguration()
+      .MinimumLevel.Warning()
+      .MinimumLevel.Override("Microsoft", LogEventLevel.Warning)
+      .Enrich.FromLogContext()
+      .WriteTo.Console(theme: SystemConsoleTheme.Colored)
+      .WriteTo.PostgreSQL(builder.Configuration.GetConnectionString("postpresql"), "corplogs")
+      //.WriteTo.MySQL(builder.Configuration.GetConnectionString("mysql"))
+      .WriteTo.Email(new EmailConnectionInfo()
+      {
+          EmailSubject = "K8S workapi系统警告级别!",//邮件标题
+          FromEmail = "blcrcb@qq.com",//发件人邮箱
+          MailServer = "smtp.qq.com",//smtp服务器地址
+          NetworkCredentials = new NetworkCredential("blcrcb@qq.com", "xkgvdblzrgnybjgh"),//两个参数分别是发件人邮箱与客户端授权码
+          Port = 587,//端口号
+          ToEmail = "18518116581@163.com"//收件人
+      })
+      .CreateLogger();
 
-//    logBuilder.AddSerilog();
-//});
+    logBuilder.AddSerilog();
+});
 //自定义swgger报文头
 builder.Services.AddSwaggerGen(c =>
 {
@@ -221,8 +227,5 @@ app.UseMessageHandlerForWork("/Workscan", WorkscanMessageHandler.GenerateMessage
     options.AccountSettingFunc = context => Senparc.Weixin.Config.SenparcWeixinSetting.Items["workscan"];
 });
 
-app.UseEndpoints(endpoints =>
-{
-    endpoints.MapDefaultControllerRoute();
-});
+
 app.Run();
