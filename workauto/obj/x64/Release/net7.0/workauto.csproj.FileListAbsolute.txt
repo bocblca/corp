@@ -1,3 +1,4 @@
+G:\k8scorpsuccess\workauto\bin\x64\Release\net7.0\wwwroot\id_rsa
 G:\k8scorpsuccess\workauto\bin\x64\Release\net7.0\appsettings.Development.json
 G:\k8scorpsuccess\workauto\bin\x64\Release\net7.0\appsettings.json
 G:\k8scorpsuccess\workauto\bin\x64\Release\net7.0\appsettings.Production.json

@@ -1,1 +1,0 @@
-import{_ as e}from"./index.c9104e1a.js";import{o,m as t}from"./vendor.a7633dbe.js";const a={name:"about",components:{}};function n(r,s,c,p,m,_){return o(),t("p",null,"about wxapp info test....")}var d=e(a,[["render",n]]);export{d as default};

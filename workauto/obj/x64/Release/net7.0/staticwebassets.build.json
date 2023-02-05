@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5VC5J2bjPFovwwiFfnlxhiXboxNLpq9PKGukUzoRut8=",
+  "Hash": "ql2UIlvpwJqMqlkeNURtZ3nqhK02qg//XSJ992qyjrA=",
   "Source": "workauto",
   "BasePath": "_content/workauto",
   "Mode": "Default",
@@ -1290,6 +1290,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\hld.png"
+    },
+    {
+      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\id_rsa",
+      "SourceId": "workauto",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "BasePath": "_content/workauto",
+      "RelativePath": "id_rsa",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Always",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\id_rsa"
     },
     {
       "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\images\\img636151.jpg",

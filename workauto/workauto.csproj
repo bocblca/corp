@@ -142,4 +142,9 @@
       <HintPath>..\Mysqldb\bin\Release\net7.0\Mysqldb.dll</HintPath>
     </Reference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Update="wwwroot\id_rsa">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
 </Project>

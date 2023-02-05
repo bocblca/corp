@@ -228,9 +228,6 @@ app.UseMessageHandlerForWork("/Workscan", WorkscanMessageHandler.GenerateMessage
 });
 
 
-app.UseEndpoints(endpoints =>
-{
-    endpoints.MapDefaultControllerRoute();
-});
+app.MapDefaultControllerRoute();
 
 app.Run();
