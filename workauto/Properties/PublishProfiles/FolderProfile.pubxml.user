@@ -8,4 +8,774 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <History>True|2023-01-04T10:44:58.3701156Z;True|2023-01-04T18:26:28.9256015+08:00;True|2023-01-04T12:17:11.2552462+08:00;True|2023-01-04T11:45:48.0355579+08:00;True|2023-01-04T11:36:51.7596376+08:00;False|2023-01-04T11:26:16.3076504+08:00;False|2023-01-04T11:09:41.7865631+08:00;True|2023-01-04T10:57:36.9172218+08:00;True|2023-01-04T10:44:30.3243450+08:00;True|2023-01-04T10:42:39.4375118+08:00;True|2023-01-04T10:18:30.9758003+08:00;True|2023-01-04T10:07:54.4931871+08:00;True|2023-01-04T09:48:54.0280154+08:00;False|2023-01-04T09:44:19.3519721+08:00;False|2023-01-04T09:41:13.0485268+08:00;True|2022-09-19T16:52:11.0019900+08:00;True|2022-09-19T16:43:31.5002599+08:00;True|2022-09-19T16:31:28.9066742+08:00;True|2022-09-19T16:21:10.7894259+08:00;True|2022-09-19T16:15:11.7998050+08:00;True|2022-09-19T16:06:41.5414237+08:00;True|2022-09-19T16:01:34.9161746+08:00;True|2022-09-18T15:53:19.5169803+08:00;True|2022-09-16T19:14:33.3895043+08:00;True|2022-09-16T18:51:35.8339746+08:00;True|2022-09-16T18:23:24.3284041+08:00;True|2022-09-16T17:57:45.0090280+08:00;True|2022-09-13T14:14:01.0871071+08:00;True|2022-09-09T19:11:23.7213314+08:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
+  <ItemGroup>
+    <File Include="wwwroot/1660013609407.jpg">
+      <publishTime>08/09/2022 10:53:29</publishTime>
+    </File>
+    <File Include="wwwroot/1660013663155.jpg">
+      <publishTime>08/09/2022 10:54:23</publishTime>
+    </File>
+    <File Include="wwwroot/aboutnet.html">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/aboutphone.html">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/areas.json">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/assetimg/1660014765486.jpg">
+      <publishTime>08/09/2022 11:12:45</publishTime>
+    </File>
+    <File Include="wwwroot/assetimg/1660386999865.jpg">
+      <publishTime>08/13/2022 18:36:39</publishTime>
+    </File>
+    <File Include="wwwroot/assetimg/1660388938110.jpg">
+      <publishTime>08/13/2022 19:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assetimg/1660389111750.jpg">
+      <publishTime>08/13/2022 19:11:51</publishTime>
+    </File>
+    <File Include="wwwroot/assetimg/1663578010235.jpg">
+      <publishTime>09/19/2022 17:00:10</publishTime>
+    </File>
+    <File Include="wwwroot/assetimg/1663578095799.jpg">
+      <publishTime>09/19/2022 17:01:35</publishTime>
+    </File>
+    <File Include="wwwroot/assets/base.0eca82ef.js">
+      <publishTime>02/05/2023 13:12:40</publishTime>
+    </File>
+    <File Include="wwwroot/assets/base.80208844.css">
+      <publishTime>02/05/2023 13:12:40</publishTime>
+    </File>
+    <File Include="wwwroot/assets/corpscan.712453f5.js">
+      <publishTime>02/05/2023 13:12:40</publishTime>
+    </File>
+    <File Include="wwwroot/assets/corpscan.e39ff6c4.css">
+      <publishTime>02/05/2023 13:12:40</publishTime>
+    </File>
+    <File Include="wwwroot/assets/el-image-viewer.58494b2f.css">
+      <publishTime>02/05/2023 13:12:40</publishTime>
+    </File>
+    <File Include="wwwroot/assets/el-image-viewer.dd94fb22.js">
+      <publishTime>02/05/2023 13:12:40</publishTime>
+    </File>
+    <File Include="wwwroot/assets/el-message.74072fda.css">
+      <publishTime>02/05/2023 13:12:40</publishTime>
+    </File>
+    <File Include="wwwroot/assets/el-message.e5f7c856.js">
+      <publishTime>02/05/2023 13:12:40</publishTime>
+    </File>
+    <File Include="wwwroot/assets/el-table-column.7482f358.css">
+      <publishTime>02/05/2023 13:12:40</publishTime>
+    </File>
+    <File Include="wwwroot/assets/el-table-column.d115de1d.js">
+      <publishTime>02/05/2023 13:12:40</publishTime>
+    </File>
+    <File Include="wwwroot/assets/h404.a9bd26f4.css">
+      <publishTime>02/05/2023 13:12:40</publishTime>
+    </File>
+    <File Include="wwwroot/assets/h404.c120eb5d.js">
+      <publishTime>02/05/2023 13:12:40</publishTime>
+    </File>
+    <File Include="wwwroot/assets/h500.4814f5a7.js">
+      <publishTime>02/05/2023 13:12:40</publishTime>
+    </File>
+    <File Include="wwwroot/assets/h500.79031b4b.css">
+      <publishTime>02/05/2023 13:12:40</publishTime>
+    </File>
+    <File Include="wwwroot/assets/index.c5656c26.js">
+      <publishTime>02/05/2023 13:12:40</publishTime>
+    </File>
+    <File Include="wwwroot/assets/index.f3818ef9.js">
+      <publishTime>02/05/2023 13:12:40</publishTime>
+    </File>
+    <File Include="wwwroot/assets/Manager.457c741f.css">
+      <publishTime>02/05/2023 13:12:40</publishTime>
+    </File>
+    <File Include="wwwroot/assets/Manager.f7655fc6.js">
+      <publishTime>02/05/2023 13:12:40</publishTime>
+    </File>
+    <File Include="wwwroot/assets/members.a657e38c.css">
+      <publishTime>02/05/2023 13:12:40</publishTime>
+    </File>
+    <File Include="wwwroot/assets/members.c64544e1.js">
+      <publishTime>02/05/2023 13:12:40</publishTime>
+    </File>
+    <File Include="wwwroot/assets/request.14f9b8df.js">
+      <publishTime>02/05/2023 13:12:40</publishTime>
+    </File>
+    <File Include="wwwroot/assets/request.2338e23d.css">
+      <publishTime>02/05/2023 13:12:40</publishTime>
+    </File>
+    <File Include="wwwroot/assets/vendor.eff3b74f.js">
+      <publishTime>02/05/2023 13:12:40</publishTime>
+    </File>
+    <File Include="wwwroot/downsoft.html">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/favicon.ico">
+      <publishTime>02/05/2022 16:14:03</publishTime>
+    </File>
+    <File Include="wwwroot/hld.png">
+      <publishTime>11/29/2021 14:49:56</publishTime>
+    </File>
+    <File Include="wwwroot/id_rsa">
+      <publishTime>02/02/2023 20:58:17</publishTime>
+    </File>
+    <File Include="wwwroot/images/img636151.jpg">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/img636515.jpg">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/pic636515.jpg">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/img636515.jpg">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/Index.cshtml">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/index.html">
+      <publishTime>02/05/2023 13:12:40</publishTime>
+    </File>
+    <File Include="wwwroot/js/bkselect.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/bootstrap-table.min.css">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/bootstrap-table.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/additional-methods.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/additional-methods.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/jquery.validate.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/jquery.validate.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_ar.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_ar.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_az.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_az.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_bg.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_bg.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_bn_BD.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_bn_BD.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_ca.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_ca.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_cs.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_cs.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_da.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_da.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_de.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_de.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_el.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_el.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_es.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_es.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_es_AR.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_es_AR.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_es_PE.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_es_PE.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_et.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_et.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_eu.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_eu.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_fa.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_fa.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_fi.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_fi.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_fr.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_fr.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_ge.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_ge.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_gl.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_gl.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_he.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_he.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_hr.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_hr.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_hu.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_hu.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_hy_AM.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_hy_AM.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_id.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_id.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_is.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_is.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_it.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_it.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_ja.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_ja.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_ka.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_ka.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_kk.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_kk.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_ko.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_ko.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_lt.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_lt.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_lv.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_lv.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_mk.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_mk.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_my.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_my.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_nl.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_nl.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_no.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_no.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_pl.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_pl.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_pt_BR.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_pt_BR.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_pt_PT.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_pt_PT.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_ro.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_ro.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_ru.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_ru.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_sd.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_sd.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_si.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_si.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_sk.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_sk.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_sl.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_sl.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_sr.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_sr.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_sr_lat.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_sr_lat.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_sv.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_sv.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_th.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_th.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_tj.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_tj.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_tr.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_tr.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_uk.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_uk.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_ur.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_ur.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_vi.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_vi.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_zh.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_zh.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_zh_TW.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/messages_zh_TW.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/methods_de.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/methods_de.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/methods_es_CL.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/methods_es_CL.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/methods_fi.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/methods_fi.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/methods_it.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/methods_it.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/methods_nl.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/methods_nl.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/methods_pt.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/dist/localization/methods_pt.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/Getpost.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/jquery-3.6.0.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/jquery-3.6.0.min.map">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/jquery.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/jquery.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/jquery.min.map">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/jquery.unobtrusive-ajax.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/jquery.validate.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/json-to-table.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/lib/jquery-1.11.1.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/lib/jquery-1.7.2.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/lib/jquery-1.8.3.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/lib/jquery-1.9.1.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/lib/jquery-3.1.1.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/lib/jquery.form.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/lib/jquery.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/lib/jquery.mockjax-1.5.3.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/lib/jquery.mockjax-2.2.1.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/lib/jquery.mockjax.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/lib/jquery.simulate.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/lib/require.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/messages_zh.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/validate.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/kpi.xlsx">
+      <publishTime>08/17/2022 09:57:40</publishTime>
+    </File>
+    <File Include="wwwroot/lib/aliyun-net-sdk-core.dll">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/aliyun-net-sdk-dysmsapi.dll">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap.bundle.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap.bundle.js.map">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap.bundle.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap.bundle.min.js.map">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap.esm.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap.esm.js.map">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap.esm.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap.esm.min.js.map">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap.js.map">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap.min.js.map">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/css/bootstrap-grid.css">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/css/bootstrap-grid.css.map">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/css/bootstrap-grid.min.css">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/css/bootstrap-grid.min.css.map">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/css/bootstrap-grid.rtl.css">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/css/bootstrap-grid.rtl.css.map">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/css/bootstrap-grid.rtl.min.css">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/css/bootstrap-grid.rtl.min.css.map">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/css/bootstrap-reboot.css">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/css/bootstrap-reboot.css.map">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/css/bootstrap-reboot.min.css">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/css/bootstrap-reboot.min.css.map">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/css/bootstrap-reboot.rtl.css">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/css/bootstrap-reboot.rtl.css.map">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/css/bootstrap-reboot.rtl.min.css">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/css/bootstrap-reboot.rtl.min.css.map">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/css/bootstrap-utilities.css">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/css/bootstrap-utilities.css.map">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/css/bootstrap-utilities.min.css">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/css/bootstrap-utilities.min.css.map">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/css/bootstrap-utilities.rtl.css">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/css/bootstrap-utilities.rtl.css.map">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/css/bootstrap-utilities.rtl.min.css">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/css/bootstrap-utilities.rtl.min.css.map">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/css/bootstrap.css">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/css/bootstrap.css.map">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/css/bootstrap.min.css">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/css/bootstrap.min.css.map">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/css/bootstrap.rtl.css">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/css/bootstrap.rtl.css.map">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/css/bootstrap.rtl.min.css">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/css/bootstrap.rtl.min.css.map">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/map/areas.json">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/map/cities.json">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/map/provinces.json">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/pic636604.jpg">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/provinces.json">
+      <publishTime>07/11/2022 09:42:44</publishTime>
+    </File>
+    <File Include="wwwroot/temp.jpg">
+      <publishTime>08/09/2022 10:44:33</publishTime>
+    </File>
+    <File Include="wwwroot/WW_verify_rJe2TVF0OUtVD01r.txt">
+      <publishTime>07/24/2022 20:58:36</publishTime>
+    </File>
+  </ItemGroup>
 </Project>
