@@ -11,6 +11,8 @@ using Senparc.Weixin.Work.AdvancedAPIs.MailList;
 using Senparc.Weixin.Work.Containers;
 using Senparc.Weixin.Work.Helpers;
 using SixLabors.ImageSharp;
+using System.Transactions;
+using workauto.filter;
 using Zack.EventBus;
 
 namespace workauto
@@ -63,15 +65,15 @@ namespace workauto
         public async Task<ActionResult> EditAssetAllAsync([FromForm] Masset masset)
         {
 
-            
             var res = _mdata.assets.Where(e => e.Qrcode == masset.Qrcode).FirstOrDefault();
-           
+
             if (res == null)
             {
                 return Ok("保存失败,编号不存在,errcode:1003");
             }
             else
             {
+                
                 using var memoryStream = new MemoryStream();
                 await masset.file.CopyToAsync(memoryStream);
                 var imgbyte = memoryStream.ToArray();
@@ -94,6 +96,9 @@ namespace workauto
                 res.Img = fileurl;
 
 
+              
+               
+
                 if (masset.Userid == tempuserid)
                 {
                     var state_info = new asset_state()
@@ -108,8 +113,10 @@ namespace workauto
                         state = (int)res.State,
 
                     };
-                   // _mdata.asset_States.Add(state_info);
-                    _mdata.asset_States.Update(state_info);
+                    _mdata.asset_States.Add(state_info);
+                    //_mdata.asset_States.Update(state_info);
+                    
+
 
                 }
                 else
@@ -129,24 +136,28 @@ namespace workauto
                         state = (int)res.State,
 
                     };
-                    //_mdata.asset_States.Add(state_info);
-                    _mdata.asset_States.Update(state_info);
+                    _mdata.asset_States.Add(state_info);
+
+                    //_mdata.asset_States.Update(state_info);
+                   
 
                 }
 
-
-
-
                 _ = await _mdata.SaveChangesAsync();
 
-
                 return Ok("数据更新成功");
-            }
+
+            }  
 
 
+
+
+              
+           
 
         }
         [HttpPost]
+
         public async Task<ActionResult> EditAssetdata(Nasset asset)
         {
             var res = _mdata.assets.Where(e => e.Qrcode == asset.Qrcode).FirstOrDefault();
@@ -184,9 +195,9 @@ namespace workauto
                         state = (int)res.State,
 
                     };
-                    //_mdata.asset_States.Add(state_info);
+                    _mdata.asset_States.Add(state_info);
                     
-                    _mdata.asset_States.Update(state_info);
+                    //_mdata.asset_States.Update(state_info);
                 }
                 else
                 {
@@ -205,8 +216,8 @@ namespace workauto
                         state = (int)res.State,
 
                     };
-                    //_mdata.asset_States.Add(state_info);
-                    _mdata.asset_States.Update(state_info);
+                    _mdata.asset_States.Add(state_info);
+                    //_mdata.asset_States.Update(state_info);
 
 
                 }
@@ -254,8 +265,8 @@ namespace workauto
 
                 };
 
-                //_mdata.asset_States.Add(state_info);
-                _mdata.asset_States.Update(state_info);
+                _mdata.asset_States.Add(state_info);
+                //_mdata.asset_States.Update(state_info);
                 _ = await _mdata.SaveChangesAsync();
 
 
@@ -327,7 +338,7 @@ namespace workauto
         }
 
         [HttpGet]
-
+        [NotTransactional]
         public ActionResult Getasset_state(string qrcode)
         {
             var resdata = _mdata.asset_States.Where(e => e.qrcode == qrcode);
@@ -351,6 +362,7 @@ namespace workauto
         }
 
         [HttpGet]
+        [NotTransactional]
         public ActionResult GetUrlBase(string returnUrl)
         {
 
@@ -362,6 +374,7 @@ namespace workauto
             return Ok(oauthUrl);
         }
         [HttpGet]
+        [NotTransactional]
         public async Task<ActionResult> GetUseridAsync(string code)
         {
 
@@ -385,6 +398,7 @@ namespace workauto
             return Ok(jsApiUiPackage);
         }
         [HttpGet]
+        [NotTransactional]
         public async Task<ActionResult> GetagentjsApiUiPackageAsync(string httpsurl)
         {
 
@@ -397,6 +411,7 @@ namespace workauto
         }
 
         [HttpGet]
+        [NotTransactional]
         public async Task<ActionResult> Getdepart()
         {
             string AppKey = AccessTokenContainer.BuildingKey(CorpId, corpSecret);
@@ -429,6 +444,7 @@ namespace workauto
 
         }
         [HttpGet]
+        [NotTransactional]
         public List<string> Getparentdeparts(long departid)
         {
             //string AppKey = AccessTokenContainer.BuildingKey(CorpId, corpSecret);
@@ -463,6 +479,7 @@ namespace workauto
         }
 
         [HttpGet]
+        [NotTransactional]
         public Selectoption[] GetKinds()
         {
             var mlen = Enum.GetNames(typeof(Kinds)).Length;
@@ -491,12 +508,14 @@ namespace workauto
         }
 
         [HttpGet]
+        [NotTransactional]
         public string Getspandate(long tmspan)
         {
             var mydate = DateTimeOffset.FromUnixTimeMilliseconds(tmspan).LocalDateTime;
             return mydate.ToString();
         }
         [HttpGet]
+        [NotTransactional]
         public long Getdatespan()
 
         {
@@ -515,6 +534,7 @@ namespace workauto
         }
 
         [HttpGet]
+        [NotTransactional]
         public Selectoption[] GetStates()
         {
 
@@ -549,6 +569,7 @@ namespace workauto
         }
 
         [HttpGet]
+        [NotTransactional]
         public async Task<ActionResult<GetDepartmentListResult>> GetmaindepartAsync(long departid)
         {
             string AppKey = AccessTokenContainer.BuildingKey(CorpId, corpSecret);
@@ -558,6 +579,7 @@ namespace workauto
 
         }
         [HttpGet]
+        [NotTransactional]
         public ActionResult GetAsset(string qrcode)
         {
 
@@ -580,6 +602,7 @@ namespace workauto
 
 
         [HttpGet]
+        [NotTransactional]
         public async Task<ActionResult<GetMemberResult>> GetUserinfosAsync(string userid)
         {
             string AppKey = AccessTokenContainer.BuildingKey(CorpId, corpSecret);
@@ -589,6 +612,7 @@ namespace workauto
 
         }
         [HttpGet]
+        [NotTransactional]
         public async Task<ActionResult> GetMembers()
         {
 
@@ -623,6 +647,7 @@ namespace workauto
 
         }
         [HttpGet]
+        [NotTransactional]
         public async Task<ActionResult> Getdeptlist(long dept_id)
         {
             string AppKey = AccessTokenContainer.BuildingKey(CorpId, corpSecret);
@@ -633,6 +658,7 @@ namespace workauto
 
         }
         [HttpGet]
+        [NotTransactional]
         public async Task<ActionResult> Getbranchdeptlist(long dept_id, long pid)
         {
             string AppKey = AccessTokenContainer.BuildingKey(CorpId, corpSecret);
@@ -643,7 +669,7 @@ namespace workauto
 
         }
         [HttpGet]
-
+        [NotTransactional]
         public ActionResult Getasset_total()
         {
             try
@@ -669,6 +695,7 @@ namespace workauto
         }
 
         [HttpGet]
+        [NotTransactional]
         public async Task<ActionResult> GetMembersbydeptAsync(long dept_id, int son)
         {
             string AppKey = AccessTokenContainer.BuildingKey(CorpId, corpSecret);
@@ -681,6 +708,7 @@ namespace workauto
 
         }
         [HttpGet]
+        [NotTransactional]
         public async Task<ActionResult> Get_assetMembers(long dept_id, int son = 1)
         {
             string AppKey = AccessTokenContainer.BuildingKey(CorpId, corpSecret);
@@ -710,6 +738,7 @@ namespace workauto
         }
 
         [HttpPost]
+        [NotTransactional]
         public async Task<ActionResult> Set_all_enable(long departid)
         {
             string AppKey = AccessTokenContainer.BuildingKey(CorpId, corpSecret);
@@ -740,6 +769,7 @@ namespace workauto
         }
 
         [HttpPost]
+        [NotTransactional]
         public async Task<ActionResult> Set_all_direct_leaderAsync(long departid)
         {
             string AppKey = AccessTokenContainer.BuildingKey(CorpId, corpSecret);
@@ -777,6 +807,7 @@ namespace workauto
             return Ok("success");
         }
         [HttpGet]
+        [NotTransactional]
         public async Task<ActionResult> Setdepartleader(string depart_id)
         {
 

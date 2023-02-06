@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http.Features;
 using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.AspNetCore.Server.Kestrel.Core;
 using Microsoft.Extensions.Options;
@@ -26,6 +27,7 @@ using System.Reflection;
 using System.Text;
 using workapi.JWT;
 using workapi.Models;
+using workauto.filter;
 using Zack.EventBus;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -167,9 +169,13 @@ builder.Services.AddSenparcGlobalServices(builder.Configuration);//Senparc.CO2NE
 //全局注册 CO2NET
 //if (!Senparc.CO2NET.RegisterServices.RegisterServiceExtension.SenparcGlobalServicesRegistered)
 //{
- //   services = services.AddSenparcGlobalServices(builder.Configuration);//自动注册 SenparcGlobalServices
+//   services = services.AddSenparcGlobalServices(builder.Configuration);//自动注册 SenparcGlobalServices
 //}                                                                 //
 
+builder.Services.Configure<MvcOptions>(options =>
+{
+    options.Filters.Add<TransactionScopeFilter>();
+});
 
 builder.Services.AddCors(options =>
 {
