@@ -9,13 +9,13 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = workauto
 build_property.RootNamespace = workauto
-build_property.ProjectDir = F:\wxwork\workauto\workauto\
+build_property.ProjectDir = G:\k8scorpsuccess\workauto\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = F:\wxwork\workauto\workauto
+build_property.MSBuildProjectDirectory = G:\k8scorpsuccess\workauto
 build_property._RazorSourceGeneratorDebug = 
 
-[F:/wxwork/workauto/workauto/wwwroot/Index.cshtml]
+[G:/k8scorpsuccess/workauto/wwwroot/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

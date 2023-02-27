@@ -1,19 +1,34 @@
-﻿using Flurl;
+﻿using Docker.DotNet.Models;
+using Flurl;
 using Flurl.Http;
+using LiteDB;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Query.Internal;
 using Mysqldb;
+using Npgsql.Replication.PgOutput.Messages;
+using OpenAI_API;
+using OpenAI_API.Completions;
+using OpenAI_API.Models;
+using Polly.Caching;
 using Senparc.CO2NET.Extensions;
 using Senparc.Weixin;
 using Senparc.Weixin.Entities;
 using Senparc.Weixin.Work.AdvancedAPIs;
 using Senparc.Weixin.Work.AdvancedAPIs.MailList;
+using Senparc.Weixin.Work.AdvancedAPIs.OaDataOpen;
 using Senparc.Weixin.Work.Containers;
 using Senparc.Weixin.Work.Helpers;
 using SixLabors.ImageSharp;
-using System.Transactions;
+using System.Net;
+using System.Text;
+using System.Text.Json;
+using TencentCloud.Ccc.V20200210.Models;
+using workapi.baiduAPI;
 using workauto.filter;
 using Zack.EventBus;
+using Config = Senparc.Weixin.Config;
 
 namespace workauto
 {
@@ -21,8 +36,8 @@ namespace workauto
     [ApiController]
     public class WorkApiController : ControllerBase
     {
-       
-      
+
+
         public static readonly string Token = Config.SenparcWeixinSetting.WorkSetting.WeixinCorpToken;//与企业微信账号后台的Token设置保持一致，区分大小写。
         public static readonly string EncodingAESKey = Config.SenparcWeixinSetting.WorkSetting.WeixinCorpEncodingAESKey;//与微信企业账号后台的EncodingAESKey设置保持一致，区分大小写。
         public static readonly string CorpId = Config.SenparcWeixinSetting.WorkSetting.WeixinCorpId;//与微信企业账号后台的CorpId设置保持一致，区分大小写。
@@ -49,6 +64,40 @@ namespace workauto
             this.eventBus = eventBus;
         }
 
+       public OpenAIAPI api = new("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");
+
+        [HttpPost]
+
+        public async Task<IActionResult> Chatmsg(string msg)
+            {
+                var response = HttpContext.Response;
+                response.Headers.Add("Content-Type", "text/event-stream");
+
+            await foreach (var token in api.Completions.StreamCompletionEnumerableAsync(new CompletionRequest(msg, Model.DavinciText, max_tokens: 1000, temperature: 0.4)))
+            {
+                if (token.ToString().Trim().Length > 0) {
+                    var message = "data:{ \"words\": \""  + token + "\"}\n\n";
+                    
+                    Console.Write(message);
+                    Console.Write("===========");
+
+                   // Console.Write(message);
+                    await response.WriteAsync(message);
+                    await response.Body.FlushAsync();
+
+                }
+                               
+            }
+
+
+
+            //return Content("success");
+            return new EmptyResult();
+            
+            }
+
+
+    
 
         [HttpGet]
 

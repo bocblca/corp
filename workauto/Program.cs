@@ -43,7 +43,7 @@ if (asms != null)
 }
 builder.Services.Configure<IntegrationEventRabbitMQOptions>(o =>
 {
-    o.HostName = "192.168.100.223";
+    o.HostName = "192.168.100.223"; //rcbmq-rabbitmq.net6
     o.ExchangeName = "demo1";
     o.UserName = "blc";
     o.Password = "blc741004";
@@ -95,6 +95,7 @@ builder.Services.AddSwaggerGen(c =>
     var requirement = new OpenApiSecurityRequirement();
     requirement[scheme] = new List<string>();
     c.AddSecurityRequirement(requirement);
+     
 });
 builder.Services.AddMemoryCache();
 //builder.Host.UseServiceProviderFactory(new SenparcServiceProviderFactory());
@@ -109,9 +110,9 @@ builder.Services.AddControllersWithViews()
 
 builder.Services.AddSingleton<ITempDataProvider, CookieTempDataProvider>();
 //如果部署在linux系统上，需要加上下面的配置：
-builder.Services.Configure<KestrelServerOptions>(options => options.AllowSynchronousIO = true);
-builder.Services.Configure<IISServerOptions>(options => options.AllowSynchronousIO = true);
-builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+builder.Services.Configure<KestrelServerOptions>(options => { options.AllowSynchronousIO = true; });
+//builder.Services.Configure<IISServerOptions>(options => options.AllowSynchronousIO = true);
+//builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddMemoryCache();//使用本地缓存必须添加
 builder.Services.Configure<FormOptions>(options =>
 {
