@@ -113,7 +113,7 @@ builder.Services.AddSingleton<ITempDataProvider, CookieTempDataProvider>();
 builder.Services.Configure<KestrelServerOptions>(options => { options.AllowSynchronousIO = true; });
 //builder.Services.Configure<IISServerOptions>(options => options.AllowSynchronousIO = true);
 //builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-builder.Services.AddMemoryCache();//使用本地缓存必须添加
+
 builder.Services.Configure<FormOptions>(options =>
 {
     options.KeyLengthLimit = int.MaxValue;
@@ -216,10 +216,10 @@ app.UseSenparcGlobal(builder.Environment, Senparc.CO2NET.Config.SenparcSetting, 
               .UseSenparcWeixin(senparcWeixinSetting, (weixinRegister, weixinSetting) =>
               {
                   weixinRegister
-
                   .RegisterWorkAccount(senparcWeixinSetting, "企业微信通讯录")
                   .RegisterWorkAccount(senparcWeixinSetting.Items["workprint"], "云打印小程序")
-                  .RegisterWorkAccount(senparcWeixinSetting.Items["workscan"], "企业物品登记");
+                  .RegisterWorkAccount(senparcWeixinSetting.Items["workscan"], "企业物品登记")
+                  .RegisterWorkAccount(senparcWeixinSetting.Items["supernotice"], "督办通知单");
               });
 app.UseMessageHandlerForWork("/Work", WorkCustomMessageHandler.GenerateMessageHandler, options =>
 {
@@ -232,6 +232,11 @@ app.UseMessageHandlerForWork("/Workprint", WorkprintMessageHandler.GenerateMessa
 app.UseMessageHandlerForWork("/Workscan", WorkscanMessageHandler.GenerateMessageHandler, options =>
 {
     options.AccountSettingFunc = context => Senparc.Weixin.Config.SenparcWeixinSetting.Items["workscan"];
+});
+app.UseMessageHandlerForWork("/supernotice", SupernoticeMessageHandler.GenerateMessageHandler, options =>
+{
+    options.AccountSettingFunc = context => Senparc.Weixin.Config.SenparcWeixinSetting.Items["supernotice"];
+
 });
 
 

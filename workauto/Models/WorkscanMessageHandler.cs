@@ -44,6 +44,7 @@ namespace workapi.Models
                 // var res = CommonApi.ConvertToUserId(aToken, OpenId);
                 //textcard消息
 
+                
 
 
                 responseMessage.Content = "您的ID:" + OpenId + "|userid|" + requestMessage.FromUserName;

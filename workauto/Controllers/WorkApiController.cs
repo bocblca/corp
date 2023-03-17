@@ -1,31 +1,19 @@
-﻿using Docker.DotNet.Models;
-using Flurl;
+﻿using Flurl;
 using Flurl.Http;
 using LiteDB;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Query.Internal;
 using Mysqldb;
-using Npgsql.Replication.PgOutput.Messages;
 using OpenAI_API;
 using OpenAI_API.Completions;
 using OpenAI_API.Models;
-using Polly.Caching;
 using Senparc.CO2NET.Extensions;
-using Senparc.Weixin;
 using Senparc.Weixin.Entities;
 using Senparc.Weixin.Work.AdvancedAPIs;
 using Senparc.Weixin.Work.AdvancedAPIs.MailList;
-using Senparc.Weixin.Work.AdvancedAPIs.OaDataOpen;
 using Senparc.Weixin.Work.Containers;
 using Senparc.Weixin.Work.Helpers;
 using SixLabors.ImageSharp;
-using System.Net;
-using System.Text;
-using System.Text.Json;
-using TencentCloud.Ccc.V20200210.Models;
-using workapi.baiduAPI;
 using workauto.filter;
 using Zack.EventBus;
 using Config = Senparc.Weixin.Config;
@@ -64,40 +52,40 @@ namespace workauto
             this.eventBus = eventBus;
         }
 
-       public OpenAIAPI api = new("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");
+        public OpenAIAPI api = new("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");
+
+
 
         [HttpPost]
 
         public async Task<IActionResult> Chatmsg(string msg)
-            {
-                var response = HttpContext.Response;
-                response.Headers.Add("Content-Type", "text/event-stream");
+        {
+            var response = HttpContext.Response;
+            response.Headers.Add("Content-Type", "text/event-stream");
 
             await foreach (var token in api.Completions.StreamCompletionEnumerableAsync(new CompletionRequest(msg, Model.DavinciText, max_tokens: 1000, temperature: 0.4)))
             {
-                if (token.ToString().Trim().Length > 0) {
-                    var message = "data:{ \"words\": \""  + token + "\"}\n\n";
-                    
+                if (token.ToString().Trim().Length > 0)
+                {
+                    var message = "data:{ \"words\": \"" + token + "\"}\n\n";
+
                     Console.Write(message);
                     Console.Write("===========");
 
-                   // Console.Write(message);
+                    // Console.Write(message);
                     await response.WriteAsync(message);
                     await response.Body.FlushAsync();
 
                 }
-                               
+
             }
 
-
-
-            //return Content("success");
             return new EmptyResult();
-            
-            }
+
+        }
 
 
-    
+
 
         [HttpGet]
 
@@ -122,7 +110,7 @@ namespace workauto
             }
             else
             {
-                
+
                 using var memoryStream = new MemoryStream();
                 await masset.file.CopyToAsync(memoryStream);
                 var imgbyte = memoryStream.ToArray();
@@ -145,8 +133,8 @@ namespace workauto
                 res.Img = fileurl;
 
 
-              
-               
+
+
 
                 if (masset.Userid == tempuserid)
                 {
@@ -164,7 +152,7 @@ namespace workauto
                     };
                     _mdata.asset_States.Add(state_info);
                     //_mdata.asset_States.Update(state_info);
-                    
+
 
 
                 }
@@ -188,7 +176,7 @@ namespace workauto
                     _mdata.asset_States.Add(state_info);
 
                     //_mdata.asset_States.Update(state_info);
-                   
+
 
                 }
 
@@ -196,13 +184,13 @@ namespace workauto
 
                 return Ok("数据更新成功");
 
-            }  
+            }
 
 
 
 
-              
-           
+
+
 
         }
         [HttpPost]
@@ -245,7 +233,7 @@ namespace workauto
 
                     };
                     _mdata.asset_States.Add(state_info);
-                    
+
                     //_mdata.asset_States.Update(state_info);
                 }
                 else
