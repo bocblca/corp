@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\k8scorpsuccess\\workauto\\workauto.csproj": {}
+    "F:\\corp\\workauto\\workauto.csproj": {}
   },
   "projects": {
-    "G:\\k8scorpsuccess\\Mysqldb\\Mysqldb.csproj": {
-      "version": "1.2.6.45",
+    "F:\\corp\\Mysqldb\\Mysqldb.csproj": {
+      "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\k8scorpsuccess\\Mysqldb\\Mysqldb.csproj",
+        "projectUniqueName": "F:\\corp\\Mysqldb\\Mysqldb.csproj",
         "projectName": "Mysqldb",
-        "projectPath": "G:\\k8scorpsuccess\\Mysqldb\\Mysqldb.csproj",
+        "projectPath": "F:\\corp\\Mysqldb\\Mysqldb.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "G:\\k8scorpsuccess\\Mysqldb\\obj\\",
+        "outputPath": "F:\\corp\\Mysqldb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -75,7 +75,7 @@
             },
             "Senparc.Weixin.Work": {
               "target": "Package",
-              "version": "[3.15.16, )"
+              "version": "[3.15.17, )"
             },
             "Zack.EFCore.Batch.MySQL.Pomelo_NET6": {
               "target": "Package",
@@ -111,14 +111,14 @@
         }
       }
     },
-    "G:\\k8scorpsuccess\\workauto\\workauto.csproj": {
+    "F:\\corp\\workauto\\workauto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\k8scorpsuccess\\workauto\\workauto.csproj",
+        "projectUniqueName": "F:\\corp\\workauto\\workauto.csproj",
         "projectName": "workauto",
-        "projectPath": "G:\\k8scorpsuccess\\workauto\\workauto.csproj",
+        "projectPath": "F:\\corp\\workauto\\workauto.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "G:\\k8scorpsuccess\\workauto\\obj\\publish\\linux-x64\\",
+        "outputPath": "F:\\corp\\workauto\\obj\\publish\\linux-x64\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -140,8 +140,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "G:\\k8scorpsuccess\\Mysqldb\\Mysqldb.csproj": {
-                "projectPath": "G:\\k8scorpsuccess\\Mysqldb\\Mysqldb.csproj"
+              "F:\\corp\\Mysqldb\\Mysqldb.csproj": {
+                "projectPath": "F:\\corp\\Mysqldb\\Mysqldb.csproj"
               }
             }
           }
@@ -170,11 +170,11 @@
             },
             "Hangfire": {
               "target": "Package",
-              "version": "[1.7.33, )"
+              "version": "[1.7.34, )"
             },
             "Hangfire.Core": {
               "target": "Package",
-              "version": "[1.7.33, )"
+              "version": "[1.7.34, )"
             },
             "Hangfire.LiteDB": {
               "target": "Package",
@@ -212,11 +212,15 @@
             },
             "Microsoft.NET.Build.Containers": {
               "target": "Package",
-              "version": "[0.3.2, )"
+              "version": "[0.4.0, )"
             },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.18.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.3, )"
             },
             "Npoi.Mapper": {
               "target": "Package",
@@ -252,7 +256,7 @@
             },
             "Senparc.Weixin.Work": {
               "target": "Package",
-              "version": "[3.15.16, )"
+              "version": "[3.15.17, )"
             },
             "Senparc.Weixin.Work.Middleware": {
               "target": "Package",
@@ -284,7 +288,7 @@
             },
             "SixLabors.ImageSharp": {
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[3.0.1, )"
             },
             "SixLabors.ImageSharp.Drawing": {
               "target": "Package",
@@ -304,7 +308,7 @@
             },
             "TencentCloudSDK": {
               "target": "Package",
-              "version": "[3.0.722, )"
+              "version": "[3.0.730, )"
             },
             "Zack.EFCore.Batch.MySQL.Pomelo_NET6": {
               "target": "Package",

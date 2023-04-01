@@ -104,6 +104,7 @@
     <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="7.0.4" />
     <PackageReference Include="Microsoft.NET.Build.Containers" Version="0.4.0" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.18.1" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.3" />
     <PackageReference Include="Npoi.Mapper" Version="4.1.0" />
     <PackageReference Include="OpenAI" Version="1.6.0" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
@@ -136,14 +137,11 @@
     <Folder Include="Controllers\" />
     <Folder Include="wxsdk\" />
   </ItemGroup>
+
   <ItemGroup>
-    <None Include="Mysqldb.csproj" />
+    <ProjectReference Include="..\Mysqldb\Mysqldb.csproj" />
   </ItemGroup>
-  <ItemGroup>
-    <Reference Include="Mysqldb">
-      <HintPath>..\Mysqldb\bin\Release\net7.0\Mysqldb.dll</HintPath>
-    </Reference>
-  </ItemGroup>
+
   <ItemGroup>
     <Content Update="wwwroot\assets\base.0eca82ef.js">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

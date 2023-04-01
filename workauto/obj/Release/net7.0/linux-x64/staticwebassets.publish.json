@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9k/KS2CBNHd0zV9Y11olPdQsMXoHNo+GURSGkx1TsKs=",
+  "Hash": "88pMgxpPuT+khW5/6rsYvO94MGjMWt6sFbJpdliIrgk=",
   "Source": "workauto",
   "BasePath": "_content/workauto",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "workauto\\wwwroot",
       "Source": "workauto",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\1660013609407.jpg",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\1660013609407.jpg",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "1660013609407.jpg",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\1660013609407.jpg"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\1660013663155.jpg",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\1660013663155.jpg",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "1660013663155.jpg",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\1660013663155.jpg"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\aboutnet.html",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\aboutnet.html",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "aboutnet.html",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\aboutnet.html"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\aboutphone.html",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\aboutphone.html",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "aboutphone.html",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\aboutphone.html"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\areas.json",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\areas.json",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "areas.json",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\areas.json"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assetimg\\1660014765486.jpg",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assetimg\\1660014765486.jpg",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assetimg/1660014765486.jpg",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\assetimg\\1660014765486.jpg"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assetimg\\1660386999865.jpg",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assetimg\\1660386999865.jpg",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assetimg/1660386999865.jpg",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\assetimg\\1660386999865.jpg"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assetimg\\1660388938110.jpg",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assetimg\\1660388938110.jpg",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assetimg/1660388938110.jpg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\assetimg\\1660388938110.jpg"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assetimg\\1660389111750.jpg",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assetimg\\1660389111750.jpg",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assetimg/1660389111750.jpg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\assetimg\\1660389111750.jpg"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assetimg\\1663578010235.jpg",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assetimg\\1663578010235.jpg",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assetimg/1663578010235.jpg",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\assetimg\\1663578010235.jpg"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assetimg\\1663578095799.jpg",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assetimg\\1663578095799.jpg",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assetimg/1663578095799.jpg",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\assetimg\\1663578095799.jpg"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assetimg\\1675662722421.jpg",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assetimg\\1675662722421.jpg",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assetimg/1675662722421.jpg",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\assetimg\\1675662722421.jpg"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assetimg\\1675663148954.jpg",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assetimg\\1675663148954.jpg",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assetimg/1675663148954.jpg",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\assetimg\\1675663148954.jpg"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assetimg\\1675663958991.jpg",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assetimg\\1675663958991.jpg",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assetimg/1675663958991.jpg",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\assetimg\\1675663958991.jpg"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assetimg\\1675664256054.jpg",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assetimg\\1675664256054.jpg",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assetimg/1675664256054.jpg",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\assetimg\\1675664256054.jpg"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assetimg\\1675664800501.jpg",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assetimg\\1675664800501.jpg",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assetimg/1675664800501.jpg",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\assetimg\\1675664800501.jpg"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assetimg\\1675665224697.jpg",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assetimg\\1675665224697.jpg",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assetimg/1675665224697.jpg",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\assetimg\\1675665224697.jpg"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assetimg\\1675665332060.jpg",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assetimg\\1675665332060.jpg",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assetimg/1675665332060.jpg",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\assetimg\\1675665332060.jpg"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assetimg\\1675666663039.jpg",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assetimg\\1675666663039.jpg",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assetimg/1675666663039.jpg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\assetimg\\1675666663039.jpg"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assetimg\\1675666873412.jpg",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assetimg\\1675666873412.jpg",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assetimg/1675666873412.jpg",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\assetimg\\1675666873412.jpg"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assetimg\\1675667194628.jpg",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assetimg\\1675667194628.jpg",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assetimg/1675667194628.jpg",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\assetimg\\1675667194628.jpg"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assetimg\\1675667661621.jpg",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assetimg\\1675667661621.jpg",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assetimg/1675667661621.jpg",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\assetimg\\1675667661621.jpg"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\base.0eca82ef.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assets\\base.0eca82ef.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assets/base.0eca82ef.js",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\base.0eca82ef.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\base.80208844.css",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assets\\base.80208844.css",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assets/base.80208844.css",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\base.80208844.css"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\corpscan.712453f5.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assets\\corpscan.712453f5.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assets/corpscan.712453f5.js",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\corpscan.712453f5.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\corpscan.e39ff6c4.css",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assets\\corpscan.e39ff6c4.css",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assets/corpscan.e39ff6c4.css",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\corpscan.e39ff6c4.css"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\el-image-viewer.58494b2f.css",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assets\\el-image-viewer.58494b2f.css",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assets/el-image-viewer.58494b2f.css",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\el-image-viewer.58494b2f.css"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\el-image-viewer.dd94fb22.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assets\\el-image-viewer.dd94fb22.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assets/el-image-viewer.dd94fb22.js",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\el-image-viewer.dd94fb22.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\el-message.74072fda.css",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assets\\el-message.74072fda.css",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assets/el-message.74072fda.css",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\el-message.74072fda.css"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\el-message.e5f7c856.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assets\\el-message.e5f7c856.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assets/el-message.e5f7c856.js",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\el-message.e5f7c856.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\el-table-column.7482f358.css",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assets\\el-table-column.7482f358.css",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assets/el-table-column.7482f358.css",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\el-table-column.7482f358.css"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\el-table-column.d115de1d.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assets\\el-table-column.d115de1d.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assets/el-table-column.d115de1d.js",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\el-table-column.d115de1d.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\h404.a9bd26f4.css",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assets\\h404.a9bd26f4.css",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assets/h404.a9bd26f4.css",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\h404.a9bd26f4.css"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\h404.c120eb5d.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assets\\h404.c120eb5d.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assets/h404.c120eb5d.js",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\h404.c120eb5d.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\h500.4814f5a7.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assets\\h500.4814f5a7.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assets/h500.4814f5a7.js",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\h500.4814f5a7.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\h500.79031b4b.css",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assets\\h500.79031b4b.css",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assets/h500.79031b4b.css",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\h500.79031b4b.css"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\index.c5656c26.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assets\\index.c5656c26.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assets/index.c5656c26.js",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\index.c5656c26.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\index.f3818ef9.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assets\\index.f3818ef9.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assets/index.f3818ef9.js",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\index.f3818ef9.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\Manager.457c741f.css",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assets\\Manager.457c741f.css",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assets/Manager.457c741f.css",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\Manager.457c741f.css"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\Manager.f7655fc6.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assets\\Manager.f7655fc6.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assets/Manager.f7655fc6.js",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\Manager.f7655fc6.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\members.a657e38c.css",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assets\\members.a657e38c.css",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assets/members.a657e38c.css",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\members.a657e38c.css"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\members.c64544e1.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assets\\members.c64544e1.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assets/members.c64544e1.js",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\members.c64544e1.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\request.14f9b8df.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assets\\request.14f9b8df.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assets/request.14f9b8df.js",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\request.14f9b8df.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\request.2338e23d.css",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assets\\request.2338e23d.css",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assets/request.2338e23d.css",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\request.2338e23d.css"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\assets\\vendor.eff3b74f.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\assets\\vendor.eff3b74f.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "assets/vendor.eff3b74f.js",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\vendor.eff3b74f.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\downsoft.html",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\downsoft.html",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "downsoft.html",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\downsoft.html"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\favicon.ico",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\favicon.ico",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\hld.png",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\hld.png",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "hld.png",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\hld.png"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\id_rsa",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\id_rsa",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "id_rsa",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\id_rsa"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\images\\img636151.jpg",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\images\\img636151.jpg",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "images/img636151.jpg",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\images\\img636151.jpg"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\images\\img636515.jpg",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\images\\img636515.jpg",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "images/img636515.jpg",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\images\\img636515.jpg"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\images\\pic636515.jpg",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\images\\pic636515.jpg",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "images/pic636515.jpg",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pic636515.jpg"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\img636515.jpg",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\img636515.jpg",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "img636515.jpg",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\img636515.jpg"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\index.html",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\index.html",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\bkselect.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\bkselect.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/bkselect.js",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\js\\bkselect.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\bootstrap-table.min.css",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\bootstrap-table.min.css",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/bootstrap-table.min.css",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\js\\bootstrap-table.min.css"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\bootstrap-table.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\bootstrap-table.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/bootstrap-table.min.js",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\js\\bootstrap-table.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\additional-methods.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\additional-methods.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\additional-methods.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\additional-methods.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\additional-methods.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\jquery.validate.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\jquery.validate.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\jquery.validate.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\jquery.validate.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_ar.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_ar.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_ar.js",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_ar.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_ar.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_ar.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_ar.min.js",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_ar.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_az.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_az.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_az.js",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_az.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_az.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_az.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_az.min.js",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_az.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_bg.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_bg.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_bg.js",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_bg.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_bg.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_bg.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_bg.min.js",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_bg.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_bn_BD.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_bn_BD.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_bn_BD.js",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_bn_BD.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_bn_BD.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_bn_BD.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_bn_BD.min.js",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_bn_BD.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_ca.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_ca.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_ca.js",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_ca.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_ca.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_ca.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_ca.min.js",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_ca.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_cs.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_cs.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_cs.js",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_cs.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_cs.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_cs.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_cs.min.js",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_cs.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_da.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_da.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_da.js",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_da.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_da.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_da.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_da.min.js",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_da.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_de.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_de.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_de.js",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_de.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_de.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_de.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_de.min.js",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_de.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_el.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_el.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_el.js",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_el.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_el.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_el.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_el.min.js",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_el.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_es.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_es.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_es.js",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_es.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_es.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_es.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_es.min.js",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_es.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_es_AR.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_es_AR.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_es_AR.js",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_es_AR.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_es_AR.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_es_AR.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_es_AR.min.js",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_es_AR.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_es_PE.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_es_PE.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_es_PE.js",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_es_PE.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_es_PE.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_es_PE.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_es_PE.min.js",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_es_PE.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_et.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_et.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_et.js",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_et.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_et.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_et.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_et.min.js",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_et.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_eu.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_eu.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_eu.js",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_eu.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_eu.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_eu.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_eu.min.js",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_eu.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_fa.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_fa.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_fa.js",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_fa.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_fa.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_fa.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_fa.min.js",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_fa.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_fi.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_fi.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_fi.js",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_fi.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_fi.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_fi.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_fi.min.js",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_fi.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_fr.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_fr.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_fr.js",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_fr.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_fr.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_fr.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_fr.min.js",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_fr.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_ge.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_ge.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_ge.js",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_ge.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_ge.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_ge.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_ge.min.js",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_ge.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_gl.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_gl.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_gl.js",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_gl.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_gl.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_gl.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_gl.min.js",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_gl.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_he.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_he.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_he.js",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_he.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_he.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_he.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_he.min.js",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_he.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_hr.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_hr.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_hr.js",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_hr.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_hr.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_hr.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_hr.min.js",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_hr.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_hu.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_hu.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_hu.js",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_hu.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_hu.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_hu.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_hu.min.js",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_hu.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_hy_AM.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_hy_AM.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_hy_AM.js",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_hy_AM.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_hy_AM.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_hy_AM.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_hy_AM.min.js",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_hy_AM.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_id.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_id.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_id.js",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_id.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_id.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_id.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_id.min.js",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_id.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_is.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_is.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_is.js",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_is.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_is.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_is.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_is.min.js",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_is.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_it.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_it.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_it.js",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_it.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_it.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_it.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_it.min.js",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_it.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_ja.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_ja.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_ja.js",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_ja.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_ja.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_ja.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_ja.min.js",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_ja.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_ka.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_ka.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_ka.js",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_ka.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_ka.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_ka.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_ka.min.js",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_ka.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_kk.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_kk.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_kk.js",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_kk.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_kk.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_kk.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_kk.min.js",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_kk.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_ko.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_ko.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_ko.js",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_ko.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_ko.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_ko.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_ko.min.js",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_ko.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_lt.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_lt.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_lt.js",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_lt.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_lt.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_lt.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_lt.min.js",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_lt.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_lv.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_lv.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_lv.js",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_lv.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_lv.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_lv.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_lv.min.js",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_lv.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_mk.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_mk.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_mk.js",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_mk.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_mk.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_mk.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_mk.min.js",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_mk.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_my.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_my.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_my.js",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_my.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_my.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_my.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_my.min.js",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_my.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_nl.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_nl.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_nl.js",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_nl.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_nl.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_nl.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_nl.min.js",
       "AssetKind": "All",
@@ -2244,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_nl.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_no.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_no.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_no.js",
       "AssetKind": "All",
@@ -2261,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_no.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_no.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_no.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_no.min.js",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_no.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_pl.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_pl.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_pl.js",
       "AssetKind": "All",
@@ -2295,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_pl.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_pl.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_pl.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_pl.min.js",
       "AssetKind": "All",
@@ -2312,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_pl.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_pt_BR.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_pt_BR.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_pt_BR.js",
       "AssetKind": "All",
@@ -2329,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_pt_BR.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_pt_BR.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_pt_BR.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_pt_BR.min.js",
       "AssetKind": "All",
@@ -2346,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_pt_BR.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_pt_PT.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_pt_PT.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_pt_PT.js",
       "AssetKind": "All",
@@ -2363,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_pt_PT.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_pt_PT.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_pt_PT.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_pt_PT.min.js",
       "AssetKind": "All",
@@ -2380,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_pt_PT.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_ro.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_ro.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_ro.js",
       "AssetKind": "All",
@@ -2397,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_ro.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_ro.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_ro.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_ro.min.js",
       "AssetKind": "All",
@@ -2414,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_ro.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_ru.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_ru.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_ru.js",
       "AssetKind": "All",
@@ -2431,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_ru.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_ru.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_ru.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_ru.min.js",
       "AssetKind": "All",
@@ -2448,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_ru.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_sd.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_sd.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_sd.js",
       "AssetKind": "All",
@@ -2465,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_sd.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_sd.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_sd.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_sd.min.js",
       "AssetKind": "All",
@@ -2482,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_sd.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_si.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_si.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_si.js",
       "AssetKind": "All",
@@ -2499,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_si.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_si.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_si.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_si.min.js",
       "AssetKind": "All",
@@ -2516,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_si.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_sk.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_sk.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_sk.js",
       "AssetKind": "All",
@@ -2533,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_sk.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_sk.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_sk.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_sk.min.js",
       "AssetKind": "All",
@@ -2550,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_sk.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_sl.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_sl.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_sl.js",
       "AssetKind": "All",
@@ -2567,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_sl.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_sl.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_sl.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_sl.min.js",
       "AssetKind": "All",
@@ -2584,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_sl.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_sr.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_sr.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_sr.js",
       "AssetKind": "All",
@@ -2601,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_sr.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_sr.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_sr.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_sr.min.js",
       "AssetKind": "All",
@@ -2618,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_sr.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_sr_lat.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_sr_lat.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_sr_lat.js",
       "AssetKind": "All",
@@ -2635,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_sr_lat.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_sr_lat.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_sr_lat.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_sr_lat.min.js",
       "AssetKind": "All",
@@ -2652,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_sr_lat.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_sv.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_sv.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_sv.js",
       "AssetKind": "All",
@@ -2669,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_sv.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_sv.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_sv.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_sv.min.js",
       "AssetKind": "All",
@@ -2686,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_sv.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_th.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_th.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_th.js",
       "AssetKind": "All",
@@ -2703,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_th.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_th.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_th.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_th.min.js",
       "AssetKind": "All",
@@ -2720,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_th.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_tj.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_tj.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_tj.js",
       "AssetKind": "All",
@@ -2737,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_tj.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_tj.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_tj.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_tj.min.js",
       "AssetKind": "All",
@@ -2754,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_tj.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_tr.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_tr.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_tr.js",
       "AssetKind": "All",
@@ -2771,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_tr.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_tr.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_tr.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_tr.min.js",
       "AssetKind": "All",
@@ -2788,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_tr.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_uk.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_uk.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_uk.js",
       "AssetKind": "All",
@@ -2805,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_uk.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_uk.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_uk.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_uk.min.js",
       "AssetKind": "All",
@@ -2822,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_uk.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_ur.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_ur.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_ur.js",
       "AssetKind": "All",
@@ -2839,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_ur.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_ur.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_ur.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_ur.min.js",
       "AssetKind": "All",
@@ -2856,10 +2856,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_ur.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_vi.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_vi.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_vi.js",
       "AssetKind": "All",
@@ -2873,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_vi.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_vi.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_vi.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_vi.min.js",
       "AssetKind": "All",
@@ -2890,10 +2890,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_vi.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_zh.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_zh.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_zh.js",
       "AssetKind": "All",
@@ -2907,10 +2907,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_zh.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_zh.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_zh.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_zh.min.js",
       "AssetKind": "All",
@@ -2924,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_zh.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_zh_TW.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_zh_TW.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_zh_TW.js",
       "AssetKind": "All",
@@ -2941,10 +2941,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_zh_TW.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\messages_zh_TW.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\messages_zh_TW.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/messages_zh_TW.min.js",
       "AssetKind": "All",
@@ -2958,10 +2958,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\messages_zh_TW.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\methods_de.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\methods_de.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/methods_de.js",
       "AssetKind": "All",
@@ -2975,10 +2975,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\methods_de.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\methods_de.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\methods_de.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/methods_de.min.js",
       "AssetKind": "All",
@@ -2992,10 +2992,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\methods_de.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\methods_es_CL.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\methods_es_CL.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/methods_es_CL.js",
       "AssetKind": "All",
@@ -3009,10 +3009,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\methods_es_CL.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\methods_es_CL.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\methods_es_CL.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/methods_es_CL.min.js",
       "AssetKind": "All",
@@ -3026,10 +3026,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\methods_es_CL.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\methods_fi.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\methods_fi.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/methods_fi.js",
       "AssetKind": "All",
@@ -3043,10 +3043,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\methods_fi.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\methods_fi.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\methods_fi.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/methods_fi.min.js",
       "AssetKind": "All",
@@ -3060,10 +3060,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\methods_fi.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\methods_it.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\methods_it.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/methods_it.js",
       "AssetKind": "All",
@@ -3077,10 +3077,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\methods_it.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\methods_it.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\methods_it.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/methods_it.min.js",
       "AssetKind": "All",
@@ -3094,10 +3094,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\methods_it.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\methods_nl.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\methods_nl.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/methods_nl.js",
       "AssetKind": "All",
@@ -3111,10 +3111,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\methods_nl.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\methods_nl.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\methods_nl.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/methods_nl.min.js",
       "AssetKind": "All",
@@ -3128,10 +3128,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\methods_nl.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\methods_pt.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\methods_pt.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/methods_pt.js",
       "AssetKind": "All",
@@ -3145,10 +3145,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\methods_pt.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\dist\\localization\\methods_pt.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\dist\\localization\\methods_pt.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/dist/localization/methods_pt.min.js",
       "AssetKind": "All",
@@ -3162,10 +3162,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dist\\localization\\methods_pt.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\Getpost.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\Getpost.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/Getpost.js",
       "AssetKind": "All",
@@ -3179,10 +3179,10 @@
       "OriginalItemSpec": "wwwroot\\js\\Getpost.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\jquery.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\jquery.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/jquery.js",
       "AssetKind": "All",
@@ -3196,10 +3196,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\jquery.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\jquery.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/jquery.min.js",
       "AssetKind": "All",
@@ -3213,10 +3213,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\jquery.min.map",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\jquery.min.map",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/jquery.min.map",
       "AssetKind": "All",
@@ -3230,10 +3230,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.min.map"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\jquery.unobtrusive-ajax.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\jquery.unobtrusive-ajax.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/jquery.unobtrusive-ajax.min.js",
       "AssetKind": "All",
@@ -3247,10 +3247,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.unobtrusive-ajax.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\jquery.validate.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\jquery.validate.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/jquery.validate.min.js",
       "AssetKind": "All",
@@ -3264,10 +3264,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.validate.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\jquery-3.6.0.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\jquery-3.6.0.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/jquery-3.6.0.min.js",
       "AssetKind": "All",
@@ -3281,10 +3281,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery-3.6.0.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\jquery-3.6.0.min.map",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\jquery-3.6.0.min.map",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/jquery-3.6.0.min.map",
       "AssetKind": "All",
@@ -3298,10 +3298,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery-3.6.0.min.map"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\json-to-table.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\json-to-table.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/json-to-table.min.js",
       "AssetKind": "All",
@@ -3315,10 +3315,10 @@
       "OriginalItemSpec": "wwwroot\\js\\json-to-table.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\lib\\jquery.form.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\lib\\jquery.form.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/lib/jquery.form.js",
       "AssetKind": "All",
@@ -3332,10 +3332,10 @@
       "OriginalItemSpec": "wwwroot\\js\\lib\\jquery.form.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\lib\\jquery.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\lib\\jquery.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/lib/jquery.js",
       "AssetKind": "All",
@@ -3349,10 +3349,10 @@
       "OriginalItemSpec": "wwwroot\\js\\lib\\jquery.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\lib\\jquery.mockjax.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\lib\\jquery.mockjax.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/lib/jquery.mockjax.js",
       "AssetKind": "All",
@@ -3366,10 +3366,10 @@
       "OriginalItemSpec": "wwwroot\\js\\lib\\jquery.mockjax.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\lib\\jquery.mockjax-1.5.3.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\lib\\jquery.mockjax-1.5.3.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/lib/jquery.mockjax-1.5.3.js",
       "AssetKind": "All",
@@ -3383,10 +3383,10 @@
       "OriginalItemSpec": "wwwroot\\js\\lib\\jquery.mockjax-1.5.3.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\lib\\jquery.mockjax-2.2.1.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\lib\\jquery.mockjax-2.2.1.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/lib/jquery.mockjax-2.2.1.js",
       "AssetKind": "All",
@@ -3400,10 +3400,10 @@
       "OriginalItemSpec": "wwwroot\\js\\lib\\jquery.mockjax-2.2.1.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\lib\\jquery.simulate.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\lib\\jquery.simulate.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/lib/jquery.simulate.js",
       "AssetKind": "All",
@@ -3417,10 +3417,10 @@
       "OriginalItemSpec": "wwwroot\\js\\lib\\jquery.simulate.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\lib\\jquery-1.11.1.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\lib\\jquery-1.11.1.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/lib/jquery-1.11.1.js",
       "AssetKind": "All",
@@ -3434,10 +3434,10 @@
       "OriginalItemSpec": "wwwroot\\js\\lib\\jquery-1.11.1.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\lib\\jquery-1.7.2.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\lib\\jquery-1.7.2.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/lib/jquery-1.7.2.js",
       "AssetKind": "All",
@@ -3451,10 +3451,10 @@
       "OriginalItemSpec": "wwwroot\\js\\lib\\jquery-1.7.2.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\lib\\jquery-1.8.3.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\lib\\jquery-1.8.3.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/lib/jquery-1.8.3.js",
       "AssetKind": "All",
@@ -3468,10 +3468,10 @@
       "OriginalItemSpec": "wwwroot\\js\\lib\\jquery-1.8.3.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\lib\\jquery-1.9.1.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\lib\\jquery-1.9.1.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/lib/jquery-1.9.1.js",
       "AssetKind": "All",
@@ -3485,10 +3485,10 @@
       "OriginalItemSpec": "wwwroot\\js\\lib\\jquery-1.9.1.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\lib\\jquery-3.1.1.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\lib\\jquery-3.1.1.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/lib/jquery-3.1.1.js",
       "AssetKind": "All",
@@ -3502,10 +3502,10 @@
       "OriginalItemSpec": "wwwroot\\js\\lib\\jquery-3.1.1.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\lib\\require.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\lib\\require.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/lib/require.js",
       "AssetKind": "All",
@@ -3519,10 +3519,10 @@
       "OriginalItemSpec": "wwwroot\\js\\lib\\require.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\messages_zh.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\messages_zh.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/messages_zh.min.js",
       "AssetKind": "All",
@@ -3536,10 +3536,10 @@
       "OriginalItemSpec": "wwwroot\\js\\messages_zh.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\js\\validate.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\js\\validate.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "js/validate.min.js",
       "AssetKind": "All",
@@ -3553,10 +3553,10 @@
       "OriginalItemSpec": "wwwroot\\js\\validate.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\kpi.xlsx",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\kpi.xlsx",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "kpi.xlsx",
       "AssetKind": "All",
@@ -3570,10 +3570,10 @@
       "OriginalItemSpec": "wwwroot\\kpi.xlsx"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\aliyun-net-sdk-core.dll",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\aliyun-net-sdk-core.dll",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/aliyun-net-sdk-core.dll",
       "AssetKind": "All",
@@ -3587,10 +3587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\aliyun-net-sdk-core.dll"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\aliyun-net-sdk-dysmsapi.dll",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\aliyun-net-sdk-dysmsapi.dll",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/aliyun-net-sdk-dysmsapi.dll",
       "AssetKind": "All",
@@ -3604,10 +3604,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\aliyun-net-sdk-dysmsapi.dll"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\bootstrap.bundle.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\bootstrap.bundle.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -3621,10 +3621,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap.bundle.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\bootstrap.bundle.js.map",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\bootstrap.bundle.js.map",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -3638,10 +3638,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\bootstrap.bundle.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\bootstrap.bundle.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -3655,10 +3655,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\bootstrap.bundle.min.js.map",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\bootstrap.bundle.min.js.map",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -3672,10 +3672,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\bootstrap.esm.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\bootstrap.esm.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/bootstrap.esm.js",
       "AssetKind": "All",
@@ -3689,10 +3689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap.esm.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\bootstrap.esm.js.map",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\bootstrap.esm.js.map",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -3706,10 +3706,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\bootstrap.esm.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\bootstrap.esm.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -3723,10 +3723,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\bootstrap.esm.min.js.map",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\bootstrap.esm.min.js.map",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -3740,10 +3740,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\bootstrap.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\bootstrap.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/bootstrap.js",
       "AssetKind": "All",
@@ -3757,10 +3757,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\bootstrap.js.map",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\bootstrap.js.map",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/bootstrap.js.map",
       "AssetKind": "All",
@@ -3774,10 +3774,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap.js.map"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\bootstrap.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\bootstrap.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/bootstrap.min.js",
       "AssetKind": "All",
@@ -3791,10 +3791,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\bootstrap.min.js.map",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\bootstrap.min.js.map",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -3808,10 +3808,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap.min.js.map"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap.css",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\css\\bootstrap.css",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/css/bootstrap.css",
       "AssetKind": "All",
@@ -3825,10 +3825,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\css\\bootstrap.css"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap.css.map",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\css\\bootstrap.css.map",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -3842,10 +3842,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap.min.css",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\css\\bootstrap.min.css",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -3859,10 +3859,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap.min.css.map",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\css\\bootstrap.min.css.map",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -3876,10 +3876,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap.rtl.css",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\css\\bootstrap.rtl.css",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -3893,10 +3893,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap.rtl.css.map",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\css\\bootstrap.rtl.css.map",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -3910,10 +3910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap.rtl.min.css",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\css\\bootstrap.rtl.min.css",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -3927,10 +3927,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -3944,10 +3944,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-grid.css",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\css\\bootstrap-grid.css",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -3961,10 +3961,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-grid.css.map",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\css\\bootstrap-grid.css.map",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -3978,10 +3978,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-grid.min.css",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\css\\bootstrap-grid.min.css",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -3995,10 +3995,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-grid.min.css.map",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\css\\bootstrap-grid.min.css.map",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -4012,10 +4012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-grid.rtl.css",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\css\\bootstrap-grid.rtl.css",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -4029,10 +4029,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -4046,10 +4046,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -4063,10 +4063,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -4080,10 +4080,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-reboot.css",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\css\\bootstrap-reboot.css",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -4097,10 +4097,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-reboot.css.map",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\css\\bootstrap-reboot.css.map",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -4114,10 +4114,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-reboot.min.css",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\css\\bootstrap-reboot.min.css",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -4131,10 +4131,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -4148,10 +4148,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -4165,10 +4165,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -4182,10 +4182,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -4199,10 +4199,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -4216,10 +4216,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-utilities.css",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\css\\bootstrap-utilities.css",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -4233,10 +4233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-utilities.css.map",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\css\\bootstrap-utilities.css.map",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -4250,10 +4250,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-utilities.min.css",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\css\\bootstrap-utilities.min.css",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -4267,10 +4267,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -4284,10 +4284,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -4301,10 +4301,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -4318,10 +4318,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -4335,10 +4335,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -4352,10 +4352,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.js",
       "AssetKind": "All",
@@ -4369,10 +4369,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.min.js",
       "AssetKind": "All",
@@ -4386,10 +4386,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -4403,10 +4403,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -4420,10 +4420,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\map\\areas.json",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\map\\areas.json",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "map/areas.json",
       "AssetKind": "All",
@@ -4437,10 +4437,10 @@
       "OriginalItemSpec": "wwwroot\\map\\areas.json"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\map\\cities.json",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\map\\cities.json",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "map/cities.json",
       "AssetKind": "All",
@@ -4454,10 +4454,10 @@
       "OriginalItemSpec": "wwwroot\\map\\cities.json"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\map\\provinces.json",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\map\\provinces.json",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "map/provinces.json",
       "AssetKind": "All",
@@ -4471,10 +4471,10 @@
       "OriginalItemSpec": "wwwroot\\map\\provinces.json"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\pic636604.jpg",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\pic636604.jpg",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "pic636604.jpg",
       "AssetKind": "All",
@@ -4488,10 +4488,10 @@
       "OriginalItemSpec": "wwwroot\\pic636604.jpg"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\provinces.json",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\provinces.json",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "provinces.json",
       "AssetKind": "All",
@@ -4505,10 +4505,10 @@
       "OriginalItemSpec": "wwwroot\\provinces.json"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\temp.jpg",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\temp.jpg",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "temp.jpg",
       "AssetKind": "All",
@@ -4522,10 +4522,10 @@
       "OriginalItemSpec": "wwwroot\\temp.jpg"
     },
     {
-      "Identity": "G:\\k8scorpsuccess\\workauto\\wwwroot\\WW_verify_rJe2TVF0OUtVD01r.txt",
+      "Identity": "F:\\corp\\workauto\\wwwroot\\WW_verify_rJe2TVF0OUtVD01r.txt",
       "SourceId": "workauto",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\k8scorpsuccess\\workauto\\wwwroot\\",
+      "ContentRoot": "F:\\corp\\workauto\\wwwroot\\",
       "BasePath": "_content/workauto",
       "RelativePath": "WW_verify_rJe2TVF0OUtVD01r.txt",
       "AssetKind": "All",

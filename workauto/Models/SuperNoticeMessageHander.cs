@@ -4,6 +4,7 @@ using Senparc.Weixin.Entities;
 using Senparc.Weixin.Work.Containers;
 using Senparc.Weixin.Work.Entities;
 using Senparc.Weixin.Work.MessageHandlers;
+
 namespace workapi.Models
 {
     public class SuperNoticeMessageHandler : WorkMessageHandler<WorkCustomMessageContext>
@@ -26,47 +27,40 @@ namespace workapi.Models
 
         }
 
-        public override async Task<IWorkResponseMessageBase> OnTextRequestAsync(RequestMessageText requestMessage)
-        {
-
-            var responseMessage = this.CreateResponseMessage<ResponseMessageText>();
 
 
-            //发送一条客服消息
-            //var weixinSetting = Config.SenparcWeixinSetting.WorkSetting;
-            //var appKey = AccessTokenContainer.BuildingKey(weixinSetting.WeixinCorpId, weixinSetting.WeixinCorpSecret);
-            //MassApi.SendText(appKey, weixinSetting.WeixinCorpAgentId, "这是一条客服消息，对应您发送的消息：" + requestMessage.Content, OpenId);
-
-           
-           
-
-            return responseMessage;
-        }
-
-    
 
         //审批状态回调
-        public override async Task<IWorkResponseMessageBase> OnEvent_Open_Approval_Change_Status_ChangeRequestAsync(RequestMessageEvent_OpenApprovalChange requestMessage)
+
+        public override IWorkResponseMessageBase OnEvent_Open_Approval_Change_Status_ChangeRequest(RequestMessageEvent_OpenApprovalChange requestMessage)
         {
-            
-           
-            var res=_mdata.Supernotices.Where(e=>e.NoticeId==requestMessage.ApprovalInfo.ThirdNo).FirstOrDefault();
-            Console.WriteLine(requestMessage.ToJsonString());
-            if (res == null) {
-               
-                res.Approvals[0].Approval_Userid = requestMessage.ApprovalInfo.ApplyUserId;
-                //res.Approvals[0].Approval_memo = requestMessage.ApprovalInfo.ApprovalNodes[0].Items[0].ItemSpeech;
-                res.Approvals[0].Approval_status = requestMessage.ApprovalInfo.ApproverStep.ToString();
-                await _mdata.SaveChangesAsync();
-            }
-           
+            Console.WriteLine("这是自建应用回调...");
+            Console.WriteLine(requestMessage.AgentID);
+            Console.WriteLine("这是自建应用回调...执行第一次");
+            Console.WriteLine(requestMessage.CreateTime);
+            Console.WriteLine("这是自建应用回调...执行第二次");
+            Console.WriteLine(requestMessage.ApprovalInfo.ThirdNo);
+            Console.WriteLine("这是自建应用回调...执行第三次");
+            Console.WriteLine(requestMessage.ApprovalInfo.OpenSpName);
+            Console.WriteLine("这是自建应用回调...执行第四次");
             return base.OnEvent_Open_Approval_Change_Status_ChangeRequest(requestMessage);
         }
+
+        public override IWorkResponseMessageBase OnEvent_Sys_Approval_Change_Status_ChangeRequest(RequestMessageEvent_SysApprovalChange requestMessage)
+        {
+            Console.WriteLine("这是系统审批回调...");
+            Console.WriteLine(requestMessage.ApprovalInfo.Applyer.UserId);
+            return base.OnEvent_Sys_Approval_Change_Status_ChangeRequest(requestMessage);
+        }
+
+
+
+
         public override IWorkResponseMessageBase OnEvent_ScancodeWaitmsgRequest(RequestMessageEvent_Scancode_Waitmsg requestMessage)
         {
             var responseMessage = this.CreateResponseMessage<ResponseMessageText>();
             var appKeyx = AccessTokenContainer.BuildingKey(_workSetting);
-            var resa = Senparc.Weixin.Work.AdvancedAPIs.MassApi.SendTextCard(appKeyx, requestMessage.AgentID.ToString(), "扫描结果", "<div class=\"normal\">物品二维(条)码</div><div class=\"highlight\">" + requestMessage.ScanCodeInfo.ScanResult + "</div>", "https://rcbcybank.com/#/?id=" + requestMessage.ScanCodeInfo.ScanResult + "&user=" + requestMessage.FromUserName, "物品登记", requestMessage.FromUserName);
+            Senparc.Weixin.Work.AdvancedAPIs.MassApi.SendTextCard(appKeyx, requestMessage.AgentID.ToString(), "扫描结果", "<div class=\"normal\">物品二维(条)码</div><div class=\"highlight\">" + requestMessage.ScanCodeInfo.ScanResult + "</div>", "https://rcbcybank.com/#/?id=" + requestMessage.ScanCodeInfo.ScanResult + "&user=" + requestMessage.FromUserName, "物品登记", requestMessage.FromUserName);
 
             //responseMessage.Content = "扫描end";
 

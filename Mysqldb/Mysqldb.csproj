@@ -32,10 +32,6 @@
     <PackageReference Include="Zack.EFCore.Batch.MySQL.Pomelo_NET6" Version="6.1.4" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Reference Include="Mysqldb">
-      <HintPath>F:\k8smysqld\Mysqldb\bin\Release\net7.0\Mysqldb.dll</HintPath>
-    </Reference>
-  </ItemGroup>
+
 
 </Project>

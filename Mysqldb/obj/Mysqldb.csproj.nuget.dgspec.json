@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\k8scorpsuccess\\Mysqldb\\Mysqldb.csproj": {}
+    "F:\\corp\\Mysqldb\\Mysqldb.csproj": {}
   },
   "projects": {
-    "G:\\k8scorpsuccess\\Mysqldb\\Mysqldb.csproj": {
+    "F:\\corp\\Mysqldb\\Mysqldb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\k8scorpsuccess\\Mysqldb\\Mysqldb.csproj",
+        "projectUniqueName": "F:\\corp\\Mysqldb\\Mysqldb.csproj",
         "projectName": "Mysqldb",
-        "projectPath": "G:\\k8scorpsuccess\\Mysqldb\\Mysqldb.csproj",
+        "projectPath": "F:\\corp\\Mysqldb\\Mysqldb.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "G:\\k8scorpsuccess\\Mysqldb\\obj\\",
+        "outputPath": "F:\\corp\\Mysqldb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -103,6 +103,11 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
         }
       }
     }

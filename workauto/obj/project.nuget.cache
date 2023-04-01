@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PE4ib63mdA36wWWmmzso/kW2f/cf5ErzE7O9EcjuS6cbelC4FD3rIppw/OFQ1yJMY2vKV7JCbXmBFiJuxVZdIw==",
+  "dgSpecHash": "rskIWUcufnGFojx3HXOdlDMxnMDTQjkpLAmLC2SLpwQWb6V/F6LHr6jc7smRYnE0iBkC3gNy6IsSOhELzmcLIA==",
   "success": true,
-  "projectFilePath": "G:\\k8scorpsuccess\\workauto\\workauto.csproj",
+  "projectFilePath": "F:\\corp\\workauto\\workauto.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\asmresolver\\4.11.2\\asmresolver.4.11.2.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\asmresolver.dotnet\\4.11.2\\asmresolver.dotnet.4.11.2.nupkg.sha512",
@@ -145,7 +145,8 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\npgsql\\5.0.5\\npgsql.5.0.5.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\npgsql\\7.0.2\\npgsql.7.0.2.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\7.0.3\\npgsql.entityframeworkcore.postgresql.7.0.3.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\npoi\\2.5.6\\npoi.2.5.6.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\npoi.mapper\\4.1.0\\npoi.mapper.4.1.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\openai\\1.6.0\\openai.1.6.0.nupkg.sha512",
