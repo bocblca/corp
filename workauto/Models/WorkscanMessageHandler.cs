@@ -1,6 +1,11 @@
 ﻿
+using K4os.Hash.xxHash;
+using Mysqldb;
+using NPOI.SS.Formula.Functions;
 using Senparc.Weixin.Entities;
 using Senparc.Weixin.Exceptions;
+using Senparc.Weixin.Work;
+using Senparc.Weixin.Work.AdvancedAPIs;
 using Senparc.Weixin.Work.CommonAPIs;
 using Senparc.Weixin.Work.Containers;
 using Senparc.Weixin.Work.Entities;
@@ -17,12 +22,13 @@ namespace workapi.Models
         public static Func<Stream, PostModel, int, IServiceProvider, WorkscanMessageHandler> GenerateMessageHandler =
             (stream, postModel, maxRecordCount, serviceProvider) => new WorkscanMessageHandler(stream, postModel, maxRecordCount, serviceProvider);
 
-        readonly ISenparcWeixinSettingForWork _workSetting;
-
+        private readonly ISenparcWeixinSettingForWork _workSetting;
+   
         public WorkscanMessageHandler(Stream inputStream, PostModel postModel, int maxRecordCount = 0, IServiceProvider serviceProvider = null)
             : base(inputStream, postModel, maxRecordCount, serviceProvider: serviceProvider)
         {
             _workSetting = Senparc.Weixin.Config.SenparcWeixinSetting.Items["workscan"];
+            
 
         }
 
@@ -39,15 +45,30 @@ namespace workapi.Models
 
             if (requestMessage.Content == "999")
             {
+                try
+                {
+                    var aToken = AccessTokenContainer.GetToken(_workSetting.WeixinCorpId, _workSetting.WeixinCorpSecret);
+                    // var res = CommonApi.ConvertToUserId(aToken, OpenId);
+                    //textcard消息
 
-                // var aToken = AccessTokenContainer.GetToken(_workSetting.WeixinCorpId,_workSetting.WeixinCorpSecret);
-                // var res = CommonApi.ConvertToUserId(aToken, OpenId);
-                //textcard消息
+                    var members = await MailListApi.GetDepartmentMemberAsync(aToken, 105, 0);
+                    string[] users = new string[members.userlist.Count];
+                    int i = 0;
+                    foreach (var ulist in members.userlist)
+                    {
+                        users[i] = ulist.userid;
+                        i++;
+                    }
+                    
+                    var result = await ChatApi.CreateChatAsync(aToken, "6420006", "会计运营部test", "642005", users);
 
-                
+                    var res = await ChatApi.SendChatSimpleMessageAsync(aToken, "6420006", ChatMsgType.text, "test app msg");
 
-
-                responseMessage.Content = "您的ID:" + OpenId + "|userid|" + requestMessage.FromUserName;
+                    responseMessage.Content = "您的ID:" + OpenId + "|创新部门群|" + res.errmsg;
+                }
+                catch (Exception e){
+                    responseMessage.Content = e.Message;
+                }
 
 
             }
@@ -138,8 +159,8 @@ namespace workapi.Models
         {
             var responseMessage = this.CreateResponseMessage<ResponseMessageText>();
             var appKeyx = AccessTokenContainer.BuildingKey(_workSetting);
-            var resa = Senparc.Weixin.Work.AdvancedAPIs.MassApi.SendTextCard(appKeyx, requestMessage.AgentID.ToString(), "扫描结果", "<div class=\"normal\">物品二维(条)码</div><div class=\"highlight\">" + requestMessage.ScanCodeInfo.ScanResult + "</div>", "https://rcbcybank.com/#/?id=" + requestMessage.ScanCodeInfo.ScanResult + "&user=" + requestMessage.FromUserName, "物品登记", requestMessage.FromUserName);
-
+            MassApi.SendTextCard(appKeyx, requestMessage.AgentID.ToString(), "扫描结果", "<div class=\"normal\">物品二维(条)码</div><div class=\"highlight\">" + requestMessage.ScanCodeInfo.ScanResult + "</div>", "https://rcbcybank.com/#/?id=" + requestMessage.ScanCodeInfo.ScanResult + "&user=" + requestMessage.FromUserName, "物品登记",requestMessage.FromUserName);
+           
             //responseMessage.Content = "扫描end";
 
             return responseMessage;

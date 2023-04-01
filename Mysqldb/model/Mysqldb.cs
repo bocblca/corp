@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+
 using rcbblc.netauto;
 using System.Reflection;
 
@@ -39,10 +40,12 @@ namespace Mysqldb
         {
             base.OnModelCreating(modelBuilder);
 
+          
 
             modelBuilder.ApplyConfigurationsFromAssembly(this.GetType().Assembly);
         }
 
+        public DbSet<Supernotice> Supernotices { get; set; }
         public DbSet<asset_state> asset_States { get; set; }
         public DbSet<Asset> assets { get; set; }
         public DbSet<Gps> gps { get; set; }

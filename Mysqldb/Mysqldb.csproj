@@ -9,40 +9,33 @@
     <AssemblyVersion>1.2.6.45</AssemblyVersion>
     <FileVersion>1.2.0</FileVersion>
     <SignAssembly>True</SignAssembly>
-    <Version>1.2.6.45</Version>
+    <Version></Version>
     <Company>$(Authors)rcbautoservice</Company>
     <Product>rcbautoservice</Product>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
     <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <NoWarn>1701;1702;8632;8002;8618;8981</NoWarn>
-  </PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <NoWarn>1701;1702;8632;8002;8618;8981</NoWarn>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <NoWarn>1701;1702;8632;8002;8618;8981</NoWarn>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <NoWarn>1701;1702;8632;8002;8618;8981</NoWarn>
-  </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.3" />
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="7.0.3" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.3" />
-    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="7.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="7.0.4" />
+  
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.4" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="7.0.4" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.3" />
     <PackageReference Include="Npoi.Mapper" Version="4.1.0" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
     <PackageReference Include="rcbauto" Version="2.6.0" />
-    <PackageReference Include="Senparc.Weixin.Work" Version="3.15.14.7" />
+    <PackageReference Include="Senparc.Weixin.Work" Version="3.15.17" />
     <PackageReference Include="Zack.EFCore.Batch.MySQL.Pomelo_NET6" Version="6.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Mysqldb">
+      <HintPath>F:\k8smysqld\Mysqldb\bin\Release\net7.0\Mysqldb.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

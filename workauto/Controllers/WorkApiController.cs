@@ -13,8 +13,8 @@ using Senparc.Weixin.Work.AdvancedAPIs;
 using Senparc.Weixin.Work.AdvancedAPIs.MailList;
 using Senparc.Weixin.Work.Containers;
 using Senparc.Weixin.Work.Helpers;
-using SixLabors.ImageSharp;
 using workauto.filter;
+using workauto.works;
 using Zack.EventBus;
 using Config = Senparc.Weixin.Config;
 
@@ -26,11 +26,10 @@ namespace workauto
     {
 
 
-        public static readonly string Token = Config.SenparcWeixinSetting.WorkSetting.WeixinCorpToken;//与企业微信账号后台的Token设置保持一致，区分大小写。
-        public static readonly string EncodingAESKey = Config.SenparcWeixinSetting.WorkSetting.WeixinCorpEncodingAESKey;//与微信企业账号后台的EncodingAESKey设置保持一致，区分大小写。
-        public static readonly string CorpId = Config.SenparcWeixinSetting.WorkSetting.WeixinCorpId;//与微信企业账号后台的CorpId设置保持一致，区分大小写。
-        public static readonly string corpSecret = Config.SenparcWeixinSetting.WorkSetting.WeixinCorpSecret;
-        public readonly ISenparcWeixinSettingForWork workSetting = Senparc.Weixin.Config.SenparcWeixinSetting.Items["workscan"];
+       
+        public readonly ISenparcWeixinSettingForWork scanSetting = Config.SenparcWeixinSetting.Items["workscan"];
+        public readonly ISenparcWeixinSettingForWork superSetting = Config.SenparcWeixinSetting.Items["supernotice"];
+        public readonly ISenparcWeixinSettingForWork workSetting = Config.SenparcWeixinSetting.WorkSetting;
         private readonly Wxusers _mdata;
         private readonly ILogger _logger;
         private readonly IEventBus eventBus;
@@ -50,6 +49,7 @@ namespace workauto
             _mdata = mdata;
             _logger = logger;
             this.eventBus = eventBus;
+           
         }
 
         public OpenAIAPI api = new("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");
@@ -404,10 +404,19 @@ namespace workauto
         {
 
 
-            var oauthUrl =
-                OAuth2Api.GetCode(workSetting.WeixinCorpId, returnUrl.UrlEncode(),
-                    null, null);//snsapi_base方式回调地址
+            var oauthUrl = OAuth2Api.GetCode(scanSetting.WeixinCorpId, returnUrl.UrlEncode(), "blc", superSetting.WeixinCorpAgentId, "code", "snsapi_privateinfo");//snsapi_base方式回调地址
 
+            return Ok(oauthUrl);
+        }
+
+        [HttpGet]
+        [NotTransactional]
+        public ActionResult GetUrlBase_super(string returnUrl)
+        {
+            
+
+            var oauthUrl = OAuth2Api.GetCode( superSetting.WeixinCorpId, returnUrl.UrlEncode(),"blc",superSetting.WeixinCorpAgentId,"code", "snsapi_privateinfo");//snsapi_base方式回调地址
+           
             return Ok(oauthUrl);
         }
         [HttpGet]
@@ -415,22 +424,51 @@ namespace workauto
         public async Task<ActionResult> GetUseridAsync(string code)
         {
 
-            var appKey = AccessTokenContainer.BuildingKey(workSetting);
-            var accessToken = await AccessTokenContainer.GetTokenAsync(workSetting.WeixinCorpId, workSetting.WeixinCorpSecret);
-            //获取用户信息 测试链接：https://open.work.weixin.qq.com/wwopen/devtool/interface?doc_id=10019
+          
+            var accessToken = await AccessTokenContainer.TryGetTokenAsync(scanSetting.WeixinCorpId, scanSetting.WeixinCorpSecret);
+
             var oauthResult = await OAuth2Api.GetUserIdAsync(accessToken, code);
-            var userId = oauthResult.UserId;
-            GetMemberResult result = await MailListApi.GetMemberAsync(appKey, userId);
-            return Ok(result);
+            var res = OAuth2Api.GetUserDetail(accessToken, oauthResult.user_ticket);
+
+
+            return Ok(res);
+
+
+       
+        }
+        [HttpGet]
+        [NotTransactional]
+        public async Task<ActionResult> GetUserid_superAsync(string code)
+        {
+
+
+            var accessToken = await AccessTokenContainer.TryGetTokenAsync(superSetting.WeixinCorpId, superSetting.WeixinCorpSecret);
+
+            var oauthResult = await OAuth2Api.GetUserIdAsync(accessToken, code);
+            var res=OAuth2Api.GetUserDetail(accessToken,oauthResult.user_ticket);
+            
+
+            return Ok(res);
         }
         [HttpGet]
         public async Task<ActionResult> GetjsApiUiPackageAsync(string httpsurl)
         {
 
             // 获取 JsApiTicket（保密信息，不可外传）
-            var jsApiTicket = await JsApiTicketContainer.GetTicketAsync(workSetting.WeixinCorpId, workSetting.WeixinCorpSecret, false);
+            var jsApiTicket = await JsApiTicketContainer.GetTicketAsync(scanSetting.WeixinCorpId, scanSetting.WeixinCorpSecret, false);
             // 获取 UI 打包信息
-            var jsApiUiPackage = await JSSDKHelper.GetJsApiUiPackageAsync(workSetting.WeixinCorpId, workSetting.WeixinCorpSecret, httpsurl, jsApiTicket, false);
+            var jsApiUiPackage = await JSSDKHelper.GetJsApiUiPackageAsync(scanSetting.WeixinCorpId, scanSetting.WeixinCorpSecret, httpsurl, jsApiTicket, false);
+
+            return Ok(jsApiUiPackage);
+        }
+        [HttpGet]
+        public async Task<ActionResult> GetjsApiUiPackage_superAsync(string httpsurl)
+        {
+
+            // 获取 JsApiTicket（保密信息，不可外传）
+            var jsApiTicket = await JsApiTicketContainer.GetTicketAsync(superSetting.WeixinCorpId, superSetting.WeixinCorpSecret, false);
+            // 获取 UI 打包信息
+            var jsApiUiPackage = await JSSDKHelper.GetJsApiUiPackageAsync(superSetting.WeixinCorpId, superSetting.WeixinCorpSecret, httpsurl, jsApiTicket, false);
 
             return Ok(jsApiUiPackage);
         }
@@ -441,19 +479,33 @@ namespace workauto
 
 
             // 获取 JsApiTicket（保密信息，不可外传）
-            var agentConfigJsApiTicket = await JsApiTicketContainer.GetTicketAsync(workSetting.WeixinCorpId, workSetting.WeixinCorpSecret, true);
-            var agentJsApiUiPackage = await JSSDKHelper.GetJsApiUiPackageAsync(workSetting.WeixinCorpId, workSetting.WeixinCorpSecret, httpsurl, agentConfigJsApiTicket, true);
+            var agentConfigJsApiTicket = await JsApiTicketContainer.GetTicketAsync(scanSetting.WeixinCorpId, scanSetting.WeixinCorpSecret, true);
+            var agentJsApiUiPackage = await JSSDKHelper.GetJsApiUiPackageAsync(scanSetting.WeixinCorpId, scanSetting.WeixinCorpSecret, httpsurl, agentConfigJsApiTicket, true);
 
             return Ok(agentJsApiUiPackage);
         }
+        [HttpGet]
+        [NotTransactional]
+        public async Task<ActionResult> GetagentjsApiUiPackage_superAsync(string httpsurl)
+        {
+
+
+            // 获取 JsApiTicket（保密信息，不可外传）
+            var agentConfigJsApiTicket = await JsApiTicketContainer.GetTicketAsync(superSetting.WeixinCorpId, superSetting.WeixinCorpSecret, true);
+            var agentJsApiUiPackage = await JSSDKHelper.GetJsApiUiPackageAsync(superSetting.WeixinCorpId, superSetting.WeixinCorpSecret, httpsurl, agentConfigJsApiTicket, true);
+
+            return Ok(agentJsApiUiPackage);
+        }
+
 
         [HttpGet]
         [NotTransactional]
         public async Task<ActionResult> Getdepart()
         {
-            string AppKey = AccessTokenContainer.BuildingKey(CorpId, corpSecret);
+            string AppKey = AccessTokenContainer.BuildingKey(scanSetting.WeixinCorpId, scanSetting.WeixinCorpSecret);
 
             var departs = await MailListApi.GetDepartmentListAsync(AppKey);
+            int mlevel;
             //var members = await MailListApi.GetDepartmentMemberAsync(AppKey, 1, 1);
             //var members1 = await MailListApi.GetDepartmentMemberInfoAsync(AppKey, 1, 1);
             if (departs.department != null)
@@ -462,7 +514,25 @@ namespace workauto
 
                 foreach (var dp in departs.department)
                 {
-                    _mdata.wrokdeparts.Add(new Workdepart { id = dp.id, name = dp.name, order = dp.order, parentid = dp.parentid });
+                    Console.WriteLine(dp.name + "==" + dp.id);
+                    var members = await MailListApi.GetDepartmentMemberAsync(AppKey, dp.id, 0);
+                  
+                    foreach (var ulist in members.userlist)
+                    {
+                        var leader =await MailListApi.GetMemberAsync(AppKey, ulist.userid);
+
+                        if (leader.is_leader_in_dept[0] == 1) {
+                            Console.WriteLine(leader.userid + "===" + leader.name);
+                        }
+                        
+                    }
+                    mlevel = dp.parentid switch
+                    {
+                        0 => 0,
+                        7 => 1,
+                        _ => 2,
+                    };
+                    _mdata.wrokdeparts.Add(new Workdepart { id = dp.id, name = dp.name, order = dp.order, parentid = dp.parentid ,level=mlevel});
 
                 }
 
@@ -484,7 +554,7 @@ namespace workauto
         [NotTransactional]
         public List<string> Getparentdeparts(long departid)
         {
-            //string AppKey = AccessTokenContainer.BuildingKey(CorpId, corpSecret);
+            //string AppKey = AccessTokenContainer.BuildingKey(scanSetting.WeixinCorpId, scanSetting.WeixinCorpSecret);
             List<string> departs = new();
             long tmpid;
             var res = _mdata.wrokdeparts.AsNoTracking().Where(e => e.id == departid).FirstOrDefault();
@@ -609,7 +679,7 @@ namespace workauto
         [NotTransactional]
         public async Task<ActionResult<GetDepartmentListResult>> GetmaindepartAsync(long departid)
         {
-            string AppKey = AccessTokenContainer.BuildingKey(CorpId, corpSecret);
+            string AppKey = AccessTokenContainer.BuildingKey(scanSetting.WeixinCorpId, scanSetting.WeixinCorpSecret);
             GetDepartmentListResult res = await MailListApi.GetDepartmentListAsync(AppKey, departid);
 
             return res;
@@ -642,9 +712,10 @@ namespace workauto
         [NotTransactional]
         public async Task<ActionResult<GetMemberResult>> GetUserinfosAsync(string userid)
         {
-            string AppKey = AccessTokenContainer.BuildingKey(CorpId, corpSecret);
+            string AppKey = await AccessTokenContainer.TryGetTokenAsync(workSetting.WeixinCorpId,workSetting.WeixinCorpSecret);
             var res = await MailListApi.GetMemberAsync(AppKey, userid);
-
+           
+           
             return res;
 
         }
@@ -654,7 +725,7 @@ namespace workauto
         {
 
             _logger.LogWarning("获取warning级别以上信息:members alll bank");
-            string AppKey = AccessTokenContainer.BuildingKey(CorpId, corpSecret);
+            string AppKey = AccessTokenContainer.BuildingKey(scanSetting.WeixinCorpId, scanSetting.WeixinCorpSecret);
 
             //var departs = await MailListApi.GetDepartmentListAsync(AppKey);
             var members = await MailListApi.GetDepartmentMemberAsync(AppKey, 1, 1);
@@ -667,6 +738,7 @@ namespace workauto
                 {
 
                     _mdata.members.Add(new Member { userid = user.userid, name = user.name, department = string.Join(",", user.department) });
+                    Console.WriteLine(user.userid + "====" + user.name);
 
                 }
 
@@ -687,7 +759,7 @@ namespace workauto
         [NotTransactional]
         public async Task<ActionResult> Getdeptlist(long dept_id)
         {
-            string AppKey = AccessTokenContainer.BuildingKey(CorpId, corpSecret);
+            string AppKey = AccessTokenContainer.BuildingKey(scanSetting.WeixinCorpId, scanSetting.WeixinCorpSecret);
             var res = await MailListApi.GetDepartmentListAsync(AppKey, dept_id);
 
             return Ok(res.department);
@@ -698,7 +770,7 @@ namespace workauto
         [NotTransactional]
         public async Task<ActionResult> Getbranchdeptlist(long dept_id, long pid)
         {
-            string AppKey = AccessTokenContainer.BuildingKey(CorpId, corpSecret);
+            string AppKey = AccessTokenContainer.BuildingKey(scanSetting.WeixinCorpId, scanSetting.WeixinCorpSecret);
             var res = await MailListApi.GetDepartmentListAsync(AppKey, dept_id);
             var branch = res.department.Where(e => e.parentid == pid);
             return Ok(branch);
@@ -730,12 +802,27 @@ namespace workauto
 
 
         }
+        [HttpPost]
+        [NotTransactional]
+        public async Task<ActionResult> CreateChat() {
+            string AppKey = AccessTokenContainer.BuildingKey(scanSetting.WeixinCorpId, scanSetting.WeixinCorpSecret);
+            // var members= await MailListApi.GetDepartmentMemberAsync(AppKey, dept_id, son);
+
+            var departs = MailListApi.GetDepartmentListAsync(AppKey);
+
+            var xx = await MailListApi.GetMemberAsync(AppKey, "642005");
+            
+          
+           
+            return Ok(xx.is_leader_in_dept[0]);
+           
+        }
 
         [HttpGet]
         [NotTransactional]
         public async Task<ActionResult> GetMembersbydeptAsync(long dept_id, int son)
         {
-            string AppKey = AccessTokenContainer.BuildingKey(CorpId, corpSecret);
+            string AppKey = AccessTokenContainer.BuildingKey(scanSetting.WeixinCorpId, scanSetting.WeixinCorpSecret);
 
             //var departs = await MailListApi.GetDepartmentListAsync(AppKey);
             var members = await MailListApi.GetDepartmentMemberAsync(AppKey, dept_id, son);
@@ -748,7 +835,7 @@ namespace workauto
         [NotTransactional]
         public async Task<ActionResult> Get_assetMembers(long dept_id, int son = 1)
         {
-            string AppKey = AccessTokenContainer.BuildingKey(CorpId, corpSecret);
+            string AppKey = AccessTokenContainer.BuildingKey(scanSetting.WeixinCorpId, scanSetting.WeixinCorpSecret);
             var Members = await MailListApi.GetDepartmentMemberAsync(AppKey, dept_id, son);
             var resdata = Members.userlist;
             if (resdata != null)
@@ -778,8 +865,8 @@ namespace workauto
         [NotTransactional]
         public async Task<ActionResult> Set_all_enable(long departid)
         {
-            string AppKey = AccessTokenContainer.BuildingKey(CorpId, corpSecret);
-            var mtoken = AccessTokenContainer.TryGetToken(CorpId, corpSecret);
+            string AppKey = AccessTokenContainer.BuildingKey(scanSetting.WeixinCorpId, scanSetting.WeixinCorpSecret);
+            var mtoken = AccessTokenContainer.TryGetToken(scanSetting.WeixinCorpId, scanSetting.WeixinCorpSecret);
 
             var members_result = await MailListApi.GetDepartmentMemberAsync(AppKey, departid, 1);
             var members = members_result.userlist;
@@ -809,8 +896,8 @@ namespace workauto
         [NotTransactional]
         public async Task<ActionResult> Set_all_direct_leaderAsync(long departid)
         {
-            string AppKey = AccessTokenContainer.BuildingKey(CorpId, corpSecret);
-            var mtoken = AccessTokenContainer.TryGetToken(CorpId, corpSecret);
+            string AppKey = AccessTokenContainer.BuildingKey(scanSetting.WeixinCorpId, scanSetting.WeixinCorpSecret);
+            var mtoken = AccessTokenContainer.TryGetToken(scanSetting.WeixinCorpId, scanSetting.WeixinCorpSecret);
 
             var members_result = await MailListApi.GetDepartmentMemberAsync(AppKey, departid, 1);
             var members = members_result.userlist;
@@ -848,8 +935,8 @@ namespace workauto
         public async Task<ActionResult> Setdepartleader(string depart_id)
         {
 
-            var mtoken = AccessTokenContainer.TryGetToken(CorpId, corpSecret);
-            //string AppKey = AccessTokenContainer.BuildingKey(CorpId, corpSecret);
+            var mtoken = AccessTokenContainer.TryGetToken(scanSetting.WeixinCorpId, scanSetting.WeixinCorpSecret);
+            //string AppKey = AccessTokenContainer.BuildingKey(scanSetting.WeixinCorpId, scanSetting.WeixinCorpSecret);
 
             var leader = await GetdepartinfoAsync(mtoken, depart_id);
 
@@ -876,6 +963,117 @@ namespace workauto
             }
 
 
+        }
+        [HttpGet]
+        [NotTransactional]
+        public ActionResult Bankdepartinfo(long depart_id) {
+
+            var res = _mdata.wrokdeparts.Where(e => e.id == depart_id).FirstOrDefault();
+            if (res == null)
+            {
+                return BadRequest();
+            }
+            else { 
+               return Ok(res);
+            }
+
+
+        }
+        [HttpGet]
+        [NotTransactional]
+        public async Task<ActionResult> Getdepartleader(long depart_id)
+        {
+            var mtoken = AccessTokenContainer.TryGetToken(superSetting.WeixinCorpId, superSetting.WeixinCorpSecret);
+            string mhost = "https://qyapi.weixin.qq.com";
+            Departuserinfos userinfo = await mhost.AppendPathSegment("cgi-bin/user/list")
+                .SetQueryParam("access_token", mtoken)
+                .SetQueryParam("department_id", depart_id)
+                .SetQueryParam("fetch_child", 0)
+
+                .GetJsonAsync<Departuserinfos>();
+          
+            var result=userinfo.userlist.Where(e => e.isleader == 1 && e.main_department==depart_id).FirstOrDefault();
+
+
+            return Ok(result);
+
+
+        }
+
+        [HttpGet]
+        [NotTransactional]
+        public async Task<ActionResult> Gettags() {
+            var mtoken = AccessTokenContainer.TryGetToken(workSetting.WeixinCorpId, workSetting.WeixinCorpSecret);
+            var result = await MailListApi.GetTagListAsync(mtoken);
+
+            return Ok(result);
+        }
+        [HttpGet]
+        [NotTransactional]
+        public async Task<ActionResult> Gettagid(string userid)
+        {
+            var mtoken = AccessTokenContainer.TryGetToken(workSetting.WeixinCorpId, workSetting.WeixinCorpSecret);
+            var tags =new int[] { 23,24};
+
+            foreach (int tag in tags) {
+                Console.WriteLine(tag);
+                var result = await MailListApi.GetTagMemberAsync(mtoken, tag);
+                var res = result.userlist.Where(e => e.userid == userid).FirstOrDefault();
+                if (res != null)
+                {
+
+                    return Ok(tag);
+                }
+
+            }
+         
+            return Ok(0);
+           
+        }
+
+        [HttpGet]
+        [NotTransactional]
+        public async Task<ActionResult> Getnoticebankuser(long depart_id,int tagid)
+        {
+            //tagid  24--机构督办员
+            var mtoken = AccessTokenContainer.TryGetToken(superSetting.WeixinCorpId, superSetting.WeixinCorpSecret);
+
+            var result = await MailListApi.GetTagMemberAsync(mtoken, tagid);
+            // var result=await MailListApi.GetTagListAsync(mtoken);
+            var users = await MailListApi.GetDepartmentMemberAsync(mtoken, depart_id, 0);
+           
+
+            var res= users.userlist.Where(e =>  result.userlist.Where(x=>x.userid==e.userid).FirstOrDefault()!=null);
+            return Ok(res);
+
+
+        }
+        [HttpGet]
+        [NotTransactional]
+        public async Task<ActionResult> Getdepartfromuserid(string userid) {
+            var mtoken = AccessTokenContainer.TryGetToken(superSetting.WeixinCorpId,superSetting.WeixinCorpSecret);
+            var res=await MailListApi.GetMemberAsync(mtoken,userid);
+            var result = _mdata.wrokdeparts.Where(e => e.id == res.main_department).FirstOrDefault();
+            return Ok(result);
+        }
+        [HttpPost]
+        public async Task<ActionResult> SaveNoticedata(Supernotice supernotice) {
+             var result=_mdata.Supernotices.AsNoTracking().Where(e => e.NoticeId==supernotice.NoticeId).FirstOrDefault();
+            if (result != null)
+            {
+            
+               // _mdata.Supernotices.Update(supernotice);
+                _mdata.Supernotices.Attach(supernotice);
+                _mdata.Entry(supernotice).State = EntityState.Modified;
+               // _mdata.Entry(supernotice).Property(x => x.Noticedata.Applyinfo).IsModified = true;
+            }
+            else {
+                _mdata.Supernotices.Add(supernotice);
+            }
+           // _mdata.Supernotices.Add(supernotice);
+            var res=await _mdata.SaveChangesAsync();
+
+            return Ok("success");
         }
     }
 }

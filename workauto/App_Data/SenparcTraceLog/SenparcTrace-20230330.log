@@ -1,0 +1,54 @@
+[[[ErrorJsonResultException]]]
+[2023/03/30 15:48:18.7931]
+[线程：13]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://qyapi.weixin.qq.com/cgi-bin/tag/get?access_token=07aB1jSax7DanEe5cIjz4u2KE33K6J3_j1P_FWZZCOdpd-lRVw0kuDDIx_Eg8YXDfrQcTM38OqYG5wvtYPiUuZ9_iWnL90q6nx2Qn8eEJnePtJOGssVt77A4US5-wLj0kH3QvHUqcit_If2kPsIU5Ewa2ewUpfi6GLt7lIUD43-ci_KbdgBLy_3fod6mv9d07y8Jj_XIg906OBQ78LylOA&tagid=0
+	errcode：40068
+	errmsg：invalid tagid/groupid, hint: [1680162498307413719070248], from ip: 123.188.254.206, more info at https://open.work.weixin.qq.com/devtool/query?e=40068
+
+[[[ErrorJsonResultException]]]
+[2023/03/30 15:48:57.6931]
+[线程：14]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://qyapi.weixin.qq.com/cgi-bin/tag/get?access_token=07aB1jSax7DanEe5cIjz4u2KE33K6J3_j1P_FWZZCOdpd-lRVw0kuDDIx_Eg8YXDfrQcTM38OqYG5wvtYPiUuZ9_iWnL90q6nx2Qn8eEJnePtJOGssVt77A4US5-wLj0kH3QvHUqcit_If2kPsIU5Ewa2ewUpfi6GLt7lIUD43-ci_KbdgBLy_3fod6mv9d07y8Jj_XIg906OBQ78LylOA&tagid=0
+	errcode：40068
+	errmsg：invalid tagid/groupid, hint: [1680162537339600080339191], from ip: 123.188.254.206, more info at https://open.work.weixin.qq.com/devtool/query?e=40068
+
+[[[ErrorJsonResultException]]]
+[2023/03/30 15:49:00.3642]
+[线程：14]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://qyapi.weixin.qq.com/cgi-bin/tag/get?access_token=07aB1jSax7DanEe5cIjz4u2KE33K6J3_j1P_FWZZCOdpd-lRVw0kuDDIx_Eg8YXDfrQcTM38OqYG5wvtYPiUuZ9_iWnL90q6nx2Qn8eEJnePtJOGssVt77A4US5-wLj0kH3QvHUqcit_If2kPsIU5Ewa2ewUpfi6GLt7lIUD43-ci_KbdgBLy_3fod6mv9d07y8Jj_XIg906OBQ78LylOA&tagid=0
+	errcode：40068
+	errmsg：invalid tagid/groupid, hint: [1680162540248532516697777], from ip: 123.188.254.206, more info at https://open.work.weixin.qq.com/devtool/query?e=40068
+
+[[[ErrorJsonResultException]]]
+[2023/03/30 15:50:00.0167]
+[线程：17]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://qyapi.weixin.qq.com/cgi-bin/tag/get?access_token=07aB1jSax7DanEe5cIjz4u2KE33K6J3_j1P_FWZZCOdpd-lRVw0kuDDIx_Eg8YXDfrQcTM38OqYG5wvtYPiUuZ9_iWnL90q6nx2Qn8eEJnePtJOGssVt77A4US5-wLj0kH3QvHUqcit_If2kPsIU5Ewa2ewUpfi6GLt7lIUD43-ci_KbdgBLy_3fod6mv9d07y8Jj_XIg906OBQ78LylOA&tagid=0
+	errcode：40068
+	errmsg：invalid tagid/groupid, hint: [1680162599480133706681647], from ip: 123.188.254.206, more info at https://open.work.weixin.qq.com/devtool/query?e=40068
+
+[[[ErrorJsonResultException]]]
+[2023/03/30 15:51:28.5993]
+[线程：16]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://qyapi.weixin.qq.com/cgi-bin/tag/get?access_token=07aB1jSax7DanEe5cIjz4u2KE33K6J3_j1P_FWZZCOdpd-lRVw0kuDDIx_Eg8YXDfrQcTM38OqYG5wvtYPiUuZ9_iWnL90q6nx2Qn8eEJnePtJOGssVt77A4US5-wLj0kH3QvHUqcit_If2kPsIU5Ewa2ewUpfi6GLt7lIUD43-ci_KbdgBLy_3fod6mv9d07y8Jj_XIg906OBQ78LylOA&tagid=0
+	errcode：40068
+	errmsg：invalid tagid/groupid, hint: [1680162688500612939824508], from ip: 123.188.254.206, more info at https://open.work.weixin.qq.com/devtool/query?e=40068
+
+[[[ErrorJsonResultException]]]
+[2023/03/30 15:52:54.1202]
+[线程：14]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://qyapi.weixin.qq.com/cgi-bin/tag/get?access_token=07aB1jSax7DanEe5cIjz4u2KE33K6J3_j1P_FWZZCOdpd-lRVw0kuDDIx_Eg8YXDfrQcTM38OqYG5wvtYPiUuZ9_iWnL90q6nx2Qn8eEJnePtJOGssVt77A4US5-wLj0kH3QvHUqcit_If2kPsIU5Ewa2ewUpfi6GLt7lIUD43-ci_KbdgBLy_3fod6mv9d07y8Jj_XIg906OBQ78LylOA&tagid=0
+	errcode：40068
+	errmsg：invalid tagid/groupid, hint: [1680162774303760626266626], from ip: 123.188.254.206, more info at https://open.work.weixin.qq.com/devtool/query?e=40068
+

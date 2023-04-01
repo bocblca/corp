@@ -10,6 +10,8 @@ namespace Mysqldb
             builder.HasKey(e => e.id);
             builder.Property(e => e.id).IsRequired().ValueGeneratedOnAddOrUpdate().ValueGeneratedNever();
             builder.Property(e => e.name).HasMaxLength(100).IsUnicode(true);
+           
+            
         }
     }
     public class MemberConfig : IEntityTypeConfiguration<Member>

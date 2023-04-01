@@ -5,7 +5,7 @@
   },
   "projects": {
     "G:\\k8scorpsuccess\\Mysqldb\\Mysqldb.csproj": {
-      "version": "1.2.6.45",
+      "version": "1.0.0",
       "restore": {
         "projectUniqueName": "G:\\k8scorpsuccess\\Mysqldb\\Mysqldb.csproj",
         "projectName": "Mysqldb",
@@ -47,19 +47,19 @@
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.4, )"
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.4, )"
             },
             "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.4, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
@@ -75,7 +75,7 @@
             },
             "Senparc.Weixin.Work": {
               "target": "Package",
-              "version": "[3.15.14.7, )"
+              "version": "[3.15.17, )"
             },
             "Zack.EFCore.Batch.MySQL.Pomelo_NET6": {
               "target": "Package",
@@ -102,7 +102,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

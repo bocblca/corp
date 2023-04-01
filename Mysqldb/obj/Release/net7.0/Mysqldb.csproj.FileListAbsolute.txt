@@ -10,7 +10,6 @@ F:\wxwork\workauto\Mysqldb\obj\Release\net7.0\Mysqldb.dll
 F:\wxwork\workauto\Mysqldb\obj\Release\net7.0\refint\Mysqldb.dll
 F:\wxwork\workauto\Mysqldb\obj\Release\net7.0\Mysqldb.pdb
 F:\wxwork\workauto\Mysqldb\obj\Release\net7.0\ref\Mysqldb.dll
-G:\k8scorpsuccess\Mysqldb\bin\Release\net7.0\Mysqldb.deps.json
 G:\k8scorpsuccess\Mysqldb\bin\Release\net7.0\Mysqldb.dll
 G:\k8scorpsuccess\Mysqldb\bin\Release\net7.0\Mysqldb.pdb
 G:\k8scorpsuccess\Mysqldb\obj\Release\net7.0\Mysqldb.csproj.AssemblyReference.cache
@@ -18,7 +17,9 @@ G:\k8scorpsuccess\Mysqldb\obj\Release\net7.0\Mysqldb.GeneratedMSBuildEditorConfi
 G:\k8scorpsuccess\Mysqldb\obj\Release\net7.0\Mysqldb.AssemblyInfoInputs.cache
 G:\k8scorpsuccess\Mysqldb\obj\Release\net7.0\Mysqldb.AssemblyInfo.cs
 G:\k8scorpsuccess\Mysqldb\obj\Release\net7.0\Mysqldb.csproj.CoreCompileInputs.cache
+G:\k8scorpsuccess\Mysqldb\obj\Release\net7.0\Mysqldb.csproj.CopyComplete
 G:\k8scorpsuccess\Mysqldb\obj\Release\net7.0\Mysqldb.dll
 G:\k8scorpsuccess\Mysqldb\obj\Release\net7.0\refint\Mysqldb.dll
 G:\k8scorpsuccess\Mysqldb\obj\Release\net7.0\Mysqldb.pdb
+G:\k8scorpsuccess\Mysqldb\bin\Release\net7.0\Mysqldb.deps.json
 G:\k8scorpsuccess\Mysqldb\obj\Release\net7.0\ref\Mysqldb.dll

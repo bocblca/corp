@@ -7,7 +7,8 @@ namespace Mysqldb
 {
     public class Workdepart: Senparc.Weixin.Work.AdvancedAPIs.MailList.DepartmentList
     {
-      
+       public int level { get; set; }
+
     }
     public class Member : Senparc.Weixin.Work.AdvancedAPIs.MailList.UserList_Simple
     { 
@@ -36,11 +37,11 @@ namespace Mysqldb
     public class asset_state {
         
         public long spanid{get;set; } = new DateTimeOffset(DateTime.UtcNow).ToUnixTimeMilliseconds();
-        public string? qrcode { get; set; } //新增资产编号 
-        public string? origin_id { get; set; }
-        public string ? operator_id { get; set; }
-        public string? operator_content { get; set; }
-        public string? target_id { get; set; }
+        public string qrcode { get; set; } //新增资产编号 
+        public string origin_id { get; set; }
+        public string  operator_id { get; set; }
+        public string operator_content { get; set; }
+        public string target_id { get; set; }
         
         //  public DateTime cdate { get; set; }
         public int state { get; set; } = 0;

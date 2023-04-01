@@ -699,7 +699,7 @@ namespace workapi.Controllers
 
             byte[] outputbytes = Convert.FromBase64String(picbase64);
 
-            var imagesTemle = Image.Load(backfile, out IImageFormat format);
+            var imagesTemle = Image.Load(backfile);
             var outputImg = Image.Load(outputbytes);
 
 
@@ -751,7 +751,7 @@ namespace workapi.Controllers
             //Font font4=family2.CreateFont(80,FontStyle.Regular);
             byte[] outputbytes = Convert.FromBase64String(picbase64);
 
-            var imagesTemle = Image.Load(backfile, out IImageFormat format);
+            var imagesTemle = Image.Load(backfile);
             var outputImg = Image.Load(outputbytes);
             var rcbstraff = _mdata.rcbstraffs.Where(e => e.Straff == straff).FirstOrDefault();
             string departid = rcbstraff.BankId;

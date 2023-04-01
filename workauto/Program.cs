@@ -233,7 +233,7 @@ app.UseMessageHandlerForWork("/Workscan", WorkscanMessageHandler.GenerateMessage
 {
     options.AccountSettingFunc = context => Senparc.Weixin.Config.SenparcWeixinSetting.Items["workscan"];
 });
-app.UseMessageHandlerForWork("/supernotice", SupernoticeMessageHandler.GenerateMessageHandler, options =>
+app.UseMessageHandlerForWork("/supernotice", SuperNoticeMessageHandler.GenerateMessageHandler, options =>
 {
     options.AccountSettingFunc = context => Senparc.Weixin.Config.SenparcWeixinSetting.Items["supernotice"];
 

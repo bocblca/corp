@@ -1,12 +1,9 @@
 ﻿
+using Mysqldb;
 using Senparc.Weixin.Entities;
-using Senparc.Weixin.Exceptions;
-using Senparc.Weixin.Work.CommonAPIs;
 using Senparc.Weixin.Work.Containers;
 using Senparc.Weixin.Work.Entities;
-using Senparc.Weixin.Work.Entities.Menu;
 using Senparc.Weixin.Work.MessageHandlers;
-
 namespace workapi.Models
 {
     public class SuperNoticeMessageHandler : WorkMessageHandler<WorkCustomMessageContext>
@@ -17,12 +14,15 @@ namespace workapi.Models
         public static Func<Stream, PostModel, int, IServiceProvider, SuperNoticeMessageHandler> GenerateMessageHandler =
             (stream, postModel, maxRecordCount, serviceProvider) => new SuperNoticeMessageHandler(stream, postModel, maxRecordCount, serviceProvider);
 
-        readonly ISenparcWeixinSettingForWork _workSetting;
+        private readonly ISenparcWeixinSettingForWork _workSetting;
+        private readonly Wxusers _mdata;
 
         public SuperNoticeMessageHandler(Stream inputStream, PostModel postModel, int maxRecordCount = 0, IServiceProvider serviceProvider = null)
             : base(inputStream, postModel, maxRecordCount, serviceProvider: serviceProvider)
         {
             _workSetting = Senparc.Weixin.Config.SenparcWeixinSetting.Items["supernotice"];
+            _mdata = serviceProvider!.GetRequiredService<Wxusers>();
+            
 
         }
 
@@ -37,102 +37,30 @@ namespace workapi.Models
             //var appKey = AccessTokenContainer.BuildingKey(weixinSetting.WeixinCorpId, weixinSetting.WeixinCorpSecret);
             //MassApi.SendText(appKey, weixinSetting.WeixinCorpAgentId, "这是一条客服消息，对应您发送的消息：" + requestMessage.Content, OpenId);
 
-            if (requestMessage.Content == "999")
-            {
-
-                // var aToken = AccessTokenContainer.GetToken(_workSetting.WeixinCorpId,_workSetting.WeixinCorpSecret);
-                // var res = CommonApi.ConvertToUserId(aToken, OpenId);
-                //textcard消息
-
-
-
-
-                responseMessage.Content = "您的ID:" + OpenId + "|userid|" + requestMessage.FromUserName;
-
-
-            }
-
-            if (requestMessage.Content == "999999")
-            {
-
-
-                //创新菜单
-                ButtonGroup bg = new ButtonGroup();
-
-                var subButton = new SubButton()
-                {
-                    name = "资产扫描"
-                };
-
-
-                subButton.sub_button.Add(new SingleScancodeWaitmsgButton()
-                {
-                    key = "SingleScancodeWaitmsg",
-                    name = "二维码扫描"
-
-
-                });
-                subButton.sub_button.Add(new SingleViewButton()
-                {
-                    url = "https://rcbcybank.com/#/Manager",
-                    name = "资产管理"
-                });
-                //subButton.sub_button.Add(new SinglePicPhotoOrAlbumButton()
-                //{
-                //    key = "SubClickRoot_Pic_Photo_Or_Album",
-                //    name = "测试拍照"
-                //});
-                bg.button.Add(subButton);
-                var appKey = AccessTokenContainer.BuildingKey(_workSetting);
-
-                int agentId;
-                if (!int.TryParse(_workSetting.WeixinCorpAgentId, out agentId))
-                {
-                    throw new WeixinException("WeixinCorpAgentId 必须为整数！");
-                }
-
-
-
-
-                var result = await CommonApi.CreateMenuAsync(appKey, agentId, bg);
-                responseMessage.Content = "创建菜单：" + result.errmsg + "|" + result.errcode + "|" + agentId + "|" + appKey;
-            }
-
-
+           
+           
 
             return responseMessage;
         }
 
-        public override IWorkResponseMessageBase OnImageRequest(RequestMessageImage requestMessage)
+    
+
+        //审批状态回调
+        public override async Task<IWorkResponseMessageBase> OnEvent_Open_Approval_Change_Status_ChangeRequestAsync(RequestMessageEvent_OpenApprovalChange requestMessage)
         {
-            var responseMessage = CreateResponseMessage<ResponseMessageImage>();
-            responseMessage.Image.MediaId = requestMessage.MediaId;
-
-            return responseMessage;
-        }
-
-        public override IWorkResponseMessageBase OnEvent_ClickRequest(RequestMessageEvent_Click requestMessage)
-        {
-            var reponseMessage = CreateResponseMessage<ResponseMessageText>();
-
-            if (requestMessage.EventKey == "SubClickRoot_Text")
-            {
-                reponseMessage.Content = "您点击了【返回文本】按钮";
+            
+           
+            var res=_mdata.Supernotices.Where(e=>e.NoticeId==requestMessage.ApprovalInfo.ThirdNo).FirstOrDefault();
+            Console.WriteLine(requestMessage.ToJsonString());
+            if (res == null) {
+               
+                res.Approvals[0].Approval_Userid = requestMessage.ApprovalInfo.ApplyUserId;
+                //res.Approvals[0].Approval_memo = requestMessage.ApprovalInfo.ApprovalNodes[0].Items[0].ItemSpeech;
+                res.Approvals[0].Approval_status = requestMessage.ApprovalInfo.ApproverStep.ToString();
+                await _mdata.SaveChangesAsync();
             }
-            else
-            {
-                reponseMessage.Content = "您点击了其他事件按钮";
-            }
-
-            return reponseMessage;
-        }
-        public override IWorkResponseMessageBase OnEvent_ScancodePushRequest(RequestMessageEvent_Scancode_Push requestMessage)
-        {
-            var responseMessage = this.CreateResponseMessage<ResponseMessageText>();
-            responseMessage.Content = "supernotice" + requestMessage.ScanCodeInfo.ScanResult;
-
-            return responseMessage;
-            //return base.OnEvent_ScancodePushRequest(requestMessage);
+           
+            return base.OnEvent_Open_Approval_Change_Status_ChangeRequest(requestMessage);
         }
         public override IWorkResponseMessageBase OnEvent_ScancodeWaitmsgRequest(RequestMessageEvent_Scancode_Waitmsg requestMessage)
         {
@@ -145,12 +73,12 @@ namespace workapi.Models
             return responseMessage;
             //return base.OnEvent_ScancodeWaitmsgRequest(requestMessage);
         }
-        public override IWorkResponseMessageBase OnEvent_LocationRequest(RequestMessageEvent_Location requestMessage)
-        {
-            var responseMessage = this.CreateResponseMessage<ResponseMessageText>();
-            responseMessage.Content = string.Format("位置坐标 {0} - {1}", requestMessage.Latitude, requestMessage.Longitude);
-            return responseMessage;
-        }
+        //public override IWorkResponseMessageBase OnEvent_LocationRequest(RequestMessageEvent_Location requestMessage)
+        //{
+        //   // var responseMessage = this.CreateResponseMessage<ResponseMessageText>();
+        //    //responseMessage.Content = string.Format("位置坐标 {0} - {1}", requestMessage.Latitude, requestMessage.Longitude);
+        //    return null;
+        //}
 
         public override IWorkResponseMessageBase DefaultResponseMessage(IWorkRequestMessageBase requestMessage)
         {

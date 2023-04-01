@@ -174,3 +174,12 @@ F:\wxwork\workauto\workauto\obj\Debug\net7.0\refint\workauto.dll
 F:\wxwork\workauto\workauto\obj\Debug\net7.0\workauto.pdb
 F:\wxwork\workauto\workauto\obj\Debug\net7.0\workauto.genruntimeconfig.cache
 F:\wxwork\workauto\workauto\obj\Debug\net7.0\ref\workauto.dll
+G:\k8scorpsuccess\workauto\obj\Debug\net7.0\workauto.csproj.AssemblyReference.cache
+G:\k8scorpsuccess\workauto\obj\Debug\net7.0\workauto.GeneratedMSBuildEditorConfig.editorconfig
+G:\k8scorpsuccess\workauto\obj\Debug\net7.0\workauto.AssemblyInfoInputs.cache
+G:\k8scorpsuccess\workauto\obj\Debug\net7.0\workauto.AssemblyInfo.cs
+G:\k8scorpsuccess\workauto\obj\Debug\net7.0\workauto.csproj.CoreCompileInputs.cache
+G:\k8scorpsuccess\workauto\obj\Debug\net7.0\workauto.MvcApplicationPartsAssemblyInfo.cs
+G:\k8scorpsuccess\workauto\obj\Debug\net7.0\workauto.MvcApplicationPartsAssemblyInfo.cache
+G:\k8scorpsuccess\workauto\obj\Debug\net7.0\workauto.RazorAssemblyInfo.cache
+G:\k8scorpsuccess\workauto\obj\Debug\net7.0\workauto.RazorAssemblyInfo.cs
