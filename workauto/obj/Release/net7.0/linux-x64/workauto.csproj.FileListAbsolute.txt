@@ -410,7 +410,6 @@ F:\corp\workauto\bin\Release\net7.0\linux-x64\Hangfire.Core.dll
 F:\corp\workauto\bin\Release\net7.0\linux-x64\Hangfire.LiteDB.dll
 F:\corp\workauto\bin\Release\net7.0\linux-x64\Hangfire.SqlServer.dll
 F:\corp\workauto\bin\Release\net7.0\linux-x64\Humanizer.dll
-F:\corp\workauto\bin\Release\net7.0\linux-x64\itextsharp.dll
 F:\corp\workauto\bin\Release\net7.0\linux-x64\K4os.Compression.LZ4.dll
 F:\corp\workauto\bin\Release\net7.0\linux-x64\K4os.Compression.LZ4.Streams.dll
 F:\corp\workauto\bin\Release\net7.0\linux-x64\K4os.Hash.xxHash.dll
@@ -473,9 +472,6 @@ F:\corp\workauto\bin\Release\net7.0\linux-x64\Senparc.NeuChar.App.dll
 F:\corp\workauto\bin\Release\net7.0\linux-x64\Senparc.NeuChar.AspNet.dll
 F:\corp\workauto\bin\Release\net7.0\linux-x64\Senparc.Weixin.dll
 F:\corp\workauto\bin\Release\net7.0\linux-x64\Senparc.Weixin.MP.dll
-F:\corp\workauto\bin\Release\net7.0\linux-x64\Senparc.Weixin.MP.Middleware.dll
-F:\corp\workauto\bin\Release\net7.0\linux-x64\Senparc.Weixin.Work.dll
-F:\corp\workauto\bin\Release\net7.0\linux-x64\Senparc.Weixin.Work.Middleware.dll
 F:\corp\workauto\bin\Release\net7.0\linux-x64\Senparc.Weixin.WxOpen.dll
 F:\corp\workauto\bin\Release\net7.0\linux-x64\Senparc.Weixin.WxOpen.Middleware.dll
 F:\corp\workauto\bin\Release\net7.0\linux-x64\Serilog.dll

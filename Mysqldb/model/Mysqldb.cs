@@ -30,7 +30,7 @@ namespace Mysqldb
             //optionsBuilder.UseMySql(configuration.GetConnectionString("mysql"), serverVersion);
            
             optionsBuilder.UseNpgsql(configuration.GetConnectionString("postpresql"));
-            Console.WriteLine(configuration.GetConnectionString("postpresql"));
+           
            // optionsBuilder.UseBatchEF_MySQLPomelo();
            
             //optionsBuilder.UseLoggerFactory(loggerFactory);

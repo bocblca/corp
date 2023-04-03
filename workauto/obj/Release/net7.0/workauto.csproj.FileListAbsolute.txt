@@ -418,7 +418,6 @@ F:\corp\workauto\bin\Release\net7.0\AsmResolver.DotNet.dll
 F:\corp\workauto\bin\Release\net7.0\AsmResolver.PE.dll
 F:\corp\workauto\bin\Release\net7.0\AsmResolver.PE.File.dll
 F:\corp\workauto\bin\Release\net7.0\Autowired.Core.dll
-F:\corp\workauto\bin\Release\net7.0\BouncyCastle.Crypto.dll
 F:\corp\workauto\bin\Release\net7.0\Docker.DotNet.dll
 F:\corp\workauto\bin\Release\net7.0\Dynamic.Json.dll
 F:\corp\workauto\bin\Release\net7.0\FluentValidation.dll
@@ -430,7 +429,6 @@ F:\corp\workauto\bin\Release\net7.0\Hangfire.Core.dll
 F:\corp\workauto\bin\Release\net7.0\Hangfire.LiteDB.dll
 F:\corp\workauto\bin\Release\net7.0\Hangfire.SqlServer.dll
 F:\corp\workauto\bin\Release\net7.0\Humanizer.dll
-F:\corp\workauto\bin\Release\net7.0\itextsharp.dll
 F:\corp\workauto\bin\Release\net7.0\K4os.Compression.LZ4.dll
 F:\corp\workauto\bin\Release\net7.0\K4os.Compression.LZ4.Streams.dll
 F:\corp\workauto\bin\Release\net7.0\K4os.Hash.xxHash.dll
@@ -473,6 +471,7 @@ F:\corp\workauto\bin\Release\net7.0\MySqlConnector.dll
 F:\corp\workauto\bin\Release\net7.0\Newtonsoft.Json.dll
 F:\corp\workauto\bin\Release\net7.0\Newtonsoft.Json.Bson.dll
 F:\corp\workauto\bin\Release\net7.0\Npgsql.dll
+F:\corp\workauto\bin\Release\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 F:\corp\workauto\bin\Release\net7.0\NPOI.OOXML.dll
 F:\corp\workauto\bin\Release\net7.0\NPOI.OpenXml4Net.dll
 F:\corp\workauto\bin\Release\net7.0\NPOI.OpenXmlFormats.dll
@@ -482,6 +481,7 @@ F:\corp\workauto\bin\Release\net7.0\OpenAI_API.dll
 F:\corp\workauto\bin\Release\net7.0\Polly.dll
 F:\corp\workauto\bin\Release\net7.0\Polly.Extensions.Http.dll
 F:\corp\workauto\bin\Release\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
+F:\corp\workauto\bin\Release\net7.0\BouncyCastle.Crypto.dll
 F:\corp\workauto\bin\Release\net7.0\RabbitMQ.Client.dll
 F:\corp\workauto\bin\Release\net7.0\rcbauto.dll
 F:\corp\workauto\bin\Release\net7.0\Senparc.CO2NET.dll
@@ -492,9 +492,6 @@ F:\corp\workauto\bin\Release\net7.0\Senparc.NeuChar.App.dll
 F:\corp\workauto\bin\Release\net7.0\Senparc.NeuChar.AspNet.dll
 F:\corp\workauto\bin\Release\net7.0\Senparc.Weixin.dll
 F:\corp\workauto\bin\Release\net7.0\Senparc.Weixin.MP.dll
-F:\corp\workauto\bin\Release\net7.0\Senparc.Weixin.MP.Middleware.dll
-F:\corp\workauto\bin\Release\net7.0\Senparc.Weixin.Work.dll
-F:\corp\workauto\bin\Release\net7.0\Senparc.Weixin.Work.Middleware.dll
 F:\corp\workauto\bin\Release\net7.0\Senparc.Weixin.WxOpen.dll
 F:\corp\workauto\bin\Release\net7.0\Senparc.Weixin.WxOpen.Middleware.dll
 F:\corp\workauto\bin\Release\net7.0\Serilog.dll
@@ -581,4 +578,3 @@ F:\corp\workauto\obj\Release\net7.0\refint\workauto.dll
 F:\corp\workauto\obj\Release\net7.0\workauto.pdb
 F:\corp\workauto\obj\Release\net7.0\workauto.genruntimeconfig.cache
 F:\corp\workauto\obj\Release\net7.0\ref\workauto.dll
-F:\corp\workauto\bin\Release\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

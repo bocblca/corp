@@ -77,15 +77,6 @@
           "lib/netstandard2.0/Autowired.Core.dll": {}
         }
       },
-      "BouncyCastle/1.8.9": {
-        "type": "package",
-        "compile": {
-          "lib/BouncyCastle.Crypto.dll": {}
-        },
-        "runtime": {
-          "lib/BouncyCastle.Crypto.dll": {}
-        }
-      },
       "BouncyCastle.NetCore/1.8.5": {
         "type": "package",
         "compile": {
@@ -319,18 +310,6 @@
           "lib/net6.0/Humanizer.dll": {
             "related": ".xml"
           }
-        }
-      },
-      "iTextSharp/5.5.13.3": {
-        "type": "package",
-        "dependencies": {
-          "BouncyCastle": "1.8.9"
-        },
-        "compile": {
-          "lib/itextsharp.dll": {}
-        },
-        "runtime": {
-          "lib/itextsharp.dll": {}
         }
       },
       "K4os.Compression.LZ4/1.2.6": {
@@ -3055,61 +3034,6 @@
           }
         }
       },
-      "Senparc.Weixin.MP.Middleware/0.8.5.7": {
-        "type": "package",
-        "dependencies": {
-          "Senparc.NeuChar.AspNet": "1.1.3.5",
-          "Senparc.Weixin": "6.15.8.7",
-          "Senparc.Weixin.MP": "16.18.10.6"
-        },
-        "compile": {
-          "lib/net7.0/Senparc.Weixin.MP.Middleware.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/Senparc.Weixin.MP.Middleware.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Senparc.Weixin.Work/3.15.17": {
-        "type": "package",
-        "dependencies": {
-          "Senparc.NeuChar": "2.1.3.5",
-          "Senparc.Weixin": "6.15.8.7",
-          "System.Xml.XPath.XmlDocument": "4.3.0",
-          "System.Xml.XmlDocument": "4.3.0"
-        },
-        "compile": {
-          "lib/netstandard2.1/Senparc.Weixin.Work.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.1/Senparc.Weixin.Work.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Senparc.Weixin.Work.Middleware/0.8.5.7": {
-        "type": "package",
-        "dependencies": {
-          "Senparc.NeuChar.AspNet": "1.1.3.5",
-          "Senparc.Weixin": "6.15.8.7",
-          "Senparc.Weixin.Work": "3.15.14.7"
-        },
-        "compile": {
-          "lib/net7.0/Senparc.Weixin.Work.Middleware.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/Senparc.Weixin.Work.Middleware.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Senparc.Weixin.WxOpen/3.15.12.2": {
         "type": "package",
         "dependencies": {
@@ -5399,7 +5323,9 @@
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.3",
           "Npoi.Mapper": "4.1.0",
           "Pomelo.EntityFrameworkCore.MySql": "7.0.0",
-          "Senparc.Weixin.Work": "3.15.17",
+          "Senparc.CO2NET": "2.1.7.3",
+          "Senparc.NeuChar": "2.1.3.5",
+          "Senparc.Weixin": "6.15.8.7",
           "Zack.EFCore.Batch.MySQL.Pomelo_NET6": "6.1.4",
           "rcbauto": "2.6.0"
         },
@@ -5491,19 +5417,6 @@
         "autowired.core.1.0.6.nupkg.sha512",
         "autowired.core.nuspec",
         "lib/netstandard2.0/Autowired.Core.dll"
-      ]
-    },
-    "BouncyCastle/1.8.9": {
-      "sha512": "axnBgvdD5n+FnEG6efk/tfKuMFru7R/EoISH9zjh319yb3HD24TEHSAbNN/lTRT2ulOGRxDgOsCjkuk08iwWPg==",
-      "type": "package",
-      "path": "bouncycastle/1.8.9",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "bouncycastle.1.8.9.nupkg.sha512",
-        "bouncycastle.nuspec",
-        "lib/BouncyCastle.Crypto.dll"
       ]
     },
     "BouncyCastle.NetCore/1.8.5": {
@@ -5816,22 +5729,6 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
-      ]
-    },
-    "iTextSharp/5.5.13.3": {
-      "sha512": "vtnMhTEJdZFCkLqaQLjD8aqTBIVKHPrSFuSXnxbLEJlvE/j/l88fvG9wtsejXTmhtErMo0lA9T2LdfdfbwplYw==",
-      "type": "package",
-      "path": "itextsharp/5.5.13.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.md",
-        "gnu-agpl-v3.0.md",
-        "itextsharp.5.5.13.3.nupkg.sha512",
-        "itextsharp.nuspec",
-        "lib/iTextSharp.xml",
-        "lib/itextsharp.dll",
-        "notice.txt"
       ]
     },
     "K4os.Compression.LZ4/1.2.6": {
@@ -9342,72 +9239,6 @@
         "lib/netstandard2.1/Senparc.Weixin.MP.xml",
         "senparc.weixin.mp.16.18.10.6.nupkg.sha512",
         "senparc.weixin.mp.nuspec"
-      ]
-    },
-    "Senparc.Weixin.MP.Middleware/0.8.5.7": {
-      "sha512": "YjTd2qOTagEzPyORXJc+RKilGOxqoPZYpVilo7yPUlruroIyqerO/L7zh7rNh0tKnKQEenpK2Kl9JxXkg69rcQ==",
-      "type": "package",
-      "path": "senparc.weixin.mp.middleware/0.8.5.7",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "icon.jpg",
-        "lib/net462/Senparc.Weixin.MP.Middleware.dll",
-        "lib/net462/Senparc.Weixin.MP.Middleware.xml",
-        "lib/net6.0/Senparc.Weixin.MP.Middleware.dll",
-        "lib/net6.0/Senparc.Weixin.MP.Middleware.xml",
-        "lib/net7.0/Senparc.Weixin.MP.Middleware.dll",
-        "lib/net7.0/Senparc.Weixin.MP.Middleware.xml",
-        "lib/netcoreapp3.1/Senparc.Weixin.MP.Middleware.dll",
-        "lib/netcoreapp3.1/Senparc.Weixin.MP.Middleware.xml",
-        "lib/netstandard2.0/Senparc.Weixin.MP.Middleware.dll",
-        "lib/netstandard2.0/Senparc.Weixin.MP.Middleware.xml",
-        "lib/netstandard2.1/Senparc.Weixin.MP.Middleware.dll",
-        "lib/netstandard2.1/Senparc.Weixin.MP.Middleware.xml",
-        "senparc.weixin.mp.middleware.0.8.5.7.nupkg.sha512",
-        "senparc.weixin.mp.middleware.nuspec"
-      ]
-    },
-    "Senparc.Weixin.Work/3.15.17": {
-      "sha512": "ONSoi4BbAciyBbResKX8q9I1AA8dNIm390wjnHXZYPN/0z0/sy8jzUYhpT74Ga3AERHthxhe04J34xXdFtPyVA==",
-      "type": "package",
-      "path": "senparc.weixin.work/3.15.17",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "icon.jpg",
-        "lib/net462/Senparc.Weixin.Work.dll",
-        "lib/net462/Senparc.Weixin.Work.xml",
-        "lib/netstandard2.0/Senparc.Weixin.Work.dll",
-        "lib/netstandard2.0/Senparc.Weixin.Work.xml",
-        "lib/netstandard2.1/Senparc.Weixin.Work.dll",
-        "lib/netstandard2.1/Senparc.Weixin.Work.xml",
-        "senparc.weixin.work.3.15.17.nupkg.sha512",
-        "senparc.weixin.work.nuspec"
-      ]
-    },
-    "Senparc.Weixin.Work.Middleware/0.8.5.7": {
-      "sha512": "FP/taYe7CpM0SkNz/nBKX1x9InXe1Xf5G0DUbPe+Clo2eJmgFliry6aTwzQUWzvbp+kCtb72f10zp7wewkgRhg==",
-      "type": "package",
-      "path": "senparc.weixin.work.middleware/0.8.5.7",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "icon.jpg",
-        "lib/net462/Senparc.Weixin.Work.Middleware.dll",
-        "lib/net462/Senparc.Weixin.Work.Middleware.xml",
-        "lib/net6.0/Senparc.Weixin.Work.Middleware.dll",
-        "lib/net6.0/Senparc.Weixin.Work.Middleware.xml",
-        "lib/net7.0/Senparc.Weixin.Work.Middleware.dll",
-        "lib/net7.0/Senparc.Weixin.Work.Middleware.xml",
-        "lib/netcoreapp3.1/Senparc.Weixin.Work.Middleware.dll",
-        "lib/netcoreapp3.1/Senparc.Weixin.Work.Middleware.xml",
-        "lib/netstandard2.0/Senparc.Weixin.Work.Middleware.dll",
-        "lib/netstandard2.0/Senparc.Weixin.Work.Middleware.xml",
-        "lib/netstandard2.1/Senparc.Weixin.Work.Middleware.dll",
-        "lib/netstandard2.1/Senparc.Weixin.Work.Middleware.xml",
-        "senparc.weixin.work.middleware.0.8.5.7.nupkg.sha512",
-        "senparc.weixin.work.middleware.nuspec"
       ]
     },
     "Senparc.Weixin.WxOpen/3.15.12.2": {
@@ -14543,11 +14374,9 @@
       "Pomelo.EntityFrameworkCore.MySql >= 7.0.0",
       "Senparc.CO2NET >= 2.1.7.3",
       "Senparc.CO2NET.AspNet >= 1.1.4.8",
+      "Senparc.NeuChar >= 2.1.3.5",
       "Senparc.Weixin >= 6.15.8.7",
       "Senparc.Weixin.MP >= 16.18.10.6",
-      "Senparc.Weixin.MP.Middleware >= 0.8.5.7",
-      "Senparc.Weixin.Work >= 3.15.17",
-      "Senparc.Weixin.Work.Middleware >= 0.8.5.7",
       "Senparc.Weixin.WxOpen.Middleware >= 0.8.5.7",
       "Serilog.Sinks.Email >= 2.4.1-dev-00147",
       "Serilog.Sinks.MySQL >= 4.6.0",
@@ -14562,7 +14391,6 @@
       "TencentCloudSDK >= 3.0.730",
       "Zack.EFCore.Batch.MySQL.Pomelo_NET6 >= 6.1.4",
       "Zack.EventBus >= 1.1.3",
-      "iTextSharp >= 5.5.13.3",
       "rcbauto >= 2.6.0",
       "serilog.aspnetcore >= 6.1.0"
     ]
@@ -14702,6 +14530,10 @@
             "target": "Package",
             "version": "[1.1.4.8, )"
           },
+          "Senparc.NeuChar": {
+            "target": "Package",
+            "version": "[2.1.3.5, )"
+          },
           "Senparc.Weixin": {
             "target": "Package",
             "version": "[6.15.8.7, )"
@@ -14709,18 +14541,6 @@
           "Senparc.Weixin.MP": {
             "target": "Package",
             "version": "[16.18.10.6, )"
-          },
-          "Senparc.Weixin.MP.Middleware": {
-            "target": "Package",
-            "version": "[0.8.5.7, )"
-          },
-          "Senparc.Weixin.Work": {
-            "target": "Package",
-            "version": "[3.15.17, )"
-          },
-          "Senparc.Weixin.Work.Middleware": {
-            "target": "Package",
-            "version": "[0.8.5.7, )"
           },
           "Senparc.Weixin.WxOpen.Middleware": {
             "target": "Package",
@@ -14778,10 +14598,6 @@
             "target": "Package",
             "version": "[1.1.3, )"
           },
-          "iTextSharp": {
-            "target": "Package",
-            "version": "[5.5.13.3, )"
-          },
           "rcbauto": {
             "target": "Package",
             "version": "[2.6.0, )"
@@ -14813,27 +14629,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net7.0”还原包“BouncyCastle 1.8.9”。此包可能与项目不完全兼容。",
-      "libraryId": "BouncyCastle",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net7.0”还原包“iTextSharp 5.5.13.3”。此包可能与项目不完全兼容。",
-      "libraryId": "iTextSharp",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  }
 }

@@ -91,7 +91,6 @@
     <PackageReference Include="Hangfire" Version="1.7.34" />
     <PackageReference Include="Hangfire.Core" Version="1.7.34" />
     <PackageReference Include="Hangfire.LiteDB" Version="0.4.1" />
-    <PackageReference Include="iTextSharp" Version="5.5.13.3" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.4" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.4" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="7.0.4" />
@@ -111,11 +110,10 @@
     <PackageReference Include="rcbauto" Version="2.6.0" />
     <PackageReference Include="Senparc.CO2NET" Version="2.1.7.3" />
     <PackageReference Include="Senparc.CO2NET.AspNet" Version="1.1.4.8" />
+    <PackageReference Include="Senparc.NeuChar" Version="2.1.3.5" />
     <PackageReference Include="Senparc.Weixin" Version="6.15.8.7" />
     <PackageReference Include="Senparc.Weixin.MP" Version="16.18.10.6" />
-    <PackageReference Include="Senparc.Weixin.MP.Middleware" Version="0.8.5.7" />
-    <PackageReference Include="Senparc.Weixin.Work" Version="3.15.17" />
-    <PackageReference Include="Senparc.Weixin.Work.Middleware" Version="0.8.5.7" />
+   
     <PackageReference Include="Senparc.Weixin.WxOpen.Middleware" Version="0.8.5.7" />
     <PackageReference Include="serilog.aspnetcore" Version="6.1.0" />
     <PackageReference Include="Serilog.Sinks.Email" Version="2.4.1-dev-00147" />
@@ -141,6 +139,10 @@
   <ItemGroup>
     <ProjectReference Include="..\Mysqldb\Mysqldb.csproj" />
   </ItemGroup>
+
+
+
+
 
   <ItemGroup>
     <Content Update="wwwroot\assets\base.0eca82ef.js">

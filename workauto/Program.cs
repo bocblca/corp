@@ -75,7 +75,7 @@ builder.Services.AddLogging(logBuilder =>
 
     logBuilder.AddSerilog();
 });
-//自定义swgger报文头
+
 builder.Services.AddSwaggerGen(c =>
 {
     var scheme = new OpenApiSecurityScheme()

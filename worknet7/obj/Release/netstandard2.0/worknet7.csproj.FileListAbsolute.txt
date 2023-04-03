@@ -1,0 +1,11 @@
+F:\BuildOutPut\netstandard2.0\Senparc.Weixin.Work.xml
+F:\BuildOutPut\netstandard2.0\Senparc.Weixin.Work.deps.json
+F:\BuildOutPut\netstandard2.0\Senparc.Weixin.Work.dll
+F:\BuildOutPut\netstandard2.0\Senparc.Weixin.Work.pdb
+F:\corp\worknet7\obj\Release\netstandard2.0\worknet7.csproj.AssemblyReference.cache
+F:\corp\worknet7\obj\Release\netstandard2.0\worknet7.GeneratedMSBuildEditorConfig.editorconfig
+F:\corp\worknet7\obj\Release\netstandard2.0\worknet7.AssemblyInfoInputs.cache
+F:\corp\worknet7\obj\Release\netstandard2.0\worknet7.AssemblyInfo.cs
+F:\corp\worknet7\obj\Release\netstandard2.0\worknet7.csproj.CoreCompileInputs.cache
+F:\corp\worknet7\obj\Release\netstandard2.0\Senparc.Weixin.Work.dll
+F:\corp\worknet7\obj\Release\netstandard2.0\Senparc.Weixin.Work.pdb

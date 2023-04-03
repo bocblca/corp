@@ -73,9 +73,17 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
-            "Senparc.Weixin.Work": {
+            "Senparc.CO2NET": {
               "target": "Package",
-              "version": "[3.15.17, )"
+              "version": "[2.1.7.3, )"
+            },
+            "Senparc.NeuChar": {
+              "target": "Package",
+              "version": "[2.1.3.5, )"
+            },
+            "Senparc.Weixin": {
+              "target": "Package",
+              "version": "[6.15.8.7, )"
             },
             "Zack.EFCore.Batch.MySQL.Pomelo_NET6": {
               "target": "Package",
@@ -242,6 +250,10 @@
               "target": "Package",
               "version": "[1.1.4.8, )"
             },
+            "Senparc.NeuChar": {
+              "target": "Package",
+              "version": "[2.1.3.5, )"
+            },
             "Senparc.Weixin": {
               "target": "Package",
               "version": "[6.15.8.7, )"
@@ -249,18 +261,6 @@
             "Senparc.Weixin.MP": {
               "target": "Package",
               "version": "[16.18.10.6, )"
-            },
-            "Senparc.Weixin.MP.Middleware": {
-              "target": "Package",
-              "version": "[0.8.5.7, )"
-            },
-            "Senparc.Weixin.Work": {
-              "target": "Package",
-              "version": "[3.15.17, )"
-            },
-            "Senparc.Weixin.Work.Middleware": {
-              "target": "Package",
-              "version": "[0.8.5.7, )"
             },
             "Senparc.Weixin.WxOpen.Middleware": {
               "target": "Package",
@@ -317,10 +317,6 @@
             "Zack.EventBus": {
               "target": "Package",
               "version": "[1.1.3, )"
-            },
-            "iTextSharp": {
-              "target": "Package",
-              "version": "[5.5.13.3, )"
             },
             "rcbauto": {
               "target": "Package",

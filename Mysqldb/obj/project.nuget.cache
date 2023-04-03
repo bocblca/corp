@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3FeKK2XFk0jHEljORNeYkJmNKTqC1VUmePpRxskt+20U30d9xOihwuBRDotx1Y08uZHA/HSJKFAzaK1bWR5Nbg==",
+  "dgSpecHash": "129UW5Uzu4kOdc6Orho91otaq9RSonZJsOWO8J3Q3TFbmk4E9qKQJ7FtAShrIntgVljCYR/1hhs266QmogDR1Q==",
   "success": true,
   "projectFilePath": "F:\\corp\\Mysqldb\\Mysqldb.csproj",
   "expectedPackageFiles": [
@@ -78,7 +78,6 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\senparc.co2net.apm\\1.2.4.5\\senparc.co2net.apm.1.2.4.5.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\senparc.neuchar\\2.1.3.5\\senparc.neuchar.2.1.3.5.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\senparc.weixin\\6.15.8.7\\senparc.weixin.6.15.8.7.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\senparc.weixin.work\\3.15.17\\senparc.weixin.work.3.15.17.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\sharpziplib\\1.3.3\\sharpziplib.1.3.3.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
@@ -122,8 +121,6 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\zack.efcore.batch.mysql.pomelo_net6\\6.1.4\\zack.efcore.batch.mysql.pomelo_net6.6.1.4.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\zack.efcore.batch_net6\\6.1.3\\zack.efcore.batch_net6.6.1.3.nupkg.sha512"
   ],

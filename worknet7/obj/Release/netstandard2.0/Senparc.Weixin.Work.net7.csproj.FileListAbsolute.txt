@@ -1,0 +1,12 @@
+E:\WeiXinMPSDK\src\BuildOutPut\netstandard2.0\Senparc.Weixin.Work.xml
+E:\WeiXinMPSDK\src\BuildOutPut\netstandard2.0\Senparc.Weixin.Work.deps.json
+E:\WeiXinMPSDK\src\BuildOutPut\netstandard2.0\Senparc.Weixin.Work.dll
+E:\WeiXinMPSDK\src\BuildOutPut\netstandard2.0\Senparc.Weixin.Work.pdb
+E:\WeiXinMPSDK\src\Senparc.Weixin.Work\Senparc.Weixin.Work\obj\Release\netstandard2.0\Senparc.Weixin.Work.net7.csproj.AssemblyReference.cache
+E:\WeiXinMPSDK\src\Senparc.Weixin.Work\Senparc.Weixin.Work\obj\Release\netstandard2.0\Senparc.Weixin.Work.net7.GeneratedMSBuildEditorConfig.editorconfig
+E:\WeiXinMPSDK\src\Senparc.Weixin.Work\Senparc.Weixin.Work\obj\Release\netstandard2.0\Senparc.Weixin.Work.net7.AssemblyInfoInputs.cache
+E:\WeiXinMPSDK\src\Senparc.Weixin.Work\Senparc.Weixin.Work\obj\Release\netstandard2.0\Senparc.Weixin.Work.net7.AssemblyInfo.cs
+E:\WeiXinMPSDK\src\Senparc.Weixin.Work\Senparc.Weixin.Work\obj\Release\netstandard2.0\Senparc.Weixin.Work.net7.csproj.CoreCompileInputs.cache
+E:\WeiXinMPSDK\src\Senparc.Weixin.Work\Senparc.Weixin.Work\obj\Release\netstandard2.0\Senparc.Weixin.Work.net7.sourcelink.json
+E:\WeiXinMPSDK\src\Senparc.Weixin.Work\Senparc.Weixin.Work\obj\Release\netstandard2.0\Senparc.Weixin.Work.dll
+E:\WeiXinMPSDK\src\Senparc.Weixin.Work\Senparc.Weixin.Work\obj\Release\netstandard2.0\Senparc.Weixin.Work.pdb

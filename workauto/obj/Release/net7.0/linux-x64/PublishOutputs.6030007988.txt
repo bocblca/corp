@@ -12,7 +12,6 @@ F:\corp\workauto\obj\Docker\publish\AsmResolver.DotNet.dll
 F:\corp\workauto\obj\Docker\publish\AsmResolver.PE.dll
 F:\corp\workauto\obj\Docker\publish\AsmResolver.PE.File.dll
 F:\corp\workauto\obj\Docker\publish\Autowired.Core.dll
-F:\corp\workauto\obj\Docker\publish\BouncyCastle.Crypto.dll
 F:\corp\workauto\obj\Docker\publish\Docker.DotNet.dll
 F:\corp\workauto\obj\Docker\publish\Dynamic.Json.dll
 F:\corp\workauto\obj\Docker\publish\FluentValidation.dll
@@ -23,7 +22,6 @@ F:\corp\workauto\obj\Docker\publish\Hangfire.AspNetCore.dll
 F:\corp\workauto\obj\Docker\publish\Hangfire.Core.dll
 F:\corp\workauto\obj\Docker\publish\Hangfire.LiteDB.dll
 F:\corp\workauto\obj\Docker\publish\Hangfire.SqlServer.dll
-F:\corp\workauto\obj\Docker\publish\itextsharp.dll
 F:\corp\workauto\obj\Docker\publish\K4os.Compression.LZ4.dll
 F:\corp\workauto\obj\Docker\publish\K4os.Compression.LZ4.Streams.dll
 F:\corp\workauto\obj\Docker\publish\K4os.Hash.xxHash.dll
@@ -74,6 +72,7 @@ F:\corp\workauto\obj\Docker\publish\OpenAI_API.dll
 F:\corp\workauto\obj\Docker\publish\Polly.dll
 F:\corp\workauto\obj\Docker\publish\Polly.Extensions.Http.dll
 F:\corp\workauto\obj\Docker\publish\Pomelo.EntityFrameworkCore.MySql.dll
+F:\corp\workauto\obj\Docker\publish\BouncyCastle.Crypto.dll
 F:\corp\workauto\obj\Docker\publish\RabbitMQ.Client.dll
 F:\corp\workauto\obj\Docker\publish\rcbauto.dll
 F:\corp\workauto\obj\Docker\publish\Senparc.CO2NET.dll
@@ -84,9 +83,6 @@ F:\corp\workauto\obj\Docker\publish\Senparc.NeuChar.App.dll
 F:\corp\workauto\obj\Docker\publish\Senparc.NeuChar.AspNet.dll
 F:\corp\workauto\obj\Docker\publish\Senparc.Weixin.dll
 F:\corp\workauto\obj\Docker\publish\Senparc.Weixin.MP.dll
-F:\corp\workauto\obj\Docker\publish\Senparc.Weixin.MP.Middleware.dll
-F:\corp\workauto\obj\Docker\publish\Senparc.Weixin.Work.dll
-F:\corp\workauto\obj\Docker\publish\Senparc.Weixin.Work.Middleware.dll
 F:\corp\workauto\obj\Docker\publish\Senparc.Weixin.WxOpen.dll
 F:\corp\workauto\obj\Docker\publish\Senparc.Weixin.WxOpen.Middleware.dll
 F:\corp\workauto\obj\Docker\publish\Serilog.dll

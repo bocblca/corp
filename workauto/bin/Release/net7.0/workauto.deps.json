@@ -30,11 +30,9 @@
           "Pomelo.EntityFrameworkCore.MySql": "7.0.0",
           "Senparc.CO2NET": "2.1.7.3",
           "Senparc.CO2NET.AspNet": "1.1.4.8",
+          "Senparc.NeuChar": "2.1.3.5",
           "Senparc.Weixin": "6.15.8.7",
           "Senparc.Weixin.MP": "16.18.10.6",
-          "Senparc.Weixin.MP.Middleware": "0.8.5.7",
-          "Senparc.Weixin.Work": "3.15.17",
-          "Senparc.Weixin.Work.Middleware": "0.8.5.7",
           "Senparc.Weixin.WxOpen.Middleware": "0.8.5.7",
           "Serilog.Sinks.Email": "2.4.1-dev-00147",
           "Serilog.Sinks.MySQL": "4.6.0",
@@ -49,7 +47,6 @@
           "TencentCloudSDK": "3.0.730",
           "Zack.EFCore.Batch.MySQL.Pomelo_NET6": "6.1.4",
           "Zack.EventBus": "1.1.3",
-          "iTextSharp": "5.5.13.3",
           "rcbauto": "2.6.0",
           "Serilog.AspNetCore": "6.1.0"
         },
@@ -108,14 +105,6 @@
           "lib/netstandard2.0/Autowired.Core.dll": {
             "assemblyVersion": "1.0.6.0",
             "fileVersion": "1.0.6.0"
-          }
-        }
-      },
-      "BouncyCastle/1.8.9": {
-        "runtime": {
-          "lib/BouncyCastle.Crypto.dll": {
-            "assemblyVersion": "1.8.9.0",
-            "fileVersion": "1.8.20343.1"
           }
         }
       },
@@ -284,17 +273,6 @@
           "lib/net6.0/Humanizer.dll": {
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
-          }
-        }
-      },
-      "iTextSharp/5.5.13.3": {
-        "dependencies": {
-          "BouncyCastle": "1.8.9"
-        },
-        "runtime": {
-          "lib/itextsharp.dll": {
-            "assemblyVersion": "5.5.13.3",
-            "fileVersion": "5.5.13.3"
           }
         }
       },
@@ -1419,7 +1397,14 @@
           }
         }
       },
-      "Portable.BouncyCastle/1.8.9": {},
+      "Portable.BouncyCastle/1.8.9": {
+        "runtime": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "assemblyVersion": "1.8.9.0",
+            "fileVersion": "1.8.9.1"
+          }
+        }
+      },
       "RabbitMQ.Client/6.2.2": {
         "dependencies": {
           "System.Memory": "4.5.4",
@@ -1643,46 +1628,6 @@
           "lib/netstandard2.1/Senparc.Weixin.MP.dll": {
             "assemblyVersion": "16.18.10.6",
             "fileVersion": "16.18.10.6"
-          }
-        }
-      },
-      "Senparc.Weixin.MP.Middleware/0.8.5.7": {
-        "dependencies": {
-          "Senparc.NeuChar.AspNet": "1.1.3.5",
-          "Senparc.Weixin": "6.15.8.7",
-          "Senparc.Weixin.MP": "16.18.10.6"
-        },
-        "runtime": {
-          "lib/net7.0/Senparc.Weixin.MP.Middleware.dll": {
-            "assemblyVersion": "0.8.5.7",
-            "fileVersion": "0.8.5.7"
-          }
-        }
-      },
-      "Senparc.Weixin.Work/3.15.17": {
-        "dependencies": {
-          "Senparc.NeuChar": "2.1.3.5",
-          "Senparc.Weixin": "6.15.8.7",
-          "System.Xml.XPath.XmlDocument": "4.3.0",
-          "System.Xml.XmlDocument": "4.3.0"
-        },
-        "runtime": {
-          "lib/netstandard2.1/Senparc.Weixin.Work.dll": {
-            "assemblyVersion": "3.15.17.0",
-            "fileVersion": "3.15.17.0"
-          }
-        }
-      },
-      "Senparc.Weixin.Work.Middleware/0.8.5.7": {
-        "dependencies": {
-          "Senparc.NeuChar.AspNet": "1.1.3.5",
-          "Senparc.Weixin": "6.15.8.7",
-          "Senparc.Weixin.Work": "3.15.17"
-        },
-        "runtime": {
-          "lib/net7.0/Senparc.Weixin.Work.Middleware.dll": {
-            "assemblyVersion": "0.8.5.7",
-            "fileVersion": "0.8.5.7"
           }
         }
       },
@@ -2985,7 +2930,9 @@
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.3",
           "Npoi.Mapper": "4.1.0",
           "Pomelo.EntityFrameworkCore.MySql": "7.0.0",
-          "Senparc.Weixin.Work": "3.15.17",
+          "Senparc.CO2NET": "2.1.7.3",
+          "Senparc.NeuChar": "2.1.3.5",
+          "Senparc.Weixin": "6.15.8.7",
           "Zack.EFCore.Batch.MySQL.Pomelo_NET6": "6.1.4",
           "rcbauto": "2.6.0"
         },
@@ -3035,13 +2982,6 @@
       "sha512": "sha512-jEDgATq/mpZ1zTsg28+fwuMzLrsSL7L6LBjm3s4A1BGOr7wL7FCZie3B6u91+vF2n0YRqUMfOANQ33JYeySbZg==",
       "path": "autowired.core/1.0.6",
       "hashPath": "autowired.core.1.0.6.nupkg.sha512"
-    },
-    "BouncyCastle/1.8.9": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-axnBgvdD5n+FnEG6efk/tfKuMFru7R/EoISH9zjh319yb3HD24TEHSAbNN/lTRT2ulOGRxDgOsCjkuk08iwWPg==",
-      "path": "bouncycastle/1.8.9",
-      "hashPath": "bouncycastle.1.8.9.nupkg.sha512"
     },
     "BouncyCastle.NetCore/1.8.5": {
       "type": "package",
@@ -3133,13 +3073,6 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
-    },
-    "iTextSharp/5.5.13.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-vtnMhTEJdZFCkLqaQLjD8aqTBIVKHPrSFuSXnxbLEJlvE/j/l88fvG9wtsejXTmhtErMo0lA9T2LdfdfbwplYw==",
-      "path": "itextsharp/5.5.13.3",
-      "hashPath": "itextsharp.5.5.13.3.nupkg.sha512"
     },
     "K4os.Compression.LZ4/1.2.6": {
       "type": "package",
@@ -4267,27 +4200,6 @@
       "sha512": "sha512-33a7GFfjeS1UV/j+mbgIrQD8ewy17LmyTO2o4NyIYBR8D3wCu18tFie+BlrYJta2yEwXoa8tJH+WDQN5TdPSYA==",
       "path": "senparc.weixin.mp/16.18.10.6",
       "hashPath": "senparc.weixin.mp.16.18.10.6.nupkg.sha512"
-    },
-    "Senparc.Weixin.MP.Middleware/0.8.5.7": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-YjTd2qOTagEzPyORXJc+RKilGOxqoPZYpVilo7yPUlruroIyqerO/L7zh7rNh0tKnKQEenpK2Kl9JxXkg69rcQ==",
-      "path": "senparc.weixin.mp.middleware/0.8.5.7",
-      "hashPath": "senparc.weixin.mp.middleware.0.8.5.7.nupkg.sha512"
-    },
-    "Senparc.Weixin.Work/3.15.17": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-ONSoi4BbAciyBbResKX8q9I1AA8dNIm390wjnHXZYPN/0z0/sy8jzUYhpT74Ga3AERHthxhe04J34xXdFtPyVA==",
-      "path": "senparc.weixin.work/3.15.17",
-      "hashPath": "senparc.weixin.work.3.15.17.nupkg.sha512"
-    },
-    "Senparc.Weixin.Work.Middleware/0.8.5.7": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-FP/taYe7CpM0SkNz/nBKX1x9InXe1Xf5G0DUbPe+Clo2eJmgFliry6aTwzQUWzvbp+kCtb72f10zp7wewkgRhg==",
-      "path": "senparc.weixin.work.middleware/0.8.5.7",
-      "hashPath": "senparc.weixin.work.middleware.0.8.5.7.nupkg.sha512"
     },
     "Senparc.Weixin.WxOpen/3.15.12.2": {
       "type": "package",

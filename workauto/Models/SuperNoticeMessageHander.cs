@@ -1,9 +1,11 @@
 ﻿
+
 using Mysqldb;
 using Senparc.Weixin.Entities;
 using Senparc.Weixin.Work.Containers;
 using Senparc.Weixin.Work.Entities;
 using Senparc.Weixin.Work.MessageHandlers;
+
 
 namespace workapi.Models
 {
@@ -16,7 +18,7 @@ namespace workapi.Models
             (stream, postModel, maxRecordCount, serviceProvider) => new SuperNoticeMessageHandler(stream, postModel, maxRecordCount, serviceProvider);
 
         private readonly ISenparcWeixinSettingForWork _workSetting;
-        private readonly Wxusers _mdata;
+       private readonly Wxusers _mdata;
 
         public SuperNoticeMessageHandler(Stream inputStream, PostModel postModel, int maxRecordCount = 0, IServiceProvider serviceProvider = null)
             : base(inputStream, postModel, maxRecordCount, serviceProvider: serviceProvider)
@@ -32,18 +34,45 @@ namespace workapi.Models
 
         //审批状态回调
 
+
+        //public override IWorkResponseMessageBase OnEvent_Open_Approval_Change_Status_ChangeRequest(RequestMessageEvent_OpenApprovalChange requestMessage)
+        //{
+           
+        //    return base.OnEvent_Open_Approval_Change_Status_ChangeRequest(requestMessage);
+       
+        //}
         public override IWorkResponseMessageBase OnEvent_Open_Approval_Change_Status_ChangeRequest(RequestMessageEvent_OpenApprovalChange requestMessage)
         {
-            Console.WriteLine("这是自建应用回调...");
-            Console.WriteLine(requestMessage.AgentID);
-            Console.WriteLine("这是自建应用回调...执行第一次");
-            Console.WriteLine(requestMessage.CreateTime);
-            Console.WriteLine("这是自建应用回调...执行第二次");
-            Console.WriteLine(requestMessage.ApprovalInfo.ThirdNo);
-            Console.WriteLine("这是自建应用回调...执行第三次");
-            Console.WriteLine(requestMessage.ApprovalInfo.OpenSpName);
-            Console.WriteLine("这是自建应用回调...执行第四次");
-            return base.OnEvent_Open_Approval_Change_Status_ChangeRequest(requestMessage);
+
+         
+            
+            try {
+                Console.WriteLine("这是自建应用回调...");
+                Console.WriteLine(requestMessage.AgentID);
+                Console.WriteLine("这是自建应用回调...执行第一次");
+                Console.WriteLine(requestMessage.CreateTime);
+                Console.WriteLine("这是自建应用回调...执行第二次");
+                if (requestMessage.ApprovalInfo != null)
+                {
+                    Console.WriteLine("approval不为空");
+                    Console.WriteLine(requestMessage.ApprovalInfo.ToString());
+                }
+                else { 
+                   Console.WriteLine("approval是空值");
+                }
+                
+                Console.WriteLine("这是自建应用回调...执行第三次");
+
+                Console.WriteLine(requestMessage.ToString());
+                Console.WriteLine("这是自建应用回调...执行第四次");
+                Console.WriteLine(requestMessage.ToJsonString());
+                Console.WriteLine(requestMessage.ApprovalInfo.OpenSpName);
+                Console.WriteLine("这是自建应用回调...执行第五次");
+            }catch (Exception ex) { 
+                Console.WriteLine(ex.Message); 
+            }
+           
+            return DefaultResponseMessage(requestMessage);
         }
 
         public override IWorkResponseMessageBase OnEvent_Sys_Approval_Change_Status_ChangeRequest(RequestMessageEvent_SysApprovalChange requestMessage)
