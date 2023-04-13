@@ -1,15 +1,15 @@
 ﻿
 using Microsoft.AspNetCore.Http;
-
+using Mysqldb.rcb;
 
 namespace Mysqldb
 {
-    public class Workdepart: Senparc.Weixin.Work.AdvancedAPIs.MailList.DepartmentList
+    public class Workdepart: DepartmentList
     {
        public int level { get; set; }
 
     }
-    public class Member : Senparc.Weixin.Work.AdvancedAPIs.MailList.UserList_Simple
+    public class Member : UserList_Simple
     { 
        new public string? department { get; set; }
     }
@@ -126,12 +126,12 @@ namespace Mysqldb
         public double Lat { get; set; }
 
     }
-    public class Customupdateuser : Senparc.Weixin.Work.AdvancedAPIs.MailList.Member.MemberUpdateRequest {
+    //public class Customupdateuser : MemberUpdateRequest {
 
-        public string[] direct_leader { get; set; }
+    //    public string[] direct_leader { get; set; }
 
 
-    }
+    //}
    
 
 }

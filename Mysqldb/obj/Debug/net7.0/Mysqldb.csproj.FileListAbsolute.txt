@@ -36,3 +36,6 @@ F:\corp\Mysqldb\obj\Debug\net7.0\Mysqldb.dll
 F:\corp\Mysqldb\obj\Debug\net7.0\refint\Mysqldb.dll
 F:\corp\Mysqldb\obj\Debug\net7.0\Mysqldb.pdb
 F:\corp\Mysqldb\obj\Debug\net7.0\ref\Mysqldb.dll
+F:\corp\Mysqldb\bin\Debug\net7.0\Mysqldb.runtimeconfig.json
+F:\corp\Mysqldb\bin\Debug\net7.0\Senparc.Weixin.Work.xml
+F:\corp\Mysqldb\obj\Debug\net7.0\Mysqldb.genruntimeconfig.cache

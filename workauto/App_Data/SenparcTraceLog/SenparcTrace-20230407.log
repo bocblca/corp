@@ -1,0 +1,45 @@
+[[[ErrorJsonResultException]]]
+[2023/04/07 16:14:33.9505]
+[线程：19]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://qyapi.weixin.qq.com/cgi-bin/oa/getapprovalinfo?access_token=5RpnEJGbDpCc1gx1qagApp0Bda-NQIdUEJynDDkn233s0XGz3KSCUHOMohLWB8U1a6E42uJ050vwWftMl5PzUeFNfYDCUg1K24C666U9ZtBSTd5RjJ6s-qlv_6j5-s3JNf1tbyhKSSy3wy0G9lN_3RyXoqCo6gcdYnew1q927XDt84vLFPc-rsEXB7DgqwL9TgHpntvgTGvmDs-Fmg0jGA
+	errcode：40058
+	errmsg：field `starttime` expect type `uint32`. invalid Request Parameter, hint: [1680855274307414260129115], from ip: 123.188.254.206, more info at https://open.work.weixin.qq.com/devtool/query?e=40058
+
+[[[ErrorJsonResultException]]]
+[2023/04/07 16:16:48.8630]
+[线程：15]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://qyapi.weixin.qq.com/cgi-bin/oa/getapprovalinfo?access_token=5RpnEJGbDpCc1gx1qagApp0Bda-NQIdUEJynDDkn233s0XGz3KSCUHOMohLWB8U1a6E42uJ050vwWftMl5PzUeFNfYDCUg1K24C666U9ZtBSTd5RjJ6s-qlv_6j5-s3JNf1tbyhKSSy3wy0G9lN_3RyXoqCo6gcdYnew1q927XDt84vLFPc-rsEXB7DgqwL9TgHpntvgTGvmDs-Fmg0jGA
+	errcode：40058
+	errmsg：field `starttime` expect type `uint32`. invalid Request Parameter, hint: [1680855408235731915167984], from ip: 123.188.254.206, more info at https://open.work.weixin.qq.com/devtool/query?e=40058
+
+[[[ErrorJsonResultException]]]
+[2023/04/07 16:22:37.9191]
+[线程：9]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://qyapi.weixin.qq.com/cgi-bin/oa/getapprovalinfo?access_token=5RpnEJGbDpCc1gx1qagApp0Bda-NQIdUEJynDDkn233s0XGz3KSCUHOMohLWB8U1a6E42uJ050vwWftMl5PzUeFNfYDCUg1K24C666U9ZtBSTd5RjJ6s-qlv_6j5-s3JNf1tbyhKSSy3wy0G9lN_3RyXoqCo6gcdYnew1q927XDt84vLFPc-rsEXB7DgqwL9TgHpntvgTGvmDs-Fmg0jGA
+	errcode：40058
+	errmsg：field `starttime` expect type `uint32`. invalid Request Parameter, hint: [1680855758431490311735431], from ip: 123.188.254.206, more info at https://open.work.weixin.qq.com/devtool/query?e=40058
+
+[[[ErrorJsonResultException]]]
+[2023/04/07 16:25:11.4051]
+[线程：17]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://qyapi.weixin.qq.com/cgi-bin/oa/getapprovalinfo?access_token=5RpnEJGbDpCc1gx1qagApp0Bda-NQIdUEJynDDkn233s0XGz3KSCUHOMohLWB8U1a6E42uJ050vwWftMl5PzUeFNfYDCUg1K24C666U9ZtBSTd5RjJ6s-qlv_6j5-s3JNf1tbyhKSSy3wy0G9lN_3RyXoqCo6gcdYnew1q927XDt84vLFPc-rsEXB7DgqwL9TgHpntvgTGvmDs-Fmg0jGA
+	errcode：40058
+	errmsg：field `starttime` expect type `uint32`. invalid Request Parameter, hint: [1680855911339602271670550], from ip: 123.188.254.206, more info at https://open.work.weixin.qq.com/devtool/query?e=40058
+
+[[[ErrorJsonResultException]]]
+[2023/04/07 16:29:49.0174]
+[线程：16]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://qyapi.weixin.qq.com/cgi-bin/oa/getapprovalinfo?access_token=5RpnEJGbDpCc1gx1qagApp0Bda-NQIdUEJynDDkn233s0XGz3KSCUHOMohLWB8U1a6E42uJ050vwWftMl5PzUeFNfYDCUg1K24C666U9ZtBSTd5RjJ6s-qlv_6j5-s3JNf1tbyhKSSy3wy0G9lN_3RyXoqCo6gcdYnew1q927XDt84vLFPc-rsEXB7DgqwL9TgHpntvgTGvmDs-Fmg0jGA
+	errcode：301025
+	errmsg：get approval param error:invalid starttime or endtime
+

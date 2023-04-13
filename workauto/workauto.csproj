@@ -136,10 +136,18 @@
     <Folder Include="wxsdk\" />
   </ItemGroup>
 
+
   <ItemGroup>
+    
     <ProjectReference Include="..\Mysqldb\Mysqldb.csproj" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <Reference Include="Senparc.Weixin.Work">
+      <HintPath>works\Senparc.Weixin.Work.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 
 
 

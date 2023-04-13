@@ -10,7 +10,8 @@ namespace Mysqldb
         {
             builder.ToTable("Supernotices");
             builder.HasKey(e => e.NoticeId);
-            builder.Property(e => e.NoticeId).HasMaxLength(50).IsUnicode(true);
+            builder.Property(e=> e.NoticeId).HasMaxLength(100).IsUnicode();
+           
       
         }
     }

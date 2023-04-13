@@ -1,11 +1,11 @@
-﻿
-
+﻿using Microsoft.EntityFrameworkCore;
 using Mysqldb;
+using Newtonsoft.Json;
 using Senparc.Weixin.Entities;
+using Senparc.Weixin.Work.AdvancedAPIs;
 using Senparc.Weixin.Work.Containers;
 using Senparc.Weixin.Work.Entities;
 using Senparc.Weixin.Work.MessageHandlers;
-
 
 namespace workapi.Models
 {
@@ -16,116 +16,89 @@ namespace workapi.Models
         /// </summary>
         public static Func<Stream, PostModel, int, IServiceProvider, SuperNoticeMessageHandler> GenerateMessageHandler =
             (stream, postModel, maxRecordCount, serviceProvider) => new SuperNoticeMessageHandler(stream, postModel, maxRecordCount, serviceProvider);
-
         private readonly ISenparcWeixinSettingForWork _workSetting;
-       private readonly Wxusers _mdata;
-
+        private readonly Wxusers _mdata;
         public SuperNoticeMessageHandler(Stream inputStream, PostModel postModel, int maxRecordCount = 0, IServiceProvider serviceProvider = null)
             : base(inputStream, postModel, maxRecordCount, serviceProvider: serviceProvider)
         {
             _workSetting = Senparc.Weixin.Config.SenparcWeixinSetting.Items["supernotice"];
             _mdata = serviceProvider!.GetRequiredService<Wxusers>();
-            
-
         }
-
-
-
-
         //审批状态回调
-
-
-        //public override IWorkResponseMessageBase OnEvent_Open_Approval_Change_Status_ChangeRequest(RequestMessageEvent_OpenApprovalChange requestMessage)
-        //{
-           
-        //    return base.OnEvent_Open_Approval_Change_Status_ChangeRequest(requestMessage);
-       
-        //}
-        public override IWorkResponseMessageBase OnEvent_Open_Approval_Change_Status_ChangeRequest(RequestMessageEvent_OpenApprovalChange requestMessage)
+        public override async Task<IWorkResponseMessageBase> OnEvent_Open_Approval_Change_Status_ChangeRequestAsync(RequestMessageEvent_OpenApprovalChange requestMessage)
         {
+            Console.WriteLine("自建应用回调");
+            var tmpdata = requestMessage.ApprovalInfo;
+            var xx = JsonConvert.SerializeObject(tmpdata);
+            Console.WriteLine(xx);
 
-         
+            var res = _mdata.Supernotices.Where(e => e.NoticeId + 1 == requestMessage.ApprovalInfo.ThirdNo).FirstOrDefault();
+            var mtoken = AccessTokenContainer.TryGetToken(_workSetting.WeixinCorpId, _workSetting.WeixinCorpSecret);
+            if (res != null)
             
-            try {
-                Console.WriteLine("这是自建应用回调...");
-                Console.WriteLine(requestMessage.AgentID);
-                Console.WriteLine("这是自建应用回调...执行第一次");
-                Console.WriteLine(requestMessage.CreateTime);
-                Console.WriteLine("这是自建应用回调...执行第二次");
-                if (requestMessage.ApprovalInfo != null)
+            {
+                  Console.WriteLine("分行审批节点");
+                //分行审批回调
+                if (requestMessage.ApprovalInfo.ApproverStep.Equals(0) && res.Approverstep == 1)
                 {
-                    Console.WriteLine("approval不为空");
-                    Console.WriteLine(requestMessage.ApprovalInfo.ToString());
-                }
-                else { 
-                   Console.WriteLine("approval是空值");
-                }
-                
-                Console.WriteLine("这是自建应用回调...执行第三次");
+                    Console.WriteLine("分行审批节点开始");
+                    res.Approvals[0].Approvalid = requestMessage.ApprovalInfo.ThirdNo;
+                    res.Approvals[0].Approvalname = requestMessage.ApprovalInfo.OpenSpName;
+                    res.Approvals[0].Approval_Userid = requestMessage.ApprovalInfo.ApprovalNodes[0].Items[0].ItemUserId;
+                    res.Approvals[0].Approvalname = requestMessage.ApprovalInfo.ApprovalNodes[0].Items[0].ItemName;
+                    res.Approvals[0].TempId = requestMessage.ApprovalInfo.OpenTemplateId;
+                    res.Approvals[0].Approval_memo = requestMessage.ApprovalInfo.ApprovalNodes[0].Items[0].ItemSpeech;
+                    res.Approvals[0].Approval_status = requestMessage.ApprovalInfo.ApprovalNodes[0].Items[0].ItemStatus.ToString();
+               
+                    res.Approvals[0].Nodestatus = requestMessage.ApprovalInfo.ApprovalNodes[0].Items[0].ItemStatus;
+                    res.Approvals[0].Ordertime = requestMessage.ApprovalInfo.ApprovalNodes[0].Items[0].ItemOpTime;
+                     if (requestMessage.ApprovalInfo.ApprovalNodes[0].Items[0].ItemStatus == 2)
+                    {
+                        res.Approverstep = 2;
+                        await MassApi.SendTextCardAsync(mtoken, _workSetting.WeixinCorpAgentId, "督办通知单", "支行有督办通知需要处理!编号:" + res.NoticeId, "https://rcbcybank.com/#/noticelist", null, res.Noticedata.Noticebankuserid);
+                    }
+                    _mdata.Supernotices.Attach(res);
+                    _mdata.Entry(res).State = EntityState.Modified;
 
-                Console.WriteLine(requestMessage.ToString());
-                Console.WriteLine("这是自建应用回调...执行第四次");
-                Console.WriteLine(requestMessage.ToJsonString());
-                Console.WriteLine(requestMessage.ApprovalInfo.OpenSpName);
-                Console.WriteLine("这是自建应用回调...执行第五次");
-            }catch (Exception ex) { 
-                Console.WriteLine(ex.Message); 
+                    _ = await _mdata.SaveChangesAsync();
+                }
             }
-           
-            return DefaultResponseMessage(requestMessage);
+            var res2 = _mdata.Supernotices.Where(e => e.NoticeId + 2 == requestMessage.ApprovalInfo.ThirdNo).FirstOrDefault();
+            if (res2 != null)
+            {
+                 Console.WriteLine("支行审批节点");
+                //支行行审批回调
+         
+                    if (requestMessage.ApprovalInfo.ApproverStep==0 && res2.Approverstep == 3)
+                    {
+                        Console.WriteLine("支行审批节点开始");
+
+                        res2.Approvals[1].Approvalid = requestMessage.ApprovalInfo.ThirdNo;
+                        res2.Approvals[1].Approvalname = requestMessage.ApprovalInfo.OpenSpName;
+                        res2.Approvals[1].Approval_Userid = requestMessage.ApprovalInfo.ApprovalNodes[0].Items[0].ItemUserId;
+                        res2.Approvals[1].Approvalname = requestMessage.ApprovalInfo.ApprovalNodes[0].Items[0].ItemName;
+                        res2.Approvals[1].TempId = requestMessage.ApprovalInfo.OpenTemplateId;
+                        res2.Approvals[1].Approval_memo = requestMessage.ApprovalInfo.ApprovalNodes[0].Items[0].ItemSpeech;
+                        res2.Approvals[1].Approval_status = requestMessage.ApprovalInfo.ApprovalNodes[0].Items[0].ItemStatus.ToString();
+                        res2.Approvals[1].Nodestatus = requestMessage.ApprovalInfo.ApprovalNodes[0].Items[0].ItemStatus;
+                        res2.Approvals[1].Ordertime = requestMessage.ApprovalInfo.ApprovalNodes[0].Items[0].ItemOpTime;
+                        if (requestMessage.ApprovalInfo.ApprovalNodes[0].Items[0].ItemStatus == 2)
+                        {
+                            res2.Approverstep = 4;
+                            await MassApi.SendTextCardAsync(mtoken, _workSetting.WeixinCorpAgentId, "督办通知单", "支行反馈通知单需要处理,编号:" + res2.NoticeId, "https://rcbcybank.com/#/noticereceive?noticeid=" + res2.NoticeId, null, res2.Orderdata.Userid);
+                        }
+                        _mdata.Supernotices.Attach(res2);
+                        _mdata.Entry(res2).State = EntityState.Modified;
+                        _ = await _mdata.SaveChangesAsync();
+                    }
+            }
+            return null;
         }
-
-        public override IWorkResponseMessageBase OnEvent_Sys_Approval_Change_Status_ChangeRequest(RequestMessageEvent_SysApprovalChange requestMessage)
-        {
-            Console.WriteLine("这是系统审批回调...");
-            Console.WriteLine(requestMessage.ApprovalInfo.Applyer.UserId);
-            return base.OnEvent_Sys_Approval_Change_Status_ChangeRequest(requestMessage);
-        }
-
-
-
-
-        public override IWorkResponseMessageBase OnEvent_ScancodeWaitmsgRequest(RequestMessageEvent_Scancode_Waitmsg requestMessage)
-        {
-            var responseMessage = this.CreateResponseMessage<ResponseMessageText>();
-            var appKeyx = AccessTokenContainer.BuildingKey(_workSetting);
-            Senparc.Weixin.Work.AdvancedAPIs.MassApi.SendTextCard(appKeyx, requestMessage.AgentID.ToString(), "扫描结果", "<div class=\"normal\">物品二维(条)码</div><div class=\"highlight\">" + requestMessage.ScanCodeInfo.ScanResult + "</div>", "https://rcbcybank.com/#/?id=" + requestMessage.ScanCodeInfo.ScanResult + "&user=" + requestMessage.FromUserName, "物品登记", requestMessage.FromUserName);
-
-            //responseMessage.Content = "扫描end";
-
-            return responseMessage;
-            //return base.OnEvent_ScancodeWaitmsgRequest(requestMessage);
-        }
-        //public override IWorkResponseMessageBase OnEvent_LocationRequest(RequestMessageEvent_Location requestMessage)
-        //{
-        //   // var responseMessage = this.CreateResponseMessage<ResponseMessageText>();
-        //    //responseMessage.Content = string.Format("位置坐标 {0} - {1}", requestMessage.Latitude, requestMessage.Longitude);
-        //    return null;
-        //}
-
         public override IWorkResponseMessageBase DefaultResponseMessage(IWorkRequestMessageBase requestMessage)
         {
-
             return new WorkSuccessResponseMessage();
         }
 
-        //public override IWorkResponseMessageBase OnEvent_EnterAgentRequest(RequestMessageEvent_Enter_Agent requestMessage)
-        //{
-        //    var responseMessage = this.CreateResponseMessage<ResponseMessageText>();
-
-        //    responseMessage.Content = "欢迎进入应用！现在时间是：" + SystemTime.Now.DateTime.ToString();
-        //    return responseMessage;
-        //}
-
-
-
-        //public override IWorkResponseMessageBase DefaultResponseMessage(IWorkRequestMessageBase requestMessage)
-        //{
-
-        //   // var responseMessage = this.CreateResponseMessage<ResponseMessageText>();
-        //   // responseMessage.Content = "这是一条没有找到合适回复信息的默认消息。";
-        //  //  return responseMessage;
-        //    return null;
-        //}
+        
     }
 }

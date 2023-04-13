@@ -548,3 +548,7 @@ F:\corp\workauto\obj\Release\net7.0\linux-x64\refint\workauto.dll
 F:\corp\workauto\obj\Release\net7.0\linux-x64\workauto.pdb
 F:\corp\workauto\obj\Release\net7.0\linux-x64\workauto.genruntimeconfig.cache
 F:\corp\workauto\obj\Release\net7.0\linux-x64\ref\workauto.dll
+F:\corp\workauto\bin\Release\net7.0\linux-x64\Senparc.Weixin.Work.dll
+F:\corp\workauto\bin\Release\net7.0\linux-x64\Senparc.Weixin.Work.pdb
+F:\corp\workauto\bin\Release\net7.0\linux-x64\works\Senparc.Weixin.Work.deps.json
+F:\corp\workauto\bin\Release\net7.0\linux-x64\Senparc.Weixin.Work.xml

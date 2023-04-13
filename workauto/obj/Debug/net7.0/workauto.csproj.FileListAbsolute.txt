@@ -385,3 +385,5 @@ F:\corp\workauto\obj\Debug\net7.0\refint\workauto.dll
 F:\corp\workauto\obj\Debug\net7.0\workauto.pdb
 F:\corp\workauto\obj\Debug\net7.0\workauto.genruntimeconfig.cache
 F:\corp\workauto\obj\Debug\net7.0\ref\workauto.dll
+F:\corp\workauto\bin\Debug\net7.0\works\Senparc.Weixin.Work.deps.json
+F:\corp\workauto\bin\Debug\net7.0\Senparc.Weixin.Work.xml

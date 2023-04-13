@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "t84YuNZ2FCOAlZE08L9n8sMKAUC6NYKdL53TPhRsXyOHQ5Ehm6kqRYfyH++77FmyzDxWHH6+uDJLWH/eO2ariQ==",
+  "dgSpecHash": "WhOce3ghkeUBJoDLqo07LmyToU9a8FAggFd2/Js0VwUC/V1ZDqOJl8uyzCGeBIG/+fspRYYkImeYUxJRZ8GBcg==",
   "success": true,
   "projectFilePath": "F:\\corp\\workauto\\workauto.csproj",
   "expectedPackageFiles": [
@@ -329,7 +329,7 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\zack.efcore.batch.mysql.pomelo_net6\\6.1.4\\zack.efcore.batch.mysql.pomelo_net6.6.1.4.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\zack.efcore.batch_net6\\6.1.3\\zack.efcore.batch_net6.6.1.3.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\zack.eventbus\\1.1.3\\zack.eventbus.1.1.3.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\7.0.4\\microsoft.netcore.app.host.linux-x64.7.0.4.nupkg.sha512"
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\7.0.5\\microsoft.netcore.app.host.linux-x64.7.0.5.nupkg.sha512"
   ],
   "logs": []
 }

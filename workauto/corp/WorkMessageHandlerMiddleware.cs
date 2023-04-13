@@ -1,48 +1,9 @@
-﻿#region Apache License Version 2.0
-/*----------------------------------------------------------------
-
-Copyright 2023 Jeffrey Su & Suzhou Senparc Network Technology Co.,Ltd.
-
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file
-except in compliance with the License. You may obtain a copy of the License at
-
-http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software distributed under the
-License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
-either express or implied. See the License for the specific language governing permissions
-and limitations under the License.
-
-Detail: https://github.com/JeffreySu/WeiXinMPSDK/blob/master/license.md
-
-----------------------------------------------------------------*/
-#endregion Apache License Version 2.0
-
-/*----------------------------------------------------------------
-    Copyright (C) 2023 Senparc
-    
-    文件名：WxOpenMessageHandlerMiddleware.cs
-    文件功能描述：公众号 MessageHandler 中间件
-    
-    
-    创建标识：Senparc - 20191004
-    
-----------------------------------------------------------------*/
-
-#if !NET462
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Http;
-using Senparc.CO2NET.Extensions;
-using Senparc.CO2NET.Trace;
-using Senparc.NeuChar.Context;
+﻿using Senparc.NeuChar.Context;
 using Senparc.NeuChar.MessageHandlers;
 using Senparc.NeuChar.Middlewares;
 using Senparc.Weixin.Entities;
 using Senparc.Weixin.Work.Entities;
 using Senparc.Weixin.Work.MessageContexts;
-using System;
-using System.IO;
-using System.Threading.Tasks;
 
 namespace Senparc.Weixin.Work.MessageHandlers.Middleware
 {
@@ -152,7 +113,6 @@ namespace Senparc.Weixin.Work.MessageHandlers.Middleware
     {
         /* 用法：
            startup.cs 中 Configure() 方法中加入，即可启用自定义的 CustomMessageHandler，无需任何 Controller 和多余代码：
-
            app.UseMpMessageHandler("/WeixinAsync", CustomMessageHandler.GenerateMessageHandler, o => o.AccountSettingFunc = c => senparcWeixinSetting.Value);
             );
          */
@@ -207,5 +167,3 @@ namespace Senparc.Weixin.Work.MessageHandlers.Middleware
     //}
     #endregion
 }
-#endif
-

@@ -4,6 +4,7 @@ F:\corp\workauto\obj\Docker\publish\appsettings.json
 F:\corp\workauto\obj\Docker\publish\appsettings.Production.json
 F:\corp\workauto\obj\Docker\publish\appsettings.RCB.json
 F:\corp\workauto\obj\Docker\publish\libman.json
+F:\corp\workauto\obj\Docker\publish\works\Senparc.Weixin.Work.deps.json
 F:\corp\workauto\obj\Docker\publish\workauto.dll
 F:\corp\workauto\obj\Docker\publish\workauto.runtimeconfig.json
 F:\corp\workauto\obj\Docker\publish\workauto.pdb
@@ -134,5 +135,8 @@ F:\corp\workauto\obj\Docker\publish\tr-TR\Hangfire.Core.resources.dll
 F:\corp\workauto\obj\Docker\publish\zh-TW\Hangfire.Core.resources.dll
 F:\corp\workauto\obj\Docker\publish\zh\Hangfire.Core.resources.dll
 F:\corp\workauto\obj\Docker\publish\Mysqldb.dll
+F:\corp\workauto\obj\Docker\publish\Senparc.Weixin.Work.dll
 F:\corp\workauto\obj\Docker\publish\Mysqldb.pdb
+F:\corp\workauto\obj\Docker\publish\Senparc.Weixin.Work.pdb
+F:\corp\workauto\obj\Docker\publish\Senparc.Weixin.Work.xml
 F:\corp\workauto\obj\Docker\publish\workauto.deps.json

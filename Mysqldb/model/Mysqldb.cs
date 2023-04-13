@@ -30,7 +30,7 @@ namespace Mysqldb
             //optionsBuilder.UseMySql(configuration.GetConnectionString("mysql"), serverVersion);
            
             optionsBuilder.UseNpgsql(configuration.GetConnectionString("postpresql"));
-           
+            
            // optionsBuilder.UseBatchEF_MySQLPomelo();
            
             //optionsBuilder.UseLoggerFactory(loggerFactory);
@@ -45,6 +45,7 @@ namespace Mysqldb
             modelBuilder.ApplyConfigurationsFromAssembly(this.GetType().Assembly);
         }
 
+        public DbSet<Supernoticeapproval> Supernoticeapprovals { get; set; }
         public DbSet<Supernotice> Supernotices { get; set; }
         public DbSet<asset_state> asset_States { get; set; }
         public DbSet<Asset> assets { get; set; }

@@ -1,0 +1,27 @@
+[[[ErrorJsonResultException]]]
+[2023/04/08 13:59:34.9814]
+[线程：19]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://qyapi.weixin.qq.com/cgi-bin/oa/getapprovaldetail?access_token=2bsAxOUOSWanSiqD9ioEpJznqliIf8yfyaBtyeRYGbXh09LHVO_iS7zo04TtEgbmftuaVUMK-9nWNzyM-ubdGOKP-Ma6QdSyzxZ70CjehEwDFnN5H_43ZTlLmGsE90JrX9c2N-nhok-6anpyCRAnkeAqUSkDWs2cPrZFbBHcNK1z9-KyD7usqxGvG2d-pFI2K13ZmlcMqkJr7TUxV_0qYQ
+	errcode：301026
+	errmsg：get approval data error:has no sp_no data
+
+[[[ErrorJsonResultException]]]
+[2023/04/08 14:57:51.7962]
+[线程：19]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://qyapi.weixin.qq.com/cgi-bin/oa/getapprovaldetail?access_token=IDLW0eh3VNQDL-Wir72_meQaJ8AchB3fO8eYxdtXt24_EoyAdn9hfZhKJNeIvmxQn1JtaXa4BksHLfw8u4_adPXwU4c-FPekSqs8UVY00170Jqt9nCD01nfKjSlXOem8vav_rXljruNAx6w3yW15ueb4I2KJjd5ckbK0FcVnAvu00ij414IcO_YdaPCgbEkfZcLg308n9YwioGU8tDUYCg
+	errcode：301026
+	errmsg：get approval data error:has no sp_no data
+
+[[[ErrorJsonResultException]]]
+[2023/04/08 15:06:25.1724]
+[线程：19]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://qyapi.weixin.qq.com/cgi-bin/oa/getapprovalinfo?access_token=IDLW0eh3VNQDL-Wir72_meQaJ8AchB3fO8eYxdtXt24_EoyAdn9hfZhKJNeIvmxQn1JtaXa4BksHLfw8u4_adPXwU4c-FPekSqs8UVY00170Jqt9nCD01nfKjSlXOem8vav_rXljruNAx6w3yW15ueb4I2KJjd5ckbK0FcVnAvu00ij414IcO_YdaPCgbEkfZcLg308n9YwioGU8tDUYCg
+	errcode：301025
+	errmsg：get approval param error, hint: [1680937585339601352645159], from ip: 123.188.254.206, more info at https://open.work.weixin.qq.com/devtool/query?e=301025
+

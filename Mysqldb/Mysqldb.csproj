@@ -21,8 +21,17 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.4" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="7.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
   
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.4" />
+  
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="7.0.4" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.3" />
     <PackageReference Include="Npoi.Mapper" Version="4.1.0" />
@@ -33,6 +42,20 @@
     <PackageReference Include="Senparc.Weixin" Version="6.15.8.7" />
     <PackageReference Include="Zack.EFCore.Batch.MySQL.Pomelo_NET6" Version="6.1.4" />
   </ItemGroup>
+
+
+
+  <ItemGroup>
+    <Reference Include="Senparc.Weixin.Work">
+      <HintPath>..\workauto\works\Senparc.Weixin.Work.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+
+
+
+
+
 
 
 

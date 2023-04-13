@@ -961,12 +961,15 @@ namespace Mysqldb.Migrations
             modelBuilder.Entity("Mysqldb.Supernotice", b =>
                 {
                     b.Property<string>("NoticeId")
-                        .HasMaxLength(50)
+                        .HasMaxLength(100)
                         .IsUnicode(true)
-                        .HasColumnType("character varying(50)");
+                        .HasColumnType("character varying(100)");
 
                     b.Property<List<Approval>>("Approvals")
                         .HasColumnType("jsonb");
+
+                    b.Property<int>("Approverstep")
+                        .HasColumnType("integer");
 
                     b.Property<Noticedata>("Noticedata")
                         .HasColumnType("jsonb");
@@ -977,6 +980,20 @@ namespace Mysqldb.Migrations
                     b.HasKey("NoticeId");
 
                     b.ToTable("Supernotices", (string)null);
+                });
+
+            modelBuilder.Entity("Mysqldb.Supernoticeapproval", b =>
+                {
+                    b.Property<string>("Noticeid")
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.Property<List<Approval_userid>>("Users")
+                        .HasColumnType("jsonb");
+
+                    b.HasKey("Noticeid");
+
+                    b.ToTable("Supernoticeapprovals", (string)null);
                 });
 
             modelBuilder.Entity("Mysqldb.Trans_TBL", b =>
