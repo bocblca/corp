@@ -1,0 +1,18 @@
+[[[ErrorJsonResultException]]]
+[2023/04/27 15:46:46.1508]
+[线程：8]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://qyapi.weixin.qq.com/cgi-bin/user/get?access_token=8OES8VjPkI4c8jDMSgtF6VrPWSYhcS1pYULw8_oJMKH638rARyGw4q-eRdyINLh-4HJjrAxkmTWkpzbTIT5rOpc_d3XgYdzcDE6KLyPE0wigWvc8oY8vkMEwYey7IfzMZh3uMtIIoKQglN9-wLfv1zCmIijUvdBcH3P6RxrFpZAcgDZMI_MetWrDgqX0MnXRxcdMkngd9Yp2Btt6CV-4eg&userid=105
+	errcode：60111
+	errmsg：invalid string value `105`. userid not found, hint: [1682581605640292322591026], from ip: 123.188.254.206, more info at https://open.work.weixin.qq.com/devtool/query?e=60111
+
+[[[ErrorJsonResultException]]]
+[2023/04/27 15:50:23.0588]
+[线程：14]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://qyapi.weixin.qq.com/cgi-bin/message/send?access_token=8OES8VjPkI4c8jDMSgtF6VrPWSYhcS1pYULw8_oJMKH638rARyGw4q-eRdyINLh-4HJjrAxkmTWkpzbTIT5rOpc_d3XgYdzcDE6KLyPE0wigWvc8oY8vkMEwYey7IfzMZh3uMtIIoKQglN9-wLfv1zCmIijUvdBcH3P6RxrFpZAcgDZMI_MetWrDgqX0MnXRxcdMkngd9Yp2Btt6CV-4eg
+	errcode：48002
+	errmsg：api forbidden, hint: [1682581822354961952273747], from ip: 123.188.254.206, more info at https://open.work.weixin.qq.com/devtool/query?e=48002
+

@@ -1,27 +1,34 @@
 ﻿using Flurl;
 using Flurl.Http;
 using LiteDB;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.EntityFrameworkCore;
 using MimeKit;
 using Mysqldb;
 using Mysqldb.Migrations;
-using NPOI.OpenXmlFormats.Dml;
+using Mysqldb.model;
+using Newtonsoft.Json;
+using Npoi.Mapper;
+using NPOI.POIFS.Properties;
 using OpenAI_API;
 using OpenAI_API.Completions;
+using OpenAI_API.Embedding;
 using OpenAI_API.Models;
+using RabbitMQ.Client.Logging;
 using Senparc.CO2NET.Extensions;
 using Senparc.Weixin.Entities;
+using Senparc.Weixin.MP.AdvancedAPIs.Card;
 using Senparc.Weixin.Work.AdvancedAPIs;
-using Senparc.Weixin.Work.AdvancedAPIs.External;
 using Senparc.Weixin.Work.AdvancedAPIs.MailList;
 using Senparc.Weixin.Work.AdvancedAPIs.OA;
 using Senparc.Weixin.Work.AdvancedAPIs.OA.OAJson;
 using Senparc.Weixin.Work.Containers;
-using Senparc.Weixin.Work.Entities.Request.KF;
 using Senparc.Weixin.Work.Helpers;
-using TencentCloud.Cvm.V20170312.Models;
+using TencentCloud.Ame.V20190916.Models;
+using TencentCloud.Cls.V20201016.Models;
 using workauto.corp;
 using workauto.filter;
 using workauto.works;
@@ -45,7 +52,7 @@ namespace workauto
         private readonly Wxusers _mdata;
         private readonly ILogger _logger;
         private readonly IEventBus eventBus;
-        public Dictionary<string, string> Corpdic = new Dictionary<string, string>() {
+        public Dictionary<string, string> Corpdic = new() {
             { "electronic","电子设备" },
             {"office","办公用品" },
             {"consumable","低值易耗品" },
@@ -55,7 +62,18 @@ namespace workauto
             {"clean","清理" },
             {"Salvage","清理变现"}
         };
-
+        public Dictionary<int, string> Dic_approval = new() {
+            {1,"总分行创建" },
+            {2,"总分行授权发出" },
+            {3,"支行反馈" },
+            {4,"支行授权反馈"},
+            {5,"总分行接收反馈审核" },
+            {6,"总分行接收一级授权" },
+            {7,"总行接收二级授权" },
+            {8,"总分行接收三级授权"},
+            {9,"分行终结授权"},
+            {10,"总行终结授权"}
+        };
         public WorkApiController(Wxusers mdata, ILogger<WorkApiController> logger, IEventBus eventBus)
         {
             _mdata = mdata;
@@ -321,13 +339,213 @@ namespace workauto
             }
         }
 
+        [HttpGet]
+        [NotTransactional]
+
+        public ActionResult GetFirstdata(string transid)
+        {
+            var res = _mdata.Firsts.AsNoTracking().AsEnumerable().Where(e => e.Transid == transid && e.Relay.Where(x=>x.Ismain==true && x.Leader_approval==0).Any()).FirstOrDefault();
+            if (res == null)
+            {
+                return Ok("error");
+            }
+            else {
+               
+                return Ok(res);
+            }
+        }
+
+        [HttpGet]
+        [NotTransactional]
+
+        public ActionResult GetFirstapprovals(string transid) {
+
+            var res = _mdata.Firsts.AsNoTracking().Where(e => e.Transid == transid).FirstOrDefault();
+
+            if (res == null)
+            {
+
+                return Ok("error");
+            }
+            else {
+                var resapproval = new Firstapproval() { 
+                  Transid=res.Transid,
+                  Cust=res.Cust,
+                  Relay=res.Relay,
+                  Transtime=res.Transtime,
+                  Trans_Status=res.Trans_Status,
+                  Attachs= res.Attachs.Select(e=>new Downfile() { Name=e.Name,Size=e.Size,ContentType=e.ContentType}).ToList(),
+                
+                };
+
+                return Ok(resapproval);
+
+            }
+
+             
+        }
+
+        [HttpGet]
+        [NotTransactional]
+        public FileContentResult Attachsurl(string transid,string name) { 
+        
+            var res=_mdata.Firsts.AsNoTracking().Where(e=>e.Transid == transid).FirstOrDefault();
+            if (res == null)
+            {
+                return null;
+            }
+            else {
+                var filedata= res.Attachs.Where(e=>e.Name== name).FirstOrDefault();
+
+
+                return File(filedata.Data, filedata.ContentType, filedata.Name); 
+            }
+           
+        
+        }
+
         [HttpPost]
+
+        public async Task<ActionResult> SaveFirstApprovalAsync(First_approval first_Approval) {
+
+            var mtoken_super = AccessTokenContainer.TryGetToken(superSetting.WeixinCorpId, superSetting.WeixinCorpSecret);
+            var res=_mdata.Firsts.Where(e=>e.Transid==first_Approval.Transid).FirstOrDefault();
+            if (res == null)
+            {
+                return Ok("error");
+            }
+            else {
+                var resRelay = res.Relay.Where(e=>e.Leaderid== first_Approval.Leaderid).FirstOrDefault();
+                
+                resRelay.Leader_approval = first_Approval.Leader_approval;
+                resRelay.Approval_content = first_Approval.Approval_content;
+                resRelay.Approval_time = first_Approval.Approval_time;
+
+                if (first_Approval.Isowen)
+                {
+                    res.Trans_Status.Comptime = first_Approval.Approval_time;
+                    res.Trans_Status.Isover = true;
+                }
+                else {
+                    res.Trans_Status.Isover = true;
+                }
+                _mdata.Firsts.Update(res);
+                _mdata.Firsts.Attach(res);
+                _mdata.Entry(res).State = EntityState.Modified;
+                var result= await _mdata.SaveChangesAsync();
+                if (result == 1) {
+                    if (first_Approval.Leader_approval == 1)
+                    {
+
+
+
+                        if (first_Approval.Isowen)
+                        {
+
+                            _ = await MassApi.SendTextCardAsync(mtoken_super, superSetting.WeixinCorpAgentId, "首问负责制业务审批通过-已结束", $"审批人:{resRelay.Leaderid}-{resRelay.Leadername}\n业务编号:{res.Transid}", $"https://rcbcybank.com/#/First?transid={res.Transid}&approval={resRelay.Leaderid}&relay={resRelay.Userid}", "详情", resRelay.Userid);
+                        }
+                        else
+                        {
+
+                            var Relayother = res.Relay.Where(e => e.Ismain == true).FirstOrDefault();
+
+                            _ = await MassApi.SendTextCardAsync(mtoken_super, superSetting.WeixinCorpAgentId, "首问负责制业务审批通过-已转发", $"审批人:{resRelay.Leaderid}-{resRelay.Leadername}\n业务编号:{res.Transid}", $"https://rcbcybank.com/#/First?transid={res.Transid}&approval={resRelay.Leaderid}&relay={resRelay.Userid}", "详情", resRelay.Userid);
+                            _ = await MassApi.SendTextCardAsync(mtoken_super, superSetting.WeixinCorpAgentId, "首问负责制业务(转发)需要处理", $"转发人:{resRelay.Departname}-{resRelay.Userid}-{resRelay.Name}\n业务编号:{res.Transid}", $"https://rcbcybank.com/#/First?transid={res.Transid}", "详情", Relayother.Userid);
+                        }
+                    }
+                    else {
+                        _ = await MassApi.SendTextCardAsync(mtoken_super, superSetting.WeixinCorpAgentId, "首问负责制业务审批-已驳回", $"审批人:{resRelay.Leaderid}-{resRelay.Leadername}\n业务编号:{res.Transid}", $"https://rcbcybank.com/#/First?transid={res.Transid}&approval={resRelay.Leaderid}&relay={resRelay.Userid}", "详情", resRelay.Userid);
+
+                    }
+                }
+                return Ok(result);
+            }
+           
+        }
+       
+      
+
+        [HttpPost]
+
+        public async Task<ActionResult> SaveRelayNewAsync([FromForm] First_upload data)
+        {
+            var Rdata = JsonConvert.DeserializeObject<First>(data.First);
+            var mtoken_super = AccessTokenContainer.TryGetToken(superSetting.WeixinCorpId, superSetting.WeixinCorpSecret);
+            if (data.Files != null)
+            {
+                foreach (var item in data.Files)
+                {
+                    using var fs = new MemoryStream();
+                    await item.CopyToAsync(fs);
+                    Rdata.Attachs.Add(new Transfile
+                    {
+
+                        Data = fs.ToArray(),
+                        Name = item.FileName,
+                        ContentType = item.ContentType,
+                        Size = fs.Length
+                    });
+                }
+            }
+
+
+            _mdata.Firsts.Update(Rdata);
+            _mdata.Firsts.Attach(Rdata);
+            _mdata.Entry(Rdata).State = EntityState.Modified;
+          
+
+            await _mdata.SaveChangesAsync();
+            var resRelay=Rdata.Relay.AsEnumerable().Where(e=>e.Userid==Rdata.Trans_Status.Userid).FirstOrDefault();
+
+            _ = await MassApi.SendTextCardAsync(mtoken_super, superSetting.WeixinCorpAgentId, "首问负责制业务需要审批", $"业务发起人:{resRelay.Userid}-{resRelay.Name}\n业务编号:{Rdata.Transid}", $"https://rcbcybank.com/#/First?transid={Rdata.Transid}&approval={resRelay.Leaderid}", "审批", resRelay.Leaderid);
+
+            return Ok("success");
+        }
+
+        [HttpPost]
+       
+        public async Task<ActionResult> SaveFirstNewAsync([FromForm] First_upload data) {
+            var Rdata = JsonConvert.DeserializeObject<First>(data.First);
+            var mtoken_super = AccessTokenContainer.TryGetToken(superSetting.WeixinCorpId, superSetting.WeixinCorpSecret);
+            if (data.Files != null)
+            {
+                foreach (var item in data.Files)
+                {
+                    using var fs = new MemoryStream();
+                    await item.CopyToAsync(fs);
+                    Rdata.Attachs.Add(new Transfile
+                   {
+
+                        Data = fs.ToArray(),
+                        Name = item.FileName,
+                        ContentType = item.ContentType,
+                        Size = fs.Length
+                    });
+                }
+            }
+
+            
+
+            _mdata.Firsts.Add(Rdata);
+            
+            await _mdata.SaveChangesAsync();
+
+            var resRelay = Rdata.Relay.AsEnumerable().Where(e => e.Userid == Rdata.Trans_Status.Userid).FirstOrDefault();
+            _ = await MassApi.SendTextCardAsync(mtoken_super, superSetting.WeixinCorpAgentId, "首问负责制业务需要审批", $"业务发起人:{resRelay.Userid}-{resRelay.Name}\n业务编号:{Rdata.Transid}", $"https://rcbcybank.com/#/First?transid={Rdata.Transid}&approval={resRelay.Leaderid}", "审批", resRelay.Leaderid);
+           
+            return Ok("success");
+        }
+      
+
+        [HttpPost]
+
         public async Task<ActionResult> SaveAssetnew([FromForm] Masset masset)
         {
             try
             {
                 using var memoryStream = new MemoryStream();
                 await masset.file.CopyToAsync(memoryStream);
+                
                 var imgbyte = memoryStream.ToArray();
                 var imagefrom = Image.Load(imgbyte);
 
@@ -621,9 +839,17 @@ namespace workauto
 
         [HttpGet]
         [NotTransactional]
-        public string Getspandate(long tmspan)
+        public string Getspandate(long tmspan,int flag)
         {
-            var mydate = DateTimeOffset.FromUnixTimeMilliseconds(tmspan).LocalDateTime;
+            DateTime mydate;
+            if (flag == 0)
+            {
+                mydate = DateTimeOffset.FromUnixTimeSeconds(tmspan).LocalDateTime;
+            }
+            else {
+                mydate = DateTimeOffset.FromUnixTimeMilliseconds(tmspan).LocalDateTime;
+            }
+           
             return mydate.ToString();
         }
         [HttpGet]
@@ -632,7 +858,7 @@ namespace workauto
 
         {
 
-            var tmspan = new DateTimeOffset(DateTime.UtcNow).ToUnixTimeMilliseconds();
+            var tmspan = new DateTimeOffset(DateTime.UtcNow).ToUnixTimeSeconds();
             return tmspan;
         }
         private long GettmSpan()
@@ -684,7 +910,7 @@ namespace workauto
         [NotTransactional]
         public async Task<ActionResult<GetDepartmentListResult>> GetmaindepartAsync(long departid)
         {
-            string AppKey = AccessTokenContainer.BuildingKey(scanSetting.WeixinCorpId, scanSetting.WeixinCorpSecret);
+            string AppKey = AccessTokenContainer.BuildingKey(workSetting.WeixinCorpId, workSetting.WeixinCorpSecret);
             GetDepartmentListResult res = await MailListApi.GetDepartmentListAsync(AppKey, departid);
 
             return res;
@@ -764,7 +990,7 @@ namespace workauto
         [NotTransactional]
         public async Task<ActionResult> Getdeptlist(long dept_id)
         {
-            string AppKey = AccessTokenContainer.BuildingKey(scanSetting.WeixinCorpId, scanSetting.WeixinCorpSecret);
+            string AppKey = AccessTokenContainer.BuildingKey(workSetting.WeixinCorpId, workSetting.WeixinCorpSecret);
             var res = await MailListApi.GetDepartmentListAsync(AppKey, dept_id);
 
             return Ok(res.department);
@@ -848,7 +1074,7 @@ namespace workauto
             {
 
                 var res = _mdata.assets.Include(e => e.Point).AsEnumerable().Where(e => resdata.Where(x => x.userid == e.Userid).FirstOrDefault() != null);
-                if (res.Count() > 0)
+                if (res.Any())
                 {
                     return Ok(res);
                 }
@@ -924,16 +1150,8 @@ namespace workauto
                     };
                     _ = await MailListApi.UpdateMemberAsync(AppKey, updateuserx);
 
-
-
                 }
-
-
-
             }
-
-
-
 
             return Ok("success");
         }
@@ -949,7 +1167,7 @@ namespace workauto
 
             return Ok(leader);
         }
-        private async Task<string> GetdepartinfoAsync(string mtoken, string depart_id)
+        private static async Task<string> GetdepartinfoAsync(string mtoken, string depart_id)
         {
             try
             {
@@ -971,6 +1189,32 @@ namespace workauto
 
 
         }
+
+        [HttpGet]
+        [NotTransactional]
+        public   async Task<string> Getdepartname(string depart_id)
+        {
+            try
+            {
+
+                var mtoken = AccessTokenContainer.TryGetToken(workSetting.WeixinCorpId, workSetting.WeixinCorpSecret);
+                string mhost = "https://qyapi.weixin.qq.com";
+                var res = await mhost.AppendPathSegment("cgi-bin/department/get")
+                    .SetQueryParam("access_token", mtoken)
+                    .SetQueryParam("id", depart_id)
+
+                    .GetJsonAsync<Departinfo>();
+
+                return res.department.name;
+            }
+            catch
+            {
+                return null;
+            }
+
+           
+
+        }
         [HttpGet]
         [NotTransactional]
         public ActionResult Bankdepartinfo(long depart_id)
@@ -988,6 +1232,26 @@ namespace workauto
 
 
         }
+        [HttpGet]
+        [NotTransactional]
+        public async Task<ActionResult> GetDirect_LeaderAsync(string userid) {
+            string AppKey = await AccessTokenContainer.TryGetTokenAsync(workSetting.WeixinCorpId, workSetting.WeixinCorpSecret);
+            var res = await MailListApi.GetMemberAsync(AppKey, userid);
+            
+            
+            
+            if (res.direct_leader.Length==0)
+            {
+                return Ok("error");
+            }
+            else {
+                var leaderinfo = await MailListApi.GetMemberAsync(AppKey, res.direct_leader[0]);
+                return Ok(leaderinfo);
+            }
+           
+
+        }
+
         [HttpGet]
         [NotTransactional]
         public async Task<ActionResult> Getdepartleader(long depart_id)
@@ -1018,22 +1282,51 @@ namespace workauto
 
             return Ok(result);
         }
+
+        [HttpGet]
+        [NotTransactional]
+
+        public async Task<ActionResult> GettaginfoAsync(string userid,int tagid)
+        {
+
+            var mtoken = AccessTokenContainer.TryGetToken(workSetting.WeixinCorpId, workSetting.WeixinCorpSecret);
+
+            var tags = await MailListApi.GetTagListAsync(mtoken);
+
+            if (!tags.taglist.Where(e => e.tagid == tagid.ToString()).Any())
+            {
+    
+                return Ok("error");
+            }
+            var result = await MailListApi.GetTagMemberAsync(mtoken,tagid);
+            var tag=result.userlist.Where(e=>e.userid ==userid).FirstOrDefault();
+            if (tag == null)
+            {
+                return Ok("error");
+            }
+            else {
+                return Ok(tag);
+            }
+            
+        }
+
         [HttpGet]
         [NotTransactional]
         public async Task<ActionResult> Gettagid(string userid)
         {
             var mtoken = AccessTokenContainer.TryGetToken(workSetting.WeixinCorpId, workSetting.WeixinCorpSecret);
-            var tags = new int[] { 23, 24 };
+            //29 全行督办单管理员 30 首问负责制经办人
+            var tags = new int[] { 23, 24, 28, 29,30 };
 
             foreach (int tag in tags)
             {
-                Console.WriteLine(tag);
+               // Console.WriteLine(tag);
                 var result = await MailListApi.GetTagMemberAsync(mtoken, tag);
                 var res = result.userlist.Where(e => e.userid == userid).FirstOrDefault();
                 if (res != null)
                 {
-
                     return Ok(tag);
+            
                 }
 
             }
@@ -1075,7 +1368,7 @@ namespace workauto
             if (result != null)
             {
 
-                // _mdata.Supernotices.Update(supernotice);
+                 _mdata.Supernotices.Update(supernotice);
                 _mdata.Supernotices.Attach(supernotice);
                 _mdata.Entry(supernotice).State = EntityState.Modified;
                 // _mdata.Entry(supernotice).Property(x => x.Noticedata.Applyinfo).IsModified = true;
@@ -1212,18 +1505,25 @@ namespace workauto
         }
         [HttpGet]
         [NotTransactional]
-        public ActionResult Getbankreceive(string Noticeid)
+        public ActionResult Getbankreceive(string Noticeid,string Userid)
         {
 
-            var res = _mdata.Supernotices.Where(e => e.NoticeId == Noticeid && e.Approverstep == 4).FirstOrDefault();
-
-            if (res == null)
+            var res = _mdata.Supernotices.AsNoTracking().Where(e => e.NoticeId == Noticeid && e.Approverstep >= 4).FirstOrDefault();
+            var resx=_mdata.Supernoticeapprovals.AsNoTracking().AsEnumerable().Where(e=>e.Noticeid==Noticeid && e.Users.Where(b=>b.Userid==Userid).FirstOrDefault()!=null).FirstOrDefault();
+            Receivedata receivedata = new()
             {
-                return Ok("error");
+                supernotice=res,
+                Approvalstatus=0,
+            };
+
+            if (res != null &&  resx==null)
+            {
+                return Ok(receivedata);
             }
             else
             {
-                return Ok(res);
+                receivedata.Approvalstatus = 1;
+                return Ok(receivedata);
             }
 
         }
@@ -1248,51 +1548,55 @@ namespace workauto
         [NotTransactional]
 
         //这逻辑有点绕啊
-        public async Task<ActionResult> Approval_sendmsgAsync(string Userid, string Username, string Noticeid)
+        public async Task<ActionResult> Approval_sendmsgAsync(Approvalmsg approvalmsg)
         {
             var mtoken = AccessTokenContainer.TryGetToken(superSetting.WeixinCorpId, superSetting.WeixinCorpSecret);
-            var ressuper = _mdata.Supernotices.Where(e => e.NoticeId == Noticeid && e.Approverstep >= 4).FirstOrDefault();
-            var parentId = await GetuserLeaderAsync(Userid);
-
+            var ressuper = _mdata.Supernotices.Where(e => e.NoticeId == approvalmsg.Noticeid && e.Approverstep >= 4).FirstOrDefault();
+            var parentId = await GetuserLeaderAsync(approvalmsg.Userid);
+            var userinfo = await MailListApi.GetMemberAsync(mtoken, approvalmsg.Userid);
+            string Username = userinfo.name;
             var departlevel = await GetbanklevelAsync(ressuper.Orderdata.Userid);
             int Mapprovalstep;
             if (parentId == "error")
             {
                 if (departlevel == "7")
                 {
-                    Mapprovalstep = 30;
+                    Mapprovalstep = 10;
                 }
                 else
                 {
-                    Mapprovalstep = 20;
+                    Mapprovalstep = 9;
                 }
+                _ = await MassApi.SendTextCardAsync(mtoken, superSetting.WeixinCorpAgentId, "督办单全流程审核已完成", $"督办单编号:{approvalmsg.Noticeid}", $"https://rcbcybank.com/#/Super", "详情", ressuper.Noticedata.Noticebankuserid);
             }
             else
             {
-                _ = await MassApi.SendTextCardAsync(mtoken, superSetting.WeixinCorpAgentId, "支行返回督办单审核已通过", $"上一级审批人:{Userid}-{Username}\n 督办单编号:{Noticeid}", $"https://rcbcybank.com/#/Noticereceive?noticeid={Noticeid}", "审批", parentId);
+                _ = await MassApi.SendTextCardAsync(mtoken, superSetting.WeixinCorpAgentId, "支行返回督办单审核已通过", $"上一级审批人:{approvalmsg.Userid}-{Username}\n 督办单编号:{approvalmsg.Noticeid}", $"https://rcbcybank.com/#/Noticereceive?noticeid={approvalmsg.Noticeid}", "审批", parentId);
                 Mapprovalstep = ressuper.Approverstep + 1;
             }
             
-            var resapproval = _mdata.Supernoticeapprovals.AsEnumerable().Where(e => e.Noticeid == Noticeid).FirstOrDefault();
+            var resapproval = _mdata.Supernoticeapprovals.AsEnumerable().Where(e => e.Noticeid == approvalmsg.Noticeid).FirstOrDefault();
             List<Approval_userid> Musers = new()
                     {
                        new Approval_userid() {
-                          Userid = Userid,
-                          Approverstep = Mapprovalstep
+                          Userid = approvalmsg.Userid,
+                          Approverstep = Mapprovalstep,
+                          Dt = new DateTimeOffset(DateTime.UtcNow).ToUnixTimeSeconds()
                        }
                     };
 
             Supernoticeapproval approvalinfo = new()
             {
-                Noticeid = Noticeid,
+                Noticeid = approvalmsg.Noticeid,
                 Users = Musers
+
             };
 
 
             if (resapproval == null)
             {
 
-                var resnotice1 = _mdata.Supernotices.Where(e => e.NoticeId == Noticeid).FirstOrDefault();
+                var resnotice1 = _mdata.Supernotices.Where(e => e.NoticeId == approvalmsg.Noticeid).FirstOrDefault();
                 resnotice1.Approverstep = Mapprovalstep;
                 _mdata.Supernotices.Attach(resnotice1);
                 _mdata.Entry(resnotice1).State = EntityState.Modified;
@@ -1302,13 +1606,13 @@ namespace workauto
             else
             {
 
-                if (resapproval.Users.Where(e => e.Userid == Userid).FirstOrDefault() == null)
+                if (resapproval.Users.Where(e => e.Userid == approvalmsg.Userid).FirstOrDefault() == null)
                 {
                     resapproval.Users.Add(approvalinfo.Users[0]);
                     _mdata.Supernoticeapprovals.Attach(resapproval);
                     _mdata.Entry(resapproval).State = EntityState.Modified;
 
-                    var resnotice2 = _mdata.Supernotices.Where(e => e.NoticeId == Noticeid).FirstOrDefault();
+                    var resnotice2 = _mdata.Supernotices.Where(e => e.NoticeId == approvalmsg.Noticeid).FirstOrDefault();
                     resnotice2.Approverstep = Mapprovalstep;
                     _mdata.Supernotices.Attach(resnotice2);
                     _mdata.Entry(resnotice2).State = EntityState.Modified;
@@ -1320,11 +1624,162 @@ namespace workauto
             }
 
 
-            return Ok("success2");
+            return Ok("success");
         }
 
+        [HttpGet]
 
+        public ActionResult Getorder_list(string departid)
+        {
+
+            var res = _mdata.Supernotices.Where(e => e.Orderdata.Departid == departid);
+            if (res.Any())
+            {
+                return Ok(res);
+
+            }
+            else {
+
+                return Ok("error");
+            }
+        }
+        [HttpGet]
+
+        public ActionResult Getorder_alllist()
+        {
+
+            var res = _mdata.Supernotices;
+            if (res.Any())
+            {
+                return Ok(res);
+
+            }
+            else
+            {
+
+                return Ok("error");
+            }
+        }
+        private static string GetunixtimeStr(long timestr) {
+
+            if (timestr == 0)
+            {
+                return "null";
+            }
+            else {
+                var res = DateTimeOffset.FromUnixTimeMilliseconds(timestr).LocalDateTime;
+                return res.ToString();
+            }
+           
+        }
+        [HttpGet]
+        [NotTransactional]
+        public ActionResult GetFirstExcel() {
+
+            var res = _mdata.Firsts.AsNoTracking();
+
+            var mapper = new Mapper();
+            mapper.Map<First>("编号", e => e.Transid)
+            .Format<First>("yyyy-mm-dd hh:mm", e => e.Transtime)
+            .Ignore<First>(e => e.Copypersion)
+             .Ignore<First>(e => e.Attachs)
+            .Map<First>("业务发起时间", e => e.Transtime, null, (c, t) =>
+            {
+                First first = t as First;
+                c.CurrentValue = GetunixtimeStr(first.Transtime);
+                return true;
+            })
+            //.Format<First>("yyyy-mm-dd hh:mm",e=>e.Transtime)
+            .Map<First>("完成状态", e => e.Trans_Status, null, (c, t) =>
+            {
+                First first = t as First;
+                c.CurrentValue = first.Trans_Status.Isover switch { true => "已完成", false => "未完成" };
+                Console.WriteLine("success");
+                return true;
+            })
+             .Map<First>("客户信息", e => e.Cust, null, (c, t) =>
+             {
+                 First first = t as First;
+                 c.CurrentValue = first.Cust.Name;
+                 return true;
+             })
+             .Map<First>("流转详情", e => e.Relay, null, (c, t) => {
+                 First first = t as First;
+                 string infotxt = "";
+                 int i = 0;
+                 foreach (var item in first.Relay) {
+                     i++;
+                     infotxt += $"{i}--部门:" + item.Departname + " 时间:" + GetunixtimeStr(item.Transtime) + "\r\n";
+                 }
+                 c.CurrentValue = infotxt;
+                 return true;
+             }); 
+
+           
+            MemoryStream stream = new();
+
+            mapper.Save(stream, res, "sheet1", overwrite: true);
+
+            return File(stream.ToArray(), "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "Firstinfo.xlsx");
+        }
+
+        [HttpGet]
+
+        public ActionResult GetSuperexcel(string departid)
+        {
+
+            IEnumerable<Supernotice> res;
+            if (departid == "0")
+            {
+                res = _mdata.Supernotices.AsEnumerable();
+                
+            }
+            else {
+               res = _mdata.Supernotices.Where(e=>e.Orderdata.Departid==departid).AsEnumerable();
+               
+            }
+            if (res.Any())
+            {
+                var mapper = new Mapper();
+                MemoryStream stream = new();
+
+                var result = res.Select(e => new SuperExcel
+                {
+                    NoticeId = e.NoticeId,
+                    Notice_departname = e.Noticedata.Bankdepartname,
+                    Orderdata_departname = e.Orderdata.Departname,
+                    Orderdata_task = e.Orderdata.Task,
+                    Orderdata_taskinfo = e.Orderdata.Taskinfo,
+                    Noticedata_applyinfo = e.Noticedata.Applyinfo,
+                    Orderdata_name = DateTimeOffset.FromUnixTimeMilliseconds(e.Orderdata.Ordertime).LocalDateTime.ToString(),
+                    Noticetime = DateTimeOffset.FromUnixTimeMilliseconds(e.Noticedata.Checkdate).LocalDateTime.ToString(),
+                    Approval_status = Dic_approval[e.Approverstep]
+                }) ;
+
+              
+                mapper.Save(stream, result, "sheet1", overwrite: true);
+                //application/vnd.ms-excel 
+                //application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+               
+
+                 return File(stream.ToArray(), "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "SuperList.xlsx");
+            }
+
+
+            else
+            {
+
+                return Ok("error");
+            }
+
+
+        }
+      
+        
     }
+
+   
+    
     //[HttpPost]
     //[NotTransactional]
 

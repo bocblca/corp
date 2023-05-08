@@ -83,8 +83,8 @@ namespace Mysqldb
         public string Userid { get; set; }
         public double Lon { get; set; }
         public double Lat { get; set; }
-        public string? operator_id { get; set; }
-      
+        public string operator_id { get; set; }
+    
 
     }
     public class Kasset

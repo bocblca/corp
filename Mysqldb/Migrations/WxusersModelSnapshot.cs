@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Mysqldb;
+using Mysqldb.model;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
@@ -1396,6 +1397,35 @@ namespace Mysqldb.Migrations
                     b.HasKey("jobid");
 
                     b.ToTable("hangjobs", (string)null);
+                });
+
+            modelBuilder.Entity("Mysqldb.model.First", b =>
+                {
+                    b.Property<string>("Transid")
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.Property<List<Transfile>>("Attachs")
+                        .HasColumnType("jsonb");
+
+                    b.Property<string>("Copypersion")
+                        .HasColumnType("text");
+
+                    b.Property<Cust>("Cust")
+                        .HasColumnType("jsonb");
+
+                    b.Property<List<Employeeinfo>>("Relay")
+                        .HasColumnType("jsonb");
+
+                    b.Property<Trans_status>("Trans_Status")
+                        .HasColumnType("jsonb");
+
+                    b.Property<long>("Transtime")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Transid");
+
+                    b.ToTable("Firsts");
                 });
 
             modelBuilder.Entity("Mysqldb.myRole", b =>

@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-
+using Mysqldb.model;
 using rcbblc.netauto;
 using System.Reflection;
 
@@ -45,6 +45,7 @@ namespace Mysqldb
             modelBuilder.ApplyConfigurationsFromAssembly(this.GetType().Assembly);
         }
 
+        public DbSet<First> Firsts { get; set; }
         public DbSet<Supernoticeapproval> Supernoticeapprovals { get; set; }
         public DbSet<Supernotice> Supernotices { get; set; }
         public DbSet<asset_state> asset_States { get; set; }
