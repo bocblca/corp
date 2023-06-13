@@ -14,7 +14,7 @@ namespace workapi.Models
         /// 为中间件提供生成当前类的委托
         /// </summary>
         /// 
-        private Wxusers wxusers;
+        private readonly Wxusers wxusers;
         public static Func<Stream, PostModel, int, IServiceProvider, WorkprintMessageHandler> GenerateMessageHandler =
             (stream, postModel, maxRecordCount, serviceProvider) => new WorkprintMessageHandler(stream, postModel, maxRecordCount, serviceProvider);
 
@@ -23,7 +23,7 @@ namespace workapi.Models
         public WorkprintMessageHandler(Stream inputStream, PostModel postModel, int maxRecordCount = 0, IServiceProvider serviceProvider = null)
             : base(inputStream, postModel, maxRecordCount, serviceProvider: serviceProvider)
         {
-            _workSetting = Senparc.Weixin.Config.SenparcWeixinSetting.Items["workprint"];
+            _workSetting = Config.SenparcWeixinSetting.Items["workprint"];
             wxusers = serviceProvider.GetRequiredService<Wxusers>();
         }
 

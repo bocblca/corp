@@ -1428,6 +1428,173 @@ namespace Mysqldb.Migrations
                     b.ToTable("Firsts");
                 });
 
+            modelBuilder.Entity("Mysqldb.model.Limit", b =>
+                {
+                    b.Property<string>("Limitid")
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.Property<string>("Approval")
+                        .HasMaxLength(20)
+                        .HasColumnType("character varying(20)");
+
+                    b.Property<string>("Approval_content")
+                        .HasColumnType("text");
+
+                    b.Property<long>("Approval_time")
+                        .HasColumnType("bigint");
+
+                    b.Property<List<Transfile>>("Attachs")
+                        .HasColumnType("jsonb");
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Conttype")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.Property<int>("Day")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Departid")
+                        .HasMaxLength(20)
+                        .HasColumnType("character varying(20)");
+
+                    b.Property<string>("Departname")
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.Property<string>("Detail")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Info")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<bool>("Isover")
+                        .HasColumnType("boolean");
+
+                    b.Property<string>("Leaderid")
+                        .HasMaxLength(20)
+                        .HasColumnType("character varying(20)");
+
+                    b.Property<string>("Leadername")
+                        .HasMaxLength(20)
+                        .HasColumnType("character varying(20)");
+
+                    b.Property<long>("Overday")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("Relay_approval")
+                        .HasMaxLength(20)
+                        .HasColumnType("character varying(20)");
+
+                    b.Property<string>("Relay_approval_content")
+                        .HasColumnType("text");
+
+                    b.Property<long>("Relay_approval_time")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("Relay_content")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Relay_departid")
+                        .HasMaxLength(20)
+                        .HasColumnType("character varying(20)");
+
+                    b.Property<string>("Relay_departname")
+                        .HasMaxLength(20)
+                        .HasColumnType("character varying(20)");
+
+                    b.Property<string>("Relay_leaderid")
+                        .HasMaxLength(20)
+                        .HasColumnType("character varying(20)");
+
+                    b.Property<string>("Relay_leadername")
+                        .HasMaxLength(20)
+                        .HasColumnType("character varying(20)");
+
+                    b.Property<long>("Relay_time")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("Relay_userid")
+                        .HasMaxLength(20)
+                        .HasColumnType("character varying(20)");
+
+                    b.Property<string>("Relay_username")
+                        .HasMaxLength(20)
+                        .HasColumnType("character varying(20)");
+
+                    b.Property<long>("Transtime")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("Userid")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("character varying(20)");
+
+                    b.Property<string>("Username")
+                        .HasMaxLength(20)
+                        .HasColumnType("character varying(20)");
+
+                    b.HasKey("Limitid");
+
+                    b.ToTable("limits", (string)null);
+                });
+
+            modelBuilder.Entity("Mysqldb.model.Spdata", b =>
+                {
+                    b.Property<string>("Sp_no")
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.Property<string>("Apply_departid")
+                        .HasMaxLength(20)
+                        .HasColumnType("character varying(20)");
+
+                    b.Property<string>("Apply_time")
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
+
+                    b.Property<string>("Apply_userid")
+                        .HasMaxLength(20)
+                        .HasColumnType("character varying(20)");
+
+                    b.Property<string>("Departname")
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
+
+                    b.Property<double>("Duration")
+                        .HasColumnType("double precision");
+
+                    b.Property<string>("End")
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
+
+                    b.Property<string>("Sp_status")
+                        .HasMaxLength(20)
+                        .HasColumnType("character varying(20)");
+
+                    b.Property<string>("Sp_type")
+                        .HasMaxLength(20)
+                        .HasColumnType("character varying(20)");
+
+                    b.Property<string>("Start")
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
+
+                    b.Property<string>("Username")
+                        .HasMaxLength(20)
+                        .HasColumnType("character varying(20)");
+
+                    b.HasKey("Sp_no");
+
+                    b.ToTable("spdatas", (string)null);
+                });
+
             modelBuilder.Entity("Mysqldb.myRole", b =>
                 {
                     b.Property<long>("Id")

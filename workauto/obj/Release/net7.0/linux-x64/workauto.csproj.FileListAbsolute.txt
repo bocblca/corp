@@ -497,7 +497,6 @@ F:\corp\workauto\bin\Release\net7.0\linux-x64\Swashbuckle.AspNetCore.SwaggerGen.
 F:\corp\workauto\bin\Release\net7.0\linux-x64\Swashbuckle.AspNetCore.SwaggerUI.dll
 F:\corp\workauto\bin\Release\net7.0\linux-x64\System.CodeDom.dll
 F:\corp\workauto\bin\Release\net7.0\linux-x64\System.Configuration.ConfigurationManager.dll
-F:\corp\workauto\bin\Release\net7.0\linux-x64\System.Data.SqlClient.dll
 F:\corp\workauto\bin\Release\net7.0\linux-x64\System.Drawing.Common.dll
 F:\corp\workauto\bin\Release\net7.0\linux-x64\System.IdentityModel.Tokens.Jwt.dll
 F:\corp\workauto\bin\Release\net7.0\linux-x64\System.Security.Cryptography.ProtectedData.dll
@@ -552,3 +551,4 @@ F:\corp\workauto\bin\Release\net7.0\linux-x64\Senparc.Weixin.Work.dll
 F:\corp\workauto\bin\Release\net7.0\linux-x64\Senparc.Weixin.Work.pdb
 F:\corp\workauto\bin\Release\net7.0\linux-x64\works\Senparc.Weixin.Work.deps.json
 F:\corp\workauto\bin\Release\net7.0\linux-x64\Senparc.Weixin.Work.xml
+F:\corp\workauto\bin\Release\net7.0\linux-x64\Hangfire.NetCore.dll

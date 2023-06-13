@@ -1,0 +1,18 @@
+[[[ErrorJsonResultException]]]
+[2023/05/19 14:46:59.6754]
+[线程：9]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://qyapi.weixin.qq.com/cgi-bin/oa/getapprovaldetail?access_token=IZ8xcqpstIu9JoBUE77ZVrl0Bt6Mel4JUXgUfKTa98YtbaRh7poUpNcpVDbLGKqFWd_p9lxdR6lW9D3slrUFRvhHuqC3g-VKsV0bGyRRU7xgQQFhwmAssTadvkpgExkOUU04CGnq3u5ykIHyV71xQj1SAXIEwnnbMyLQInCoL084pHjW1nvV33KevlfM0sYRwhIbTK2y9TRo69oXzCYkcg
+	errcode：301055
+	errmsg：no approval auth, hint: [1684478820640290758615355], from ip: 123.188.254.206, more info at https://open.work.weixin.qq.com/devtool/query?e=301055
+
+[[[ErrorJsonResultException]]]
+[2023/05/19 16:11:23.9650]
+[线程：16]
+	ErrorJsonResultException
+	AccessTokenOrAppId：null
+	URL：https://qyapi.weixin.qq.com/cgi-bin/oa/getapprovalinfo?access_token=ymo0GijrX2cc6VoNLeccVXj0Cj31QshKTpHlOz_Y3y4ATDJxYo1bJKKkwAQEhl9nL43hivGvhli4hLLKioA65GooLXLWMk17v2P_jHAIQb4Wqv_hhKku8TIIkFPYuERjfN7dk1IMnAT3mofrklsLOH9U6aGblPJZR8olOyM90jxOCcVulckXTVM65KyfAILhYHIfrTZSqQwZJuHfFgb1cg
+	errcode：301025
+	errmsg：get approval param error:invalid starttime or endtime
+

@@ -1,4 +1,7 @@
-﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+﻿using Hangfire;
+using Hangfire.Dashboard;
+using Hangfire.LiteDB;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Http.Features;
 using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.Identity;
@@ -27,13 +30,14 @@ using System.Reflection;
 using System.Text;
 using workapi.JWT;
 using workapi.Models;
+using workauto.corp;
 using workauto.filter;
 using Zack.EventBus;
 
 var builder = WebApplication.CreateBuilder(args);
-
 //动态注入DBcontext等类
 var asms = Getassembly.Getasms("rcbautoservice");
+
 if (asms != null)
 {
     //RunModuleInitializers方法需要提供接口
@@ -52,6 +56,10 @@ builder.Services.Configure<IntegrationEventRabbitMQOptions>(o =>
 
 builder.Services.AddEventBus("queue1", Assembly.GetExecutingAssembly());
 builder.Services.AddEndpointsApiExplorer();
+
+
+
+
 //日志提供程序,warning以上级别log会发送邮件并记录在MYSQL数据库
 builder.Services.AddLogging(logBuilder =>
 {
@@ -127,11 +135,16 @@ builder.Services.Configure<KestrelServerOptions>(options =>
     options.Limits.MaxRequestBufferSize = int.MaxValue;
 });
 
-IServiceCollection services = builder.Services;
-//var serverVersion = new MySqlServerVersion(new Version(8, 0, 27));
-//services.AddDbContext<Wxusers>(options => options.UseMySql(builder.Configuration.GetConnectionString("mysql"), serverVersion));
-services.AddDataProtection();
-services.AddIdentityCore<User>(options =>
+//IServiceCollection services = builder.Services;
+//services.AddScoped<WorkApiController>();
+builder.Services.AddHangfire(config =>
+{
+    config.UseLiteDbStorage("./hf20230521.db");
+
+});
+builder.Services.AddHangfireServer();
+builder.Services.AddDataProtection();
+builder.Services.AddIdentityCore<User>(options =>
 {
     options.Password.RequireDigit = false;
     options.Password.RequireLowercase = false;
@@ -141,13 +154,13 @@ services.AddIdentityCore<User>(options =>
     options.Tokens.PasswordResetTokenProvider = TokenOptions.DefaultEmailProvider;
     options.Tokens.EmailConfirmationTokenProvider = TokenOptions.DefaultEmailProvider;
 });
-var idBuilder = new IdentityBuilder(typeof(User), typeof(myRole), services);
+var idBuilder = new IdentityBuilder(typeof(User), typeof(myRole), builder.Services);
 idBuilder.AddEntityFrameworkStores<Wxusers>()
     .AddDefaultTokenProviders()
     .AddRoleManager<RoleManager<myRole>>()
     .AddUserManager<UserManager<User>>();
-services.Configure<JWTOptions>(builder.Configuration.GetSection("JWT"));
-services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+builder.Services.Configure<JWTOptions>(builder.Configuration.GetSection("JWT"));
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 .AddJwtBearer(x =>
 {
     var jwtOpt = builder.Configuration.GetSection("JWT").Get<JWTOptions>();
@@ -166,13 +179,6 @@ services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 builder.Services.AddSenparcWeixinServices(builder.Configuration);
 builder.Services.AddSenparcGlobalServices(builder.Configuration);//Senparc.CO2NET 全局注册
 
-//services.Configure<SenparcWeixinSetting>(builder.Configuration.GetSection("SenparcWeixinSetting"));
-//全局注册 CO2NET
-//if (!Senparc.CO2NET.RegisterServices.RegisterServiceExtension.SenparcGlobalServicesRegistered)
-//{
-//   services = services.AddSenparcGlobalServices(builder.Configuration);//自动注册 SenparcGlobalServices
-//}                                                                 //
-
 builder.Services.Configure<MvcOptions>(options =>
 {
     options.Filters.Add<TransactionScopeFilter>();
@@ -188,28 +194,50 @@ builder.Services.AddCors(options =>
               .AllowCredentials();
     });
 });
+
+//builder.Services.AddScoped<startHJob>();
+
+
+
 var app = builder.Build();
+
+
+
 //app.UseEventBus();
 app.UseDefaultFiles();
 app.UseStaticFiles();
 app.UseFileServer();
 var senparcWeixinSetting = app.Services.GetService<IOptions<SenparcWeixinSetting>>().Value; //builder.Configuration.Get<SenparcWeixinSetting>(); //app.Services.GetService<IOptions<SenparcWeixinSetting>>().Value;
-ForwardedHeadersOptions options = new ForwardedHeadersOptions();
-options.ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto;
+ForwardedHeadersOptions options = new()
+{
+    ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto
+};
 options.KnownNetworks.Clear();
 options.KnownProxies.Clear();
 app.UseCors("mcros");
 app.UseForwardedHeaders(options);
+
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
+
+app.UseHangfireDashboard("/rcbfire", new DashboardOptions()
+{
+    Authorization = new[] { new CustomAuthorizeFilter() },
+    IgnoreAntiforgeryToken = true,
+   // PrefixPath = "/corp", //这个前缀对于k8s部署的程序，尤其是一个域名下有多个app非常有用
+    //IsReadOnlyFunc = (DashboardContext context) => true  //这个设置可以禁止在Dashboard对hangfire任务进行操作
+}) ;
+
 
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-//app.MapControllers();
+
+
+
 app.UseSenparcGlobal(builder.Environment, Senparc.CO2NET.Config.SenparcSetting, reg =>
 {
 })
@@ -240,6 +268,7 @@ app.UseMessageHandlerForWork("/supernotice", SuperNoticeMessageHandler.GenerateM
 });
 
 
-app.MapDefaultControllerRoute();
+app.MapControllers();
+app.StartJob();
 
-app.Run();
+await app.RunAsync();

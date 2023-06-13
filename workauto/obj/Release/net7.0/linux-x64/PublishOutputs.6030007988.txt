@@ -22,6 +22,7 @@ F:\corp\workauto\obj\Docker\publish\Google.Protobuf.dll
 F:\corp\workauto\obj\Docker\publish\Hangfire.AspNetCore.dll
 F:\corp\workauto\obj\Docker\publish\Hangfire.Core.dll
 F:\corp\workauto\obj\Docker\publish\Hangfire.LiteDB.dll
+F:\corp\workauto\obj\Docker\publish\Hangfire.NetCore.dll
 F:\corp\workauto\obj\Docker\publish\Hangfire.SqlServer.dll
 F:\corp\workauto\obj\Docker\publish\K4os.Compression.LZ4.dll
 F:\corp\workauto\obj\Docker\publish\K4os.Compression.LZ4.Streams.dll
@@ -108,7 +109,6 @@ F:\corp\workauto\obj\Docker\publish\Swashbuckle.AspNetCore.Swagger.dll
 F:\corp\workauto\obj\Docker\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
 F:\corp\workauto\obj\Docker\publish\Swashbuckle.AspNetCore.SwaggerUI.dll
 F:\corp\workauto\obj\Docker\publish\System.Configuration.ConfigurationManager.dll
-F:\corp\workauto\obj\Docker\publish\System.Data.SqlClient.dll
 F:\corp\workauto\obj\Docker\publish\System.Drawing.Common.dll
 F:\corp\workauto\obj\Docker\publish\System.IdentityModel.Tokens.Jwt.dll
 F:\corp\workauto\obj\Docker\publish\System.Security.Cryptography.ProtectedData.dll

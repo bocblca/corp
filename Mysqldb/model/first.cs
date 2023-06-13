@@ -29,6 +29,24 @@ namespace Mysqldb.model
         public string Name { get; set; }
         public long Size { get; set; }
     }
+    public class FirstData {
+        public string Transid { get; set; }
+        //处理时间
+
+        public long Transtime { get; set; }
+
+     
+        public Cust Cust { get; set; }
+
+        //流转列表lists
+      
+        public List<Employeeinfo> Relay { get; set; }
+    
+
+        public Trans_status Trans_Status { get; set; }
+        //附件
+      
+    }
     public class First
     {
         [MaxLength(100)]

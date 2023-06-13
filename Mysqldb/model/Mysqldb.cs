@@ -45,6 +45,8 @@ namespace Mysqldb
             modelBuilder.ApplyConfigurationsFromAssembly(this.GetType().Assembly);
         }
 
+        public DbSet<Spdata> Spdatas { get; set; }
+        public DbSet<Limit> Limits { get; set; }
         public DbSet<First> Firsts { get; set; }
         public DbSet<Supernoticeapproval> Supernoticeapprovals { get; set; }
         public DbSet<Supernotice> Supernotices { get; set; }
@@ -76,7 +78,6 @@ namespace Mysqldb
         public DbSet<bankcoord> bankcoords { get; set; }
         public DbSet<customers> customers { get; set; }
         public DbSet<Credittoken> credittokens { get; set; }
-
         public DbSet<Subankdata> subankdatas { get; set; }
         public DbSet<Aitoken> aitokens { get; set; }
     }
@@ -84,9 +85,7 @@ namespace Mysqldb
     {
         public void Initialize(IServiceCollection services)
         {
-            services.AddScoped<Wxusers>();
-            
+            services.AddScoped<Wxusers>();       
         }
     }
-
 }

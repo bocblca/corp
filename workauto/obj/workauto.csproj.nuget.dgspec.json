@@ -13,12 +13,8 @@
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
         "outputPath": "F:\\corp\\Mysqldb\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -47,35 +42,35 @@
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.4, )"
             },
             "Npoi.Mapper": {
               "target": "Package",
@@ -91,7 +86,7 @@
             },
             "Senparc.NeuChar": {
               "target": "Package",
-              "version": "[2.1.3.5, )"
+              "version": "[2.1.3.6, )"
             },
             "Senparc.Weixin": {
               "target": "Package",
@@ -122,7 +117,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -135,12 +130,8 @@
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
         "outputPath": "F:\\corp\\workauto\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -148,7 +139,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -177,7 +168,7 @@
             },
             "Docker.DotNet": {
               "target": "Package",
-              "version": "[3.125.13, )"
+              "version": "[3.125.15, )"
             },
             "Flurl.Http": {
               "target": "Package",
@@ -185,11 +176,11 @@
             },
             "Hangfire": {
               "target": "Package",
-              "version": "[1.7.34, )"
+              "version": "[1.8.1, )"
             },
             "Hangfire.Core": {
               "target": "Package",
-              "version": "[1.7.34, )"
+              "version": "[1.8.1, )"
             },
             "Hangfire.LiteDB": {
               "target": "Package",
@@ -197,37 +188,37 @@
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.NET.Build.Containers": {
               "target": "Package",
-              "version": "[0.4.0, )"
+              "version": "[7.0.302, )"
             },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
@@ -235,7 +226,7 @@
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.4, )"
             },
             "Npoi.Mapper": {
               "target": "Package",
@@ -243,7 +234,7 @@
             },
             "OpenAI": {
               "target": "Package",
-              "version": "[1.6.0, )"
+              "version": "[1.7.2, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
@@ -259,7 +250,7 @@
             },
             "Senparc.NeuChar": {
               "target": "Package",
-              "version": "[2.1.3.5, )"
+              "version": "[2.1.3.6, )"
             },
             "Senparc.Weixin": {
               "target": "Package",
@@ -267,7 +258,7 @@
             },
             "Senparc.Weixin.MP": {
               "target": "Package",
-              "version": "[16.18.10.6, )"
+              "version": "[16.18.11, )"
             },
             "Senparc.Weixin.WxOpen.Middleware": {
               "target": "Package",
@@ -315,7 +306,7 @@
             },
             "TencentCloudSDK": {
               "target": "Package",
-              "version": "[3.0.730, )"
+              "version": "[3.0.762, )"
             },
             "Zack.EFCore.Batch.MySQL.Pomelo_NET6": {
               "target": "Package",
@@ -331,7 +322,7 @@
             },
             "serilog.aspnetcore": {
               "target": "Package",
-              "version": "[6.1.0, )"
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
@@ -353,7 +344,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
