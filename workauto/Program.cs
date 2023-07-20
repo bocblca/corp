@@ -225,8 +225,8 @@ app.UseHangfireDashboard("/rcbfire", new DashboardOptions()
 {
     Authorization = new[] { new CustomAuthorizeFilter() },
     IgnoreAntiforgeryToken = true,
-   // PrefixPath = "/corp", //这个前缀对于k8s部署的程序，尤其是一个域名下有多个app非常有用
-    //IsReadOnlyFunc = (DashboardContext context) => true  //这个设置可以禁止在Dashboard对hangfire任务进行操作
+    PrefixPath = "/corp", //这个前缀对于k8s部署的程序，尤其是一个域名下有多个app非常有用
+    IsReadOnlyFunc = (DashboardContext context) => true  //这个设置可以禁止在Dashboard对hangfire任务进行操作
 }) ;
 
 

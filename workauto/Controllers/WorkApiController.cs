@@ -987,42 +987,27 @@ namespace workauto
         [NotTransactional]
         public async Task<ActionResult> GetUseridAsync(string code)
         {
-
-
             var accessToken = await AccessTokenContainer.TryGetTokenAsync(scanSetting.WeixinCorpId, scanSetting.WeixinCorpSecret);
-
             var oauthResult = await OAuth2Api.GetUserIdAsync(accessToken, code);
             var res = OAuth2Api.GetUserDetail(accessToken, oauthResult.user_ticket);
-
-
             return Ok(res);
-
-
-
         }
         [HttpGet]
         [NotTransactional]
         public async Task<ActionResult> GetUserid_superAsync(string code)
         {
-
-
             var accessToken = await AccessTokenContainer.TryGetTokenAsync(superSetting.WeixinCorpId, superSetting.WeixinCorpSecret);
-
             var oauthResult = await OAuth2Api.GetUserIdAsync(accessToken, code);
             var res = OAuth2Api.GetUserDetail(accessToken, oauthResult.user_ticket);
-
-
             return Ok(res);
         }
         [HttpGet]
         public async Task<ActionResult> GetjsApiUiPackageAsync(string httpsurl)
         {
-
             // 获取 JsApiTicket（保密信息，不可外传）
             var jsApiTicket = await JsApiTicketContainer.GetTicketAsync(scanSetting.WeixinCorpId, scanSetting.WeixinCorpSecret, false);
             // 获取 UI 打包信息
             var jsApiUiPackage = await JSSDKHelper.GetJsApiUiPackageAsync(scanSetting.WeixinCorpId, scanSetting.WeixinCorpSecret, httpsurl, jsApiTicket, false);
-
             return Ok(jsApiUiPackage);
         }
         [HttpGet]
@@ -1202,7 +1187,7 @@ namespace workauto
         {
 
             var tmspan = new DateTimeOffset(DateTime.UtcNow).ToUnixTimeSeconds();
-                
+
 
             return tmspan;
         }
@@ -1820,14 +1805,14 @@ namespace workauto
         }
         [HttpGet]
         [NotTransactional]
-        public   ActionResult Getbanknoticelist_none(string Noticebankuserid)
+        public ActionResult Getbanknoticelist_none(string Noticebankuserid)
         {
 
 
             var res = _mdata.Supernotices.Where(e => e.Noticedata.Noticebankuserid == Noticebankuserid && e.Noticedata.Applyinfo != "").OrderByDescending(e => e.NoticeId);
 
             var xx = new JsonResult(res);
-    
+
             return Ok(res);
 
         }
@@ -1869,32 +1854,32 @@ namespace workauto
 
 
 
-            
-            RecurringJobOptions jobOptions = new() { 
-               TimeZone=TimeZoneInfo.Local
+
+            RecurringJobOptions jobOptions = new() {
+                TimeZone = TimeZoneInfo.Local
             };
 
             DateTimeOffset myoffset = DateTimeOffset.Parse("2022-07-01T00:00");
-           
+
             var starttime = myoffset.ToUnixTimeSeconds();
             var endtime = new DateTimeOffset(DateTime.UtcNow.AddDays(1)).ToUnixTimeSeconds();
             // var endtime = new DateTimeOffset(DateTime.UtcNow).ToUnixTimeSeconds();
-                      
 
-            RecurringJob.AddOrUpdate("SaveSpnodetail",()=>  GetDaterangeAsync(starttime,endtime),Cron.Daily(1,0),jobOptions);
+
+            RecurringJob.AddOrUpdate("SaveSpnodetail", () => GetDaterangeAsync(starttime, endtime), Cron.Daily(1, 0), jobOptions);
 
             //var jobid= BackgroundJob.Schedule(()=>GetDaterangeAsync(starttime, endtime), TimeSpan.FromSeconds(5));
-           
+
             Console.WriteLine("start HangJob...");
 
             return "success start hangfire for spnodetail";
         }
 
         [HttpGet]
-        public ActionResult  GetspnoDetail(long starttime,long endtime)
+        public ActionResult GetspnoDetail(long starttime, long endtime)
         {
             var resspno = _mdata.Spdatas.AsNoTracking().AsEnumerable().Where(e => DateTimeOffset.Parse(e.Apply_time).ToUnixTimeSeconds() >= starttime && DateTimeOffset.Parse(e.Apply_time).AddDays(-1).ToUnixTimeSeconds() <= endtime);
-          
+
             return Ok(resspno);
 
         }
@@ -1906,7 +1891,7 @@ namespace workauto
         {
             var mtoken = AccessTokenContainer.TryGetToken(superSetting.WeixinCorpId, superSetting.WeixinCorpSecret);
             string AppKey = await AccessTokenContainer.TryGetTokenAsync(workSetting.WeixinCorpId, workSetting.WeixinCorpSecret);
-            
+
             DateTimeOffset startDate = DateTimeOffset.FromUnixTimeSeconds(starttime);
             DateTimeOffset endDate = DateTimeOffset.FromUnixTimeSeconds(endtime);
 
@@ -1940,7 +1925,7 @@ namespace workauto
                 Console.WriteLine($"item.Start:{item.Start}end:{item.End}");
             }
 
-            var spdatas=new List<Spdata>();
+            var spdatas = new List<Spdata>();
 
             foreach (var item in tmplist)
             {
@@ -1948,31 +1933,31 @@ namespace workauto
                 var sprecord = await GetApproval_Detail(mtoken, item);
                 var resuser = await MailListApi.GetMemberAsync(AppKey, sprecord.Apply_userid);
                 var departinfo = await Getdepartmemo(AppKey, sprecord.Apply_departid);
-               
-               
 
-                var tmmdata = new Spdata() { 
-                  Sp_no=item,
-                  Sp_type=sprecord.Sp_type,
-                  Apply_time=sprecord.Apply_time,
-                  Apply_userid=sprecord.Apply_userid,
-                  Username=resuser.name,
-                  Apply_departid=sprecord.Apply_departid,
-                  Departname= departinfo.department.name,
-                  Sp_status=sprecord.Sp_status,
-                  Start=sprecord.Start,
-                  End=sprecord.End,
-                  Duration=sprecord.Duration,
 
-                
-                }; 
+
+                var tmmdata = new Spdata() {
+                    Sp_no = item,
+                    Sp_type = sprecord.Sp_type,
+                    Apply_time = sprecord.Apply_time,
+                    Apply_userid = sprecord.Apply_userid,
+                    Username = resuser.name,
+                    Apply_departid = sprecord.Apply_departid,
+                    Departname = departinfo.department.name,
+                    Sp_status = sprecord.Sp_status,
+                    Start = sprecord.Start,
+                    End = sprecord.End,
+                    Duration = sprecord.Duration,
+
+
+                };
                 spdatas.Add(tmmdata);
             }
 
-            
+
             await _mdata.AddRangeAsync(spdatas);
-           
-             
+
+
             var res = await _mdata.SaveChangesAsync();
 
             Console.WriteLine($"write record number:{res}");
@@ -2038,9 +2023,9 @@ namespace workauto
             return reslist;
         }
 
- 
 
-        private static async Task<Sprecord> GetApproval_Detail(string mtoken,string spno)
+
+        private static async Task<Sprecord> GetApproval_Detail(string mtoken, string spno)
         {
 
             try
@@ -2076,53 +2061,53 @@ namespace workauto
                 );
                 return sprecord;
             }
-            catch(Exception ex){
+            catch (Exception ex) {
                 Console.WriteLine($"spno error:{spno}");
                 return null;
             }
-           
 
 
-           
+
+
         }
         [HttpPost]
-        public  async Task<ActionResult> Getsp_Detail(string spno)
+        public async Task<ActionResult> Getsp_Detail(string spno)
         {
 
-           
 
-                var mtoken = AccessTokenContainer.TryGetToken(superSetting.WeixinCorpId, superSetting.WeixinCorpSecret);
-                var spnox = new Sp_no(spno);
 
-                string mhost = "https://qyapi.weixin.qq.com";
-                var res = await mhost.AppendPathSegment("cgi-bin/oa/getapprovaldetail")
+            var mtoken = AccessTokenContainer.TryGetToken(superSetting.WeixinCorpId, superSetting.WeixinCorpSecret);
+            var spnox = new Sp_no(spno);
 
-                    .SetQueryParam("access_token", mtoken)
+            string mhost = "https://qyapi.weixin.qq.com";
+            var res = await mhost.AppendPathSegment("cgi-bin/oa/getapprovaldetail")
 
-                    .PostJsonAsync(spnox)
-                    .ReceiveJson<Spdetail>();
+                .SetQueryParam("access_token", mtoken)
 
-                return Ok(res);
+                .PostJsonAsync(spnox)
+                .ReceiveJson<Spdetail>();
 
-                //Spdetail
-                //var tmpdata = res.info.apply_data.contents[0];
-                ////请假期种类
-                //var duration = tmpdata.value.vacation.attendance.date_range.new_duration;
-                //// DateTimeOffset.FromUnixTimeSeconds(res.info.apply_time).LocalDateTime.ToString()
+            return Ok(res);
 
-                ////DateTimeOffset.FromUnixTimeSeconds(tmpdata.value.vacation.attendance.date_range.new_begin).LocalDateTime.ToString(),
-                //Sprecord sprecord = new(
-                // tmpdata.value.vacation.selector.options[0].value[0].text, DateTimeOffset.FromUnixTimeSeconds(res.info.apply_time).LocalDateTime.ToString(),
+            //Spdetail
+            //var tmpdata = res.info.apply_data.contents[0];
+            ////请假期种类
+            //var duration = tmpdata.value.vacation.attendance.date_range.new_duration;
+            //// DateTimeOffset.FromUnixTimeSeconds(res.info.apply_time).LocalDateTime.ToString()
 
-                // res.info.applyer.userid,
-                // res.info.applyer.partyid,
-                // res.info.sp_status switch { 1 => "审批中", 2 => "已通过", 3 => "已驳回", 4 => "已撤销", 6 => "通过后撤销", 7 => "已删除", _ => "未知" }, DateTimeOffset.FromUnixTimeSeconds(tmpdata.value.vacation.attendance.date_range.new_begin).LocalDateTime.ToString(),
-                // DateTimeOffset.FromUnixTimeSeconds(tmpdata.value.vacation.attendance.date_range.new_end).LocalDateTime.ToString(),
-                // TimeSpan.FromSeconds(duration).TotalDays
+            ////DateTimeOffset.FromUnixTimeSeconds(tmpdata.value.vacation.attendance.date_range.new_begin).LocalDateTime.ToString(),
+            //Sprecord sprecord = new(
+            // tmpdata.value.vacation.selector.options[0].value[0].text, DateTimeOffset.FromUnixTimeSeconds(res.info.apply_time).LocalDateTime.ToString(),
 
-                //);
-                //return sprecord;
-         
+            // res.info.applyer.userid,
+            // res.info.applyer.partyid,
+            // res.info.sp_status switch { 1 => "审批中", 2 => "已通过", 3 => "已驳回", 4 => "已撤销", 6 => "通过后撤销", 7 => "已删除", _ => "未知" }, DateTimeOffset.FromUnixTimeSeconds(tmpdata.value.vacation.attendance.date_range.new_begin).LocalDateTime.ToString(),
+            // DateTimeOffset.FromUnixTimeSeconds(tmpdata.value.vacation.attendance.date_range.new_end).LocalDateTime.ToString(),
+            // TimeSpan.FromSeconds(duration).TotalDays
+
+            //);
+            //return sprecord;
+
 
 
 
@@ -2374,7 +2359,7 @@ namespace workauto
                  return true;
              });
 
-         
+
             MemoryStream stream = new();
 
             mapper.Save(stream, res, "sheet1", overwrite: true);
@@ -2410,10 +2395,8 @@ namespace workauto
 
         [HttpGet]
         [NotTransactional]
-
         public ActionResult GetLimitExcel()
         {
-
             var mapper = new Mapper();
             MemoryStream stream = new();
             var resexcel = _mdata.Limits.AsNoTracking().Select(e => new LimitExcel
@@ -2431,7 +2414,6 @@ namespace workauto
                 Relay_approval_time = e.Relay_approval_time,
                 Transtime = e.Transtime,
                 Username = e.Username
-
             });
             mapper.Map<LimitExcel>("是否办结", e => e.Isover, null, (c, t) =>
             {
@@ -2458,25 +2440,20 @@ namespace workauto
                 {
                     c.CurrentValue = GetunixtimeStr(limit.Relay_approval_time);
                 }
-
                 return true;
             });
             mapper.Save(stream, resexcel, "sheet1", overwrite: true);
-
             return File(stream.ToArray(), "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "Limitinfo.xlsx");
-
         }
 
         [HttpGet]
 
         public ActionResult GetSuperexcel(string departid)
         {
-
             IEnumerable<Supernotice> res;
             if (departid == "0")
             {
                 res = _mdata.Supernotices.AsEnumerable();
-
             }
             else
             {
@@ -2496,43 +2473,30 @@ namespace workauto
                     Orderdata_task = e.Orderdata.Task,
                     Orderdata_taskinfo = e.Orderdata.Taskinfo,
                     Noticedata_applyinfo = e.Noticedata.Applyinfo,
-                    Orderdata_name=e.Orderdata.Username,
+                    Orderdata_name = e.Orderdata.Username,
                     Ordertime = DateTimeOffset.FromUnixTimeMilliseconds(e.Orderdata.Ordertime).LocalDateTime.ToString(),
                     Noticetime = DateTimeOffset.FromUnixTimeMilliseconds(e.Noticedata.Checkdate).LocalDateTime.ToString(),
                     Approval_status = Dic_approval[e.Approverstep]
                 });
-
-
                 mapper.Save(stream, result, "sheet1", overwrite: true);
                 //application/vnd.ms-excel 
                 //application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
-
-
                 return File(stream.ToArray(), "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "SuperList.xlsx");
             }
-
-
             else
             {
-
                 return Ok("error");
             }
-
-
         }
         [HttpGet]
         [NotTransactional]
         public ActionResult Getpersonholiday(string userid) {
-
             var personinfo = _mdata.Spdatas.AsNoTracking().Where(e => e.Apply_userid == userid);
             return Ok(personinfo);
-        
+
         }
-
-
+       
     }
-
-
 
     //[HttpPost]
     //[NotTransactional]
@@ -2552,5 +2516,4 @@ namespace workauto
 
     //}
     //}
-
 }
